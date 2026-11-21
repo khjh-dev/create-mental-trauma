@@ -70,24 +70,28 @@ powershell -ExecutionPolicy Bypass -File scripts\start-server.ps1 -ServerJar ser
 
 ## Первичная настройка (один раз)
 
-1. **Хостинг.** Пак — это статика. GitHub: залей папку в репозиторий, Settings → Pages →
-   Source: **GitHub Actions** (workflow лежит в `.github/workflows/pages.yml`), получишь
-   `https://<логин>.github.io/<репо>/pack.toml`. 58 МБ — в лимиты Pages влезает.
-   Подойдёт и свой nginx, и Netlify — главное HTTPS и `pack.toml` в корне.
-2. Адрес запиши в `pack-url.txt`.
-3. **Свой инстанс** переведи на автообновление:
+1. **Аккаунт GitHub.** Если его нет — https://github.com/signup (нужна только почта).
+   Логин, который выберешь, станет частью адреса: `https://<логин>.github.io/...`.
+2. **Пустой репозиторий.** https://github.com/new → имя `create-mental-trauma`, **Public**,
+   без README/gitignore/license. Скопируй адрес вида `https://github.com/<логин>/create-mental-trauma.git`.
+3. **Залить пак и всё настроить одной командой** (git уже установлен, 2.56.1):
    ```powershell
-   powershell -ExecutionPolicy Bypass -File scripts\enable-in-instance.ps1 `
-     -Instance "C:\Users\smeta\AppData\Roaming\PrismLauncher\instances\Create- Mental Trauma" `
-     -Url "https://<твой-хост>/pack.toml"
+   powershell -ExecutionPolicy Bypass -File scripts\setup-pages.ps1 `
+     -Remote "https://github.com/<логин>/create-mental-trauma.git" `
+     -Instance "C:\Users\smeta\AppData\Roaming\PrismLauncher\instances\Create- Mental Trauma"
    ```
-   (`instance.cfg` забэкапится в `instance.cfg.bak`). После этого твой Prism при каждом запуске
-   сам синхронизируется с паком — то, что ты меняешь в инстансе, остаётся источником правды.
-4. **Игрокам** — zip-инстанс с уже прописанной командой:
-   ```powershell
-   powershell -ExecutionPolicy Bypass -File scripts\build-client-zip.ps1
-   ```
-   получится `dist\Create-Mental-Trauma-prism.zip` → Add Instance → Import from zip.
+   Скрипт: прописывает remote, вычисляет адрес Pages, вшивает его в пак, в `instance.cfg`
+   твоего Prism (с бэкапом) и собирает zip для игроков. Дальше он же печатает команду `git push`.
+4. **Включить Pages.** После первого `git push`: репозиторий → Settings → Pages → Source:
+   **GitHub Actions** (workflow уже лежит в `.github/workflows/pages.yml`). Через минуту пак
+   доступен по адресу из `pack-url.txt`.
+
+5. **Игрокам** — zip-инстанс, который уже собрал шаг 3:
+   `dist\Create-Mental-Trauma-prism.zip` → Add Instance → Import from zip.
+   Пересобрать после смены адреса: `powershell -File scripts\build-client-zip.ps1`.
+
+Подключить автообновление к другому инстансу (тестовому):
+`powershell -File scripts\enable-in-instance.ps1 -Instance "<путь>" -Url "<адрес pack.toml>"`
 
 ## Структура
 
