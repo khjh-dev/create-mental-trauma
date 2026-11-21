@@ -11,10 +11,10 @@
 
 | Репозиторий | Для кого | Адрес пака | Модов |
 |---|---|---|---|
-| [create-mental-trauma-client](https://github.com/khjh-dev/create-mental-trauma-client) | игроки (Prism) | `https://khjh-dev.github.io/create-mental-trauma-client/pack.toml` | 280 |
+| [create-mental-trauma-client](https://github.com/khjh-dev/create-mental-trauma-client) | игроки (Prism) | `https://khjh-dev.github.io/create-mental-trauma-client/pack.toml` | 313 |
 | [create-mental-trauma-server](https://github.com/khjh-dev/create-mental-trauma-server) | сервер | `https://khjh-dev.github.io/create-mental-trauma-server/pack.toml` | 223 |
 
-Разделение по `side`: в клиентский пак идут `client` + `both`, в серверный — `server` + `both`.
+Клиентский пак — зеркало инстанса: все 313 модов (чтобы клиент и сервер точно совпадали). Серверный — `server` + `both`, без 88 чисто клиентских (Sodium, Iris, шейдеры и т.п.).
 Конфиги (`config/`, `kubejs/`, `defaultconfigs/`) есть **в обоих**; ресурспаки и шейдеры — только в клиентском.
 
 Пересобрать раздачи после правок мастера:

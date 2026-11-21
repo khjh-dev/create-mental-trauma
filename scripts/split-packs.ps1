@@ -105,7 +105,7 @@ neoforge = "$nfVer"
 $clientUrl = 'https://khjh-dev.github.io/create-mental-trauma-client/pack.toml'
 $serverUrl = 'https://khjh-dev.github.io/create-mental-trauma-server/pack.toml'
 
-Build-Pack $ClientOut 'Client' @('client', 'both') $clientDirs $clientUrl
+Build-Pack $ClientOut 'Client' @('client', 'both', 'server') $clientDirs $clientUrl
 Build-Pack $ServerOut 'Server' @('server', 'both') $serverDirs $serverUrl
 
 Write-Host "клиент: $ClientOut"
