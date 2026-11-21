@@ -44,8 +44,8 @@ $cmd = '"$INST_JAVA" -jar packwiz-installer-bootstrap.jar --bootstrap-main-jar p
 
 $instanceCfg = @"
 InstanceType=OneSix
-iconKey=default
-name=Create Mental Trauma
+name=Create: Mental Trauma
+iconKey=THE_HELL
 OverrideMemory=true
 MinMemAlloc=4096
 MaxMemAlloc=8192
@@ -67,6 +67,8 @@ $mmc = @"
 [System.IO.File]::WriteAllText((Join-Path $stage 'mmc-pack.json'), ($mmc -replace "`r`n", "`n"), $enc)
 
 Copy-Item $bootstrap $mcDir
+$iconSrc = 'C:\Users\smeta\AppData\Roaming\PrismLauncher\icons\THE_HELL.png'
+if (Test-Path $iconSrc) { Copy-Item $iconSrc (Join-Path $stage 'THE_HELL.png') -Force }
 Copy-Item $installer $mcDir
 
 $readme = @"
