@@ -1,0 +1,14 @@
+{
+ "item.tracks.suspension_key.mode": "Режим: %s",
+ "item.tracks.suspension_key.mode.bump_clearance": "Ход сжатия",
+ "item.tracks.suspension_key.mode.bump_force": "Сила сжатия",
+ "item.tracks.suspension_key.mode.damping": "Демпфирование",
+ "item.tracks.suspension_key.mode.drive": "Привод",
+ "item.tracks.suspension_key.mode.grip": "Сцепление",
+ "item.tracks.suspension_key.mode.max_impulse": "Макс. импульс",
+ "item.tracks.suspension_key.mode.position": "Положение",
+ "item.tracks.suspension_key.mode.spring": "Пружина",
+ "item.tracks.suspension_key.mode.strength": "Жёсткость",
+ "item.tracks.suspension_key.tuned": "%s: %s",
+ "item.tracks.suspension_key.unsupported": "%s не поддерживается колёсами"
+}

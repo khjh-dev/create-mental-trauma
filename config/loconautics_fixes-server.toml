@@ -1,0 +1,4 @@
+[relocation]
+	#Only the train's owner or an operator (permission level 2+) may move it with the relocator.
+	#Holding the relocator is always required.
+	requireOwnership = false

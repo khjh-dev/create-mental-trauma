@@ -1,0 +1,261 @@
+#=======================================================
+#BLOCK OVERRIDES
+#Decides whether a block hangs like solid rock ("hard") or lets you
+#slide down it ("soft"). You do not need to list every block here.
+#
+#By default:
+#  - Vanilla Minecraft blocks: hard if they require the correct tool
+#    for drops (stone, ores, bricks, ...), soft otherwise (sand, dirt,
+#    wood, leaves, ...).
+#  - Any block from another mod: hard, unless listed below.
+#
+#Add an entry to override that default for a specific block, e.g.:
+#  "create:andesite_casing" = "soft"
+#  "minecraft:sandstone" = "hard"
+#Values must be "hard" or "soft".
+#=======================================================
+block_overrides = {}
+#=======================================================
+#BLOCK GRIP
+#Multiplies hang time on specific blocks (or block tags). Optional.
+#1.0 = normal, 0.5 = slips twice as fast, 2.0 = holds twice as long.
+#Example:
+#  "minecraft:ice" = 0.25
+#  "#minecraft:logs" = 1.5
+#Range per entry: 0.0 - 10.0
+#=======================================================
+block_grip = {}
+
+#=======================================================
+#GOUGE CONFIGURATION
+#
+#Tip: Save this file and run '/gouge reload' in-game!
+#Values outside the listed range are clamped on load.
+#=======================================================
+[mechanics]
+	#How far from a wall you can be and still grab onto it. Default is 2.5 blocks.
+	#Increase this if grabbing feels too hard to trigger. Range: 0.5 - 32.0
+	reach = 2.5
+	#After slipping off a wall, how long before you can grab again (in seconds).
+	#Set to 0 to remove the cooldown entirely. Range: 0 - 600
+	slip_cooldown = 5.0
+	#When you land on a soft block (dirt, grass, leaves, etc.) after sliding,
+	#this multiplies the fall damage you take. 0.5 (50%) means half damage, 0.0 means none.
+	#Range: 0.0 - 1.0
+	soft_fall_damage = 0.5
+	#Maximum damage a soft-block slide can ever deal, in half-hearts (2 = 1 heart),
+	#no matter how long the slide was. Set to 0 to disable the cap. Range: 0 - 40
+	soft_fall_damage_cap = 6.0
+	#How many blocks get the cracking visual effect as you slide down a wall.
+	#Higher = longer crack trail behind you. Set to 0 to disable. Range: 0 - 16
+	trail_length = 5
+	#Lets your own game predict the wall slide instead of waiting for the server to
+	#correct you every tick. This is what keeps the slide smooth instead of jittery.
+	#This is a client-side setting: it only affects your own screen, never other players.
+	#Turn it off if the slide ever fights you or looks wrong on a modded server.
+	client_prediction = true
+	#How much open air needs to be below you to grab a wall (in blocks), checked with
+	#an instant raycast rather than waiting for you to actually fall that far. Stops a
+	#simple jump/step from letting you attach. Range: 0.0 - 32.0
+	min_fall_distance = 1.5
+	#How far you can drift sideways away from the spot you grabbed before you slip off
+	#(in blocks). Stops you from walking/gliding along a wall indefinitely.
+	#Range: 0.0 - 16.0
+	max_drift = 1.5
+	#Treat every block as a hard (hang-able) block, regardless of the vanilla
+	#hard/soft default or the block_overrides list below. Turn this on if you
+	#just want to cling to anything - leaves, wood, dirt, everything - without
+	#listing each block individually. block_overrides entries still win over this.
+	cling_everything = false
+	#Enables or disables dual-pickaxe grip. When holding a qualifying pickaxe
+	#in both hands, your grip duration is extended by the multiplier below.
+	dual_grip_enabled = true
+	#Multiplier applied to hang time when gripping with pickaxes in both hands.
+	#1.5 means 50% longer hang time. Range: 1.0 - 10.0
+	dual_grip_multiplier = 1.5
+	#Sandbox setting: allows infinite hang duration on walls without slipping.
+	#Disabled by default (false). Durability drain still applies unless damage_rate is 0.
+	unlimited_grip = false
+	#After letting go of a wall on purpose (releasing the use key or switching away
+	#from the pickaxe), how long before you can grab again (in seconds). This makes
+	#releasing cost some height. Never shortens a longer slip/wall-jump cooldown.
+	#Set to 0 to disable. Range: 0 - 600
+	release_cooldown = 0.5
+	#While a pickaxe in one hand can grip a wall (or is gripping), items in the other
+	#hand (bow, food, shield, etc.) cannot be used. Set to false to allow using both.
+	block_other_hand = true
+	#How quickly a soft-block slide speeds up, in blocks per tick of extra speed each
+	#tick. Lower = gentler start. Set to 0 to jump straight to full slide speed.
+	#Range: 0.0 - 1.0
+	soft_slide_ramp = 0.05
+	#When a stamina mod (ParCool) is installed, gripping, climbing and shimmying
+	#spend its stamina instead of using the hang_time grip timer. You slip when it
+	#runs out. Has no effect without such a mod. Set to false to always use hang_time.
+	use_mod_stamina = true
+	#Stamina spent per second while hanging, as a percent of the stamina bar.
+	#Only used with use_mod_stamina. Range: 0 - 100
+	stamina_hang_cost = 4.0
+	#Stamina spent per second while climbing, as a percent of the stamina bar.
+	#Only used with use_mod_stamina. Range: 0 - 100
+	stamina_climb_cost = 8.0
+	#Stamina spent per second while shimmying sideways, as a percent of the stamina bar.
+	#Only used with use_mod_stamina. Range: 0 - 100
+	stamina_shimmy_cost = 8.0
+
+[wall_jump]
+	#How quickly you need to double-tap crouch to trigger the wall jump (in seconds).
+	#Tap crouch once to release, then tap it again within this window to jump.
+	#Works on both hard and soft blocks. Range: 0.05 - 5.0
+	time_window = 0.7
+	#How hard you get launched away from the wall horizontally when wall jumping.
+	#1.4 is default. Lower this if ragdoll mods or other mods react badly to the speed change.
+	#Range: 0.0 - 5.0
+	forward_boost = 1.4
+	#How hard you get launched upward when wall jumping.
+	#1.1 is default. This is what gives you height on the jump. Range: 0.0 - 5.0
+	upward_boost = 1.1
+
+[enchantments]
+	#How many extra seconds of hang time you get per level of the Grip enchantment.
+	#Grip II with 2.0 here gives you 4 extra seconds before slipping. Range: 0 - 60
+	grip_bonus = 2.0
+	#How many seconds are removed from your slip cooldown per level of the Momentum enchantment.
+	#Momentum III with 1.0 here cuts 3 seconds off your cooldown. Range: 0 - 60
+	momentum_reduction = 1.0
+	#Extra launch and wall-kick power per level of the Spring enchantment.
+	#0.15 means +15% per level. Range: 0 - 2
+	spring_bonus = 0.15
+	#Extra shimmy speed per level of the Shimmy enchantment.
+	#0.5 means +50% per level. Range: 0 - 5
+	traverse_bonus = 0.5
+	#Extra blocks of soft cap you can launch over per level of the Spring enchantment,
+	#on top of launch.max_cap_height. 1 means Spring III clears 3 more blocks.
+	#Range: 0 - 4
+	spring_cap_bonus = 1
+
+#=======================================================
+#PICKAXE STATS
+#Controls how long each pickaxe lets you hang and how fast it breaks.
+#Durability drains while hanging on hard blocks AND while sliding on soft ones.
+#
+#Keys can be:
+#  - A specific item:  "minecraft:diamond_pickaxe"
+#  - An item tag:      "#c:pickaxes"  (covers all pickaxes from that tag)
+#  - "fallback"        used if nothing else matches
+#
+#Priority order: Specific Item > Tag > fallback
+#Invalid keys are logged and skipped instead of crashing.
+#=======================================================
+[pickaxes]
+
+	[pickaxes."minecraft:wooden_pickaxe"]
+		# How long you can hang before slipping (seconds). Range: 0 - 3600
+		hang_time = 2.0
+		# How many durability points are drained per second. Range: 0 - 1000
+		damage_rate = 1
+
+	[pickaxes."minecraft:stone_pickaxe"]
+		hang_time = 4.0
+		damage_rate = 2
+
+	[pickaxes."minecraft:golden_pickaxe"]
+		hang_time = 1.5
+		damage_rate = 1
+
+	[pickaxes."minecraft:iron_pickaxe"]
+		hang_time = 6.0
+		damage_rate = 3
+
+	[pickaxes."minecraft:diamond_pickaxe"]
+		hang_time = 10.0
+		damage_rate = 5
+
+	[pickaxes."minecraft:netherite_pickaxe"]
+		hang_time = 15.0
+		damage_rate = 7
+
+	[pickaxes.fallback]
+		hang_time = 3.0
+		damage_rate = 2
+
+#=======================================================
+#CLIMBING SETTINGS
+#Controls optional pickaxe climbing mechanics.
+#=======================================================
+[climbing]
+	#Enables or disables climbing independently. When enabled, holding Space
+	#while gripping a wall lets you climb up the surface.
+	enabled = true
+	#If true, climbing requires holding a pickaxe in both hands. If false,
+	#a single pickaxe is sufficient to climb.
+	requires_dual = true
+	#Upward movement speed while climbing (in blocks per tick).
+	#Default is 0.08. Range: 0.01 - 0.5
+	speed = 0.08
+	#Maximum wall reach distance allowed while climbing (in blocks).
+	#Default is 2.5. Range: 0.5 - 32.0
+	reach = 2.5
+	#Allows moving sideways along the wall while climbing (diagonal climbing).
+	#Default is false (vertical only).
+	allow_diagonal = false
+	#Extra durability drained per second while actively climbing.
+	#Default is 1. Range: 0 - 100
+	durability_cost = 1
+	#If true and two pickaxes are held, climbing durability damage is dealt
+	#to both pickaxes. If false, only the active tool takes damage.
+	damage_both_tools = true
+	#If true, climbing stops when your hands reach a soft block (dirt, leaves, etc.)
+	#so you cannot climb up through soft blocks. If false, soft blocks above do not stop you.
+	stop_at_soft_block = true
+
+#=======================================================
+#EFFECTS
+#Particles and sounds for shimmying, climbing, launching and gripping.
+#=======================================================
+[effects]
+	# Show chip and dust particles. Gameplay is not affected.
+	particles = true
+	# Play grip, scrape and launch sounds. Gameplay is not affected.
+	sounds = true
+	# Volume multiplier for Gouge sounds. Range: 0.0 - 2.0
+	volume = 1.0
+
+#=======================================================
+#TRAVERSE SETTINGS
+#Shimmy sideways along a wall while hanging (hold A / D).
+#Uses the normal grip timer and durability drain.
+#=======================================================
+[traverse]
+	# Lets you move left and right along a wall while hanging on it.
+	enabled = true
+	# If true, traversing requires a pickaxe in both hands.
+	requires_dual = true
+	# Sideways speed in blocks per tick. Range: 0.01 - 0.3
+	speed = 0.06
+	#Extra durability drained per second while shimmying sideways, on top of the
+	#normal hang drain. Default is 0. Range: 0 - 100
+	durability_cost = 0
+
+#=======================================================
+#LAUNCH SETTINGS
+#When a climb is stopped by a short cap of soft blocks (dirt, grass...) on top
+#of the rock, keep holding Space and you spring up and over it.
+#=======================================================
+[launch]
+	# Enables the climb-over-soft-cap launch.
+	enabled = true
+	#How long (seconds) you must keep holding Space against the soft cap before you
+	#launch. Prevents accidental launches. Range: 0.0 - 5.0
+	charge_time = 0.3
+	#Upward launch power used when auto_height is off. 0.75 clears about 2 blocks.
+	#With auto_height on this value is ignored. Range: 0.1 - 2.0
+	upward_boost = 0.75
+	#Sizes the launch to land you on top of the cap, so 1, 2, 3 or 4 block caps all
+	#work without overshooting. Turn off to always use exactly upward_boost.
+	auto_height = true
+	#Gentle push towards the wall while you rise, so you land on top of the cap
+	#instead of falling back. Set to 0 to disable. Range: 0.0 - 0.5
+	assist_speed = 0.15
+	#Tallest soft cap (in blocks) you can launch over. The cap must have standable
+	#ground on top, otherwise there is nothing to land on. Range: 1 - 4
+	max_cap_height = 3

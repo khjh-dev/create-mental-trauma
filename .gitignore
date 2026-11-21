@@ -1,0 +1,14 @@
+dist/
+*.log
+logs/
+crash-reports/
+world/
+world_nether/
+world_the_end/
+server.properties
+eula.txt
+banned-*.json
+ops.json
+whitelist.json
+usercache.json
+dist/*.zip

@@ -1,0 +1,339 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = pause_screen
+  render_custom_elements_behind_vanilla = true
+  is_enabled = true
+  randommode = false
+  randomgroup = 1
+  layout_index = 0
+}
+
+element {
+  element_type = image
+  instance_identifier = 69288953-5739-57f7-a941-81f93713db3e
+  anchor_point = mid-centered
+  sticky_anchor = true
+  x = 0
+  y = 0
+  width = 226
+  height = 170
+  stay_on_screen = false
+  auto_sizing = false
+  base_opacity = 1.0
+  appearance_delay = no_delay
+  disappearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  enable_parallax = false
+  load_once_per_session = false
+  layer_hidden_in_editor = false
+  source = [source:local]/config/fancymenu/assets/last_adventure/pause_frame.png
+  repeat_texture = false
+  nine_slice_texture = false
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = pause_return_to_game_button
+  anchor_point = mid-centered
+  sticky_anchor = true
+  x = 0
+  y = -26
+  width = 190
+  height = 22
+  stay_on_screen = false
+  auto_sizing = false
+  base_opacity = 1.0
+  appearance_delay = no_delay
+  disappearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  enable_parallax = false
+  load_once_per_session = false
+  layer_hidden_in_editor = false
+  is_hidden = false
+  navigatable = true
+  transparent_background = false
+  underline_label_on_hover = false
+  label = Продолжить
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = pause_options_button
+  anchor_point = mid-centered
+  sticky_anchor = true
+  x = 0
+  y = 1
+  width = 190
+  height = 22
+  stay_on_screen = false
+  auto_sizing = false
+  base_opacity = 1.0
+  appearance_delay = no_delay
+  disappearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  enable_parallax = false
+  load_once_per_session = false
+  layer_hidden_in_editor = false
+  is_hidden = false
+  navigatable = true
+  transparent_background = false
+  underline_label_on_hover = false
+  label = Настройки
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = war_pause_mods_button
+  anchor_point = mid-centered
+  sticky_anchor = true
+  x = 0
+  y = 28
+  width = 190
+  height = 22
+  stay_on_screen = false
+  auto_sizing = false
+  base_opacity = 1.0
+  appearance_delay = no_delay
+  disappearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  enable_parallax = false
+  load_once_per_session = false
+  layer_hidden_in_editor = false
+  is_hidden = false
+  navigatable = true
+  transparent_background = false
+  underline_label_on_hover = false
+  label = Моды
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = pause_disconnect_button
+  anchor_point = mid-centered
+  sticky_anchor = true
+  x = 0
+  y = 55
+  width = 190
+  height = 22
+  stay_on_screen = false
+  auto_sizing = false
+  base_opacity = 1.0
+  appearance_delay = no_delay
+  disappearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  enable_parallax = false
+  load_once_per_session = false
+  layer_hidden_in_editor = false
+  is_hidden = false
+  navigatable = true
+  transparent_background = false
+  underline_label_on_hover = false
+  label = Выйти
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = pause_title_widget
+  anchor_point = mid-centered
+  sticky_anchor = true
+  x = 0
+  y = 0
+  width = 20
+  height = 20
+  stay_on_screen = false
+  auto_sizing = false
+  base_opacity = 1.0
+  appearance_delay = no_delay
+  disappearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  enable_parallax = false
+  load_once_per_session = false
+  layer_hidden_in_editor = false
+  is_hidden = true
+  navigatable = true
+  transparent_background = false
+  underline_label_on_hover = false
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = pause_send_feedback_button
+  anchor_point = mid-centered
+  sticky_anchor = true
+  x = 0
+  y = 0
+  width = 20
+  height = 20
+  stay_on_screen = false
+  auto_sizing = false
+  base_opacity = 1.0
+  appearance_delay = no_delay
+  disappearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  enable_parallax = false
+  load_once_per_session = false
+  layer_hidden_in_editor = false
+  is_hidden = true
+  navigatable = true
+  transparent_background = false
+  underline_label_on_hover = false
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = pause_report_bugs_button
+  anchor_point = mid-centered
+  sticky_anchor = true
+  x = 0
+  y = 0
+  width = 20
+  height = 20
+  stay_on_screen = false
+  auto_sizing = false
+  base_opacity = 1.0
+  appearance_delay = no_delay
+  disappearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  enable_parallax = false
+  load_once_per_session = false
+  layer_hidden_in_editor = false
+  is_hidden = true
+  navigatable = true
+  transparent_background = false
+  underline_label_on_hover = false
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = pause_server_links_button
+  anchor_point = mid-centered
+  sticky_anchor = true
+  x = 0
+  y = 0
+  width = 20
+  height = 20
+  stay_on_screen = false
+  auto_sizing = false
+  base_opacity = 1.0
+  appearance_delay = no_delay
+  disappearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  enable_parallax = false
+  load_once_per_session = false
+  layer_hidden_in_editor = false
+  is_hidden = true
+  navigatable = true
+  transparent_background = false
+  underline_label_on_hover = false
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = pause_feedback_button
+  anchor_point = mid-centered
+  sticky_anchor = true
+  x = 0
+  y = 0
+  width = 20
+  height = 20
+  stay_on_screen = false
+  auto_sizing = false
+  base_opacity = 1.0
+  appearance_delay = no_delay
+  disappearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  enable_parallax = false
+  load_once_per_session = false
+  layer_hidden_in_editor = false
+  is_hidden = true
+  navigatable = true
+  transparent_background = false
+  underline_label_on_hover = false
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = pause_advancements_button
+  anchor_point = mid-centered
+  sticky_anchor = true
+  x = 0
+  y = 0
+  width = 20
+  height = 20
+  stay_on_screen = false
+  auto_sizing = false
+  base_opacity = 1.0
+  appearance_delay = no_delay
+  disappearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  enable_parallax = false
+  load_once_per_session = false
+  layer_hidden_in_editor = false
+  is_hidden = true
+  navigatable = true
+  transparent_background = false
+  underline_label_on_hover = false
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = pause_stats_button
+  anchor_point = mid-centered
+  sticky_anchor = true
+  x = 0
+  y = 0
+  width = 20
+  height = 20
+  stay_on_screen = false
+  auto_sizing = false
+  base_opacity = 1.0
+  appearance_delay = no_delay
+  disappearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  enable_parallax = false
+  load_once_per_session = false
+  layer_hidden_in_editor = false
+  is_hidden = true
+  navigatable = true
+  transparent_background = false
+  underline_label_on_hover = false
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = pause_share_to_lan_button
+  anchor_point = mid-centered
+  sticky_anchor = true
+  x = 0
+  y = 0
+  width = 20
+  height = 20
+  stay_on_screen = false
+  auto_sizing = false
+  base_opacity = 1.0
+  appearance_delay = no_delay
+  disappearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  enable_parallax = false
+  load_once_per_session = false
+  layer_hidden_in_editor = false
+  is_hidden = true
+  navigatable = true
+  transparent_background = false
+  underline_label_on_hover = false
+}
+

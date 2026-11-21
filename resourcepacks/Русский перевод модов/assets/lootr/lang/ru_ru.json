@@ -1,0 +1,22 @@
+{
+ "lootr.configuration.decay_particles": "Частицы разрушения",
+ "lootr.configuration.display_toasts": "Всплывающие уведомления",
+ "lootr.configuration.notification_delay": "Задержка уведомления",
+ "lootr.configuration.particles": "Параметры частиц",
+ "lootr.configuration.refresh_particles": "Частицы обновления",
+ "lootr.configuration.unopened_particles": "Частицы неоткрытых",
+ "lootr.toast.decay.complete": "Контейнер разрушен!",
+ "lootr.toast.decay.message": "Осталось %s секунд.",
+ "lootr.toast.decay.ongoing": "Контейнер разрушается!",
+ "lootr.toast.decay.start": "Контейнер разрушается!",
+ "lootr.toast.refresh.complete": "Контейнер обновлён!",
+ "lootr.toast.refresh.complete_message": "Доступны новые предметы!",
+ "lootr.toast.refresh.message": "Осталось %s секунд.",
+ "lootr.toast.refresh.ongoing": "Контейнер обновляется!",
+ "lootr.toast.refresh.start": "Контейнер обновляется!",
+ "text.autoconfig.lootr.option.client.decay_particles": "Частицы разрушения",
+ "text.autoconfig.lootr.option.client.display_toasts": "Всплывающие уведомления",
+ "text.autoconfig.lootr.option.client.notification_delay": "Задержка уведомления",
+ "text.autoconfig.lootr.option.client.refresh_particles": "Частицы обновления",
+ "text.autoconfig.lootr.option.client.unopened_particles": "Частицы неоткрытых"
+}

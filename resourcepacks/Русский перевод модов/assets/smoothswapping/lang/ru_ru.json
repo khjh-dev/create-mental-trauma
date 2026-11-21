@@ -1,0 +1,6 @@
+{
+ "smoothswapping.config.option.animationspeed.tooltip": "-Щёлкните правой кнопкой по пустому месту, чтобы создать новую точку кривой\n-Зажмите левую кнопку и перетащите точку, чтобы переместить её\n-Щёлкните правой кнопкой по точке, чтобы удалить её",
+ "smoothswapping.config.toggle": "Переключить мод",
+ "smoothswapping.config.toggle.off": "Отключено",
+ "smoothswapping.config.toggle.on": "Включено"
+}

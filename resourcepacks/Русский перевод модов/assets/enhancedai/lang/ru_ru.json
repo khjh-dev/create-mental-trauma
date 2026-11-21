@@ -1,0 +1,9 @@
+{
+ "attribute.name.push_resistance": "Сопротивление отталкиванию",
+ "attribute.name.xray_follow_range": "Радиус обнаружения мобов",
+ "death.attack.bite": "%s погиб от укуса: %s",
+ "death.attack.shockwave": "%s погиб от ударной волны: %s",
+ "enhancedai.leader_banner": "Знамя лидера",
+ "enhancedai.subtitle.angry_creeper_explode": "Разъярённый крипер взрывается",
+ "enhancedai.subtitle.angry_creeper_fuse": "Разъярённый крипер вот-вот взорвётся"
+}

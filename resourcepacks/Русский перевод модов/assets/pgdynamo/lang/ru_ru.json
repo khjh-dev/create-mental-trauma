@@ -1,0 +1,12 @@
+{
+ "pgdynamo.gui.mode": "Режим",
+ "pgdynamo.mode.motor": "Мотор",
+ "pgdynamo.mode.gen_12": "Генератор: обмотка 12 В",
+ "pgdynamo.mode.gen_24": "Генератор: обмотка 24 В",
+ "pgdynamo.mode.gen_30": "Генератор: обмотка 30 В",
+ "pgdynamo.mode.gen_60": "Генератор: обмотка 60 В",
+ "pgdynamo.mode.gen_120": "Генератор: обмотка 120 В",
+ "pgdynamo.mode.gen_stock": "Генератор: штатная обмотка (258 В)",
+ "pgdynamo.goggles.winding": "Динамо: обмотка %s В (при 256 об/мин)",
+ "pgdynamo.goggles.output": "Выход: %s В, %s А, %s Вт"
+}

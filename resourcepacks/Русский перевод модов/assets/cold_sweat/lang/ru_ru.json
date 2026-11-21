@@ -1,0 +1,10 @@
+{
+ "attribute.cold_sweat.modifier.add": "%d %d",
+ "attribute.cold_sweat.modifier.multiply": "%d %d",
+ "entity.chameleon.shed.ready": "Хамелеон готовится к линьке",
+ "entity.chameleon.tongue": "Хамелеон облизывается",
+ "jei.cold_sweat.fuel_duration_depends": "Длительность топлива зависит от данных предмета",
+ "itemGroup.cold_sweat": "Cold Sweat",
+ "advancements.cold_sweat.root.title": "Cold Sweat",
+ "message.cold_sweat.mod_name": "Cold Sweat"
+}

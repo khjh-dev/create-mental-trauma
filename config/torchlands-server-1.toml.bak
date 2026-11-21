@@ -1,0 +1,13 @@
+[territories]
+	#Total organization allowance in square blocks per current member.
+	# Default: 4096
+	# Range: 1 ~ 65536
+	areaPerMember = 4096
+	#Maximum total organization allowance; each individual polygon is also bounded to 65536.
+	# Default: 16777216
+	# Range: 1 ~ 16777216
+	organizationAreaCap = 16777216
+	#One personal territory per UUID across dimensions, reviewed by an administrator.
+	# Default: 4096
+	# Range: 1 ~ 65536
+	personalArea = 4096

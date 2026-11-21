@@ -1,0 +1,13 @@
+name = "Gouge 1.8.2"
+filename = "gouge-1.8.2-mc1.21.1-neoforge.jar"
+side = "both"
+
+[download]
+hash-format = "sha512"
+hash = "2f844d981e451374781ace4c55f2f1f7dd32614cf2dd100169a8cae3df4e6bf98589198b0627d42a8582162841f8b3a8b14ed892a17fa512c007a8899c70fa59"
+url = "https://cdn.modrinth.com/data/7ZwT9z3D/versions/B3rslNmS/gouge-1.8.2-mc1.21.1-neoforge.jar"
+
+[update]
+[update.modrinth]
+mod-id = "7ZwT9z3D"
+version = "B3rslNmS"

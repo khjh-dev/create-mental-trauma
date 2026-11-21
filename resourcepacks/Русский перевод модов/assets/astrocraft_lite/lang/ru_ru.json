@@ -1,0 +1,6 @@
+{
+ "text.config.astrocraft_lite.option.enableColor": "Включить цвет",
+ "text.config.astrocraft_lite.option.enableMod": "Включить мод",
+ "text.config.astrocraft_lite.option.starBrightness": "Яркость звёзд (%)",
+ "text.config.astrocraft_lite.title": "Настройки Astrocraft-Lite"
+}

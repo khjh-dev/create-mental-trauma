@@ -1,0 +1,13 @@
+name = "Foggy Border 1.2"
+filename = "FoggyBorder-1.2.jar"
+side = "client"
+
+[download]
+hash-format = "sha512"
+hash = "90f8546f73b7ebfe8f7028bb0f9091452ba89167da81833adf962bb5a34ab9c499c1e2471f385278f42a342a72b3e676e31a7b7a620b744d09573d84dcebc37f"
+url = "https://cdn.modrinth.com/data/1SzND5KW/versions/f0ov1moz/FoggyBorder-1.2.jar"
+
+[update]
+[update.modrinth]
+mod-id = "1SzND5KW"
+version = "f0ov1moz"

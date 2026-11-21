@@ -1,0 +1,10 @@
+{
+ "config.reliable_replacer.category.general": "Общие",
+ "config.reliable_replacer.option.enable_retrogen": "Включить ретрогенерацию",
+ "config.reliable_replacer.option.enable_retrogen.tooltip": "Глобально включает или отключает ретрогенерацию",
+ "config.reliable_replacer.option.enabled": "Включить замену",
+ "config.reliable_replacer.option.enabled.tooltip": "Общий переключатель включения и отключения функций мода",
+ "config.reliable_replacer.option.missing_id_map": "Карта отсутствующих ID блоков",
+ "config.reliable_replacer.option.missing_id_map.tooltip": "Исправляет повреждённые миры, сопоставляя отсутствующие ID действительным. Формат: old_mod:block=minecraft:stone",
+ "config.reliable_replacer.title": "Конфигурация Reliable Replacer"
+}

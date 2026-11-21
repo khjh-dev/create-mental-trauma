@@ -1,0 +1,13 @@
+name = "Geo-Resonance 1.2.0 [NeoForge 1.21.1]"
+filename = "creategeoresonance-neoforge-1.21.1-1.2.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha512"
+hash = "9e1c9da9630af28210195d133216688fb91cd7e09a9527bb4097bd5bb09f9cf2c1e5d2259c88d3e1dcca8a0664e36fdf2bef4e568272c8def7f02a31f85eed9e"
+url = "https://cdn.modrinth.com/data/ALBz95b3/versions/4cTxEL9d/creategeoresonance-neoforge-1.21.1-1.2.0.jar"
+
+[update]
+[update.modrinth]
+mod-id = "ALBz95b3"
+version = "4cTxEL9d"

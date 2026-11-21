@@ -1,0 +1,205 @@
+#Radius in blocks in which emptying a CO2 bucket smothers fire.
+# Default: 3
+# Range: 0 ~ 8
+co2BucketExtinguishRadius = 3
+
+#Burning fuel: liquid fuels placed in the world can catch fire
+[fire]
+	#Master switch: fuel fluids in the world are flammable.
+	flammableFuels = true
+	#Flammable fluids as 'namespace:fluid=spreadChance,burnChance,explosiveness'.
+	#spreadChance:  how eagerly fire spreads onto/above the fluid (wool = 30).
+	#burnChance:    how fast the fire consumes the fluid source blocks (wool = 60).
+	#explosiveness: optional, multiplies tank/pipe explosions (default 1.0, 0 = never explodes).
+	#Use 0,0 to only make the fluid explosive in tanks and pipes without changing how it burns in the world.
+	#Source and flowing variants are covered by one entry.
+	flammableFluids = ["createdieselgenerators:gasoline=60,100,1.5", "createdieselgenerators:ethanol=60,100,1.3", "createdieselgenerators:diesel=30,60,1.0", "createdieselgenerators:biodiesel=30,60,0.9", "createdieselgenerators:crude_oil=15,30,0.8", "createdieselgenerators:plant_oil=5,20,0.4", "burnt_additions:tar=0,0,0.5", "burnt_additions:flaming_tar=0,0,1.0"]
+	#Burning mobs and players that walk into fuel set it on fire.
+	burningEntitiesIgniteFuel = true
+	#Flint and steel, fire charges and the lighter (item tag 'burning_fuel_create_diesel_generators_addon:fuel_igniters')
+	#can be used directly on the surface of a fuel pool.
+	ignitersLightFuel = true
+	#Opening the door of a closed room with fire burning inside makes a jet of flame shoot out of the door.
+	backdraft = true
+	#Fire blocks a closed room needs for a backdraft.
+	# Default: 3
+	# Range: 1 ~ 1000
+	backdraftMinFires = 3
+
+#Tanks and pipes filled with fuel explode when fire, lava or an explosion reaches them
+[explosions]
+	#Blocks storing flammable fuel (Create fluid tanks, barrels, basins, ...) explode.
+	tanksExplode = true
+	#Create pipes and pumps with fuel flowing through them explode.
+	pipesExplode = true
+	#Diesel engines explode as well when fire reaches their fuel.
+	enginesExplode = false
+	#Explosions set off other fuel tanks and pipes inside their blast.
+	chainReactions = true
+	#Fuel explosions destroy blocks. If false they only hurt entities and start fires.
+	breakBlocks = true
+	#Tanks holding less fuel than this (in mB) do not explode.
+	# Default: 100
+	# Range: 1 ~ 1000000
+	minimumFuelMb = 100
+	#Tank explosion power = scale * cube root(buckets of fuel * explosiveness). TNT has power 4.
+	#The blast grows with the amount of fuel. With the default 2.5 and diesel:
+	#1 bucket = 2.5, 8 buckets (one tank block) = 5, 27 = 7.5, 64 (2x2x2 tank) = 10, 216 = 15, 512 = 20.
+	# Default: 2.5
+	# Range: 0.0 ~ 100.0
+	tankExplosionScale = 2.5
+	#Upper limit for a single tank explosion.
+	# Default: 24.0
+	# Range: 0.0 ~ 100.0
+	maxExplosionPower = 24.0
+	#Power of a single exploding pipe segment (multiplied by the fuel's explosiveness).
+	# Default: 1.5
+	# Range: 0.0 ~ 100.0
+	pipeExplosionPower = 1.5
+	#Only with Explosion Overhaul installed: fuel explosions are at least this strong.
+	#Explosion Overhaul leaves explosions of power 2 or less to vanilla, so small pipe blasts
+	#would otherwise miss its craters, sounds and camera shake. 0 = keep the normal power.
+	# Default: 2.1
+	# Range: 0.0 ~ 100.0
+	explosionOverhaulMinimumPower = 2.1
+	#Exploded tanks and burst pipes spill their fuel as burning puddles.
+	leakFuel = true
+	#Explosions, oil fires and backdrafts leave black soot on the blocks around them (cosmetic).
+	soot = true
+	#Oil fire in pipelines: a pipe or pump with fuel that reaches the critical temperature burns
+	#for this many ticks, heating its neighbours, and then bursts and spills burning fuel.
+	#The fire creeps along the pipeline instead of blowing it up at once.
+	# Default: 100
+	# Range: 20 ~ 6000
+	pipeBurnTicks = 100
+
+#Safety valves blow off fuel vapour from hot tanks instead of letting them explode
+[safetyValve]
+	#The valve opens at this share of the critical temperature (0.7 = 175 °C with the default 250 °C).
+	# Default: 0.7
+	# Range: 0.1 ~ 0.99
+	openAtShareOfCritical = 0.7
+	#mB of fuel an open valve blows off per second.
+	# Default: 50
+	# Range: 1 ~ 100000
+	ventPerSecond = 50
+	#°C per second an open valve takes off the tank by venting the vapour.
+	# Default: 20.0
+	# Range: 0.0 ~ 10000.0
+	coolingPerSecond = 20.0
+
+#Vented carbon dioxide collects in closed rooms and makes people sick
+[gas]
+	#CO2 released indoors (chimney tops under a roof, venting engines, CO2 buckets) builds up and
+	#gives nausea, then slowness, then damage. A gas mask protects. Outdoors it blows away quickly.
+	suffocation = true
+	#CO2 concentration (roughly mB within a few blocks) that causes nausea.
+	# Default: 400
+	# Range: 1 ~ 1000000
+	nauseaLevel = 400
+	#CO2 concentration that additionally causes slowness and weakness.
+	# Default: 1000
+	# Range: 1 ~ 1000000
+	slownessLevel = 1000
+	#CO2 concentration that additionally hurts (suffocation).
+	# Default: 2000
+	# Range: 1 ~ 1000000
+	damageLevel = 2000
+	#Rooms full of CO2 fill up with a light grey haze that sinks to the floor.
+	visibleHaze = true
+	#CO2 amount (mB) a cloud needs before its haze becomes visible.
+	# Default: 200
+	# Range: 1 ~ 1000000
+	hazeLevel = 200
+
+#Fire detectors give a redstone signal while fire burns nearby
+[fireDetector]
+	#Radius in blocks the fire detector watches.
+	# Default: 6
+	# Range: 1 ~ 16
+	range = 6
+
+#Tanks, pipes and pumps heat up next to fire and only explode once they reach the critical temperature
+[heat]
+	#Temperature in °C at which a container holding fuel explodes.
+	# Default: 250
+	# Range: 50 ~ 5000
+	criticalTemperature = 250
+	#Multiplier for how fast fire, lava and blaze burners heat containers.
+	#Containers heat up slowly, and the more liquid they hold, the slower. With 1.0 a full tank block
+	#(8 buckets) next to two fires reaches 250 °C in about 40 seconds, next to one in about 1.5 minutes;
+	#an empty tank or a pipe takes about two thirds of that.
+	# Default: 1.0
+	# Range: 0.01 ~ 100.0
+	heatingSpeed = 1.0
+	#Multiplier for how fast containers cool down to the surrounding temperature.
+	# Default: 1.0
+	# Range: 0.0 ~ 100.0
+	coolingSpeed = 1.0
+
+#Water sprinklers: powered by redstone, they extinguish fire and cool containers
+[sprinkler]
+	#Horizontal radius of the spray.
+	# Default: 4
+	# Range: 1 ~ 16
+	radius = 4
+	#How many blocks below a ceiling sprinkler (or above a floor sprinkler) the spray reaches.
+	# Default: 8
+	# Range: 1 ~ 32
+	reach = 8
+	#mB of water used per tick while spraying (0 = needs no water at all).
+	# Default: 2
+	# Range: 0 ~ 1000
+	waterPerTick = 2
+	#°C per second a sprinkler cools every container in its spray.
+	# Default: 60.0
+	# Range: 0.0 ~ 10000.0
+	coolingPerSecond = 60.0
+
+#Carbon dioxide emitted by running diesel engines
+[emissions]
+	#Running diesel engines produce carbon dioxide.
+	enabled = true
+	#The small (normal) diesel engine emits CO2.
+	normalEngineEmits = false
+	#The modular (large) diesel engine emits CO2.
+	modularEngineEmits = true
+	#The huge diesel engine emits CO2.
+	hugeEngineEmits = true
+	#mB of carbon dioxide produced per mB of fuel burned.
+	#Engines burn about 1 mB fuel per second (modular: 1 mB per engine block).
+	# Default: 10.0
+	# Range: 0.0 ~ 1000.0
+	co2PerMbFuel = 10.0
+	#Also push CO2 into any adjacent fluid container (e.g. a Create fluid tank),
+	#not only into Exhaust Collectors.
+	outputToAnyTank = false
+	#Show exhaust smoke when the CO2 cannot be collected and is vented into the air.
+	ventSmoke = true
+	#mB of CO2 a diesel engine can hold. Shown in the engine's goggle overlay.
+	# Default: 1000
+	# Range: 0 ~ 1000000
+	engineExhaustBuffer = 1000
+	#A diesel engine whose exhaust buffer is full stalls: it burns no fuel and gives no power until
+	#the CO2 is pumped out of its back (or flows into an adjacent Exhaust Collector or chimney)
+	#and the buffer is down to half. If false, the engine keeps running and vents the excess as smoke.
+	engineStallsWhenFull = true
+	#Capacity of the Exhaust Collector in mB.
+	# Default: 8000
+	# Range: 1000 ~ 1000000
+	collectorCapacity = 8000
+
+#Chimneys and exhaust pipes release carbon dioxide into the air as smoke
+[chimney]
+	#mB of CO2 the top of a chimney releases per tick.
+	# Default: 50
+	# Range: 1 ~ 100000
+	ventRatePerTick = 50
+	#mB per tick an Exhaust Collector pushes into a chimney placed directly on top of it.
+	# Default: 100
+	# Range: 0 ~ 100000
+	collectorToChimneyRate = 100
+	#Multiplier for the amount of smoke particles (0 = no smoke).
+	# Default: 1.0
+	# Range: 0.0 ~ 5.0
+	smokeAmount = 1.0

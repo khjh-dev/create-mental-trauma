@@ -1,0 +1,12 @@
+{
+ "item.scout.pouch": "Мешочек",
+ "item.scout.satchel": "Сумка",
+ "item.scout.satchel_strap": "Ремень сумки",
+ "item.scout.tanned_leather": "Дублёная кожа",
+ "item.scout.upgraded_pouch": "Улучшенный мешочек",
+ "item.scout.upgraded_satchel": "Улучшенная сумка",
+ "itemGroup.scout.itemgroup": "Scout",
+ "tooltip.scout.slots": "Вмещает %s предметов",
+ "trinkets.slot.chest.satchel": "Сумка",
+ "trinkets.slot.legs.pouch": "Мешочек"
+}

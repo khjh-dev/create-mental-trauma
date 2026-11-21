@@ -1,0 +1,21 @@
+[exhaust]
+	#Whether flying jetpacks show a jet of air at their nozzles, with the nozzles glowing and cooling down after.
+	flame = true
+	#Whether flying jetpacks throw sparks from their nozzles.
+	sparks = true
+	#Whether jetpacks leave a smoke trail.
+	particles = true
+	#How long each puff of smoke lasts at most, in ticks. Each lives between three quarters of this and all of it.
+	# Default: 20
+	# Range: 5 ~ 60
+	particleLifetime = 20
+	#Percentage of the smoke puffs to show. Lower it to thin the trail out.
+	# Default: 100
+	# Range: 0 ~ 100
+	particleDensity = 100
+	#Whether jetpacks make an engine sound while flying.
+	sound = true
+	#Volume of the jetpack engine, as a percentage.
+	# Default: 100
+	# Range: 0 ~ 100
+	soundVolume = 100

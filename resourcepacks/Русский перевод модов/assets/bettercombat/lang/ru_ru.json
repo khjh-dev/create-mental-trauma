@@ -1,0 +1,9 @@
+{
+ "text.autoconfig.bettercombat.option.client.isShowingWeaponTrails": "Показывать следы замаха оружия",
+ "text.autoconfig.bettercombat.option.client.isShowingWeaponTrails.@Tooltip": "Отображать частицы следов оружия для атак во всех перспективах",
+ "text.autoconfig.bettercombat.option.client.isSwingThruGrassSmart": "Умный замах сквозь траву",
+ "text.autoconfig.bettercombat.option.client.isSwingThruGrassSmart.@Tooltip": "Замахиваться сквозь траву, только если в радиусе атаки есть враги",
+ "text.autoconfig.bettercombat.option.client.mineWithWeaponWhitelist": "Добыча оружием по белому списку",
+ "text.autoconfig.bettercombat.option.client.mineWithWeaponWhitelist.@Tooltip": "Оружие с ID, соответствующим этому регулярному выражению, всегда может добывать блоки, даже когда «Добыча оружием» отключена",
+ "text.autoconfig.bettercombat.title": "Better Combat"
+}

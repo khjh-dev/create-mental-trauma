@@ -1,0 +1,9 @@
+{
+ "cmparallelpipes.ponder.outline_segment.header": "Контуры и соединения",
+ "cmparallelpipes.ponder.outline_segment.text_1": "Заблокированные трубы будут показывать контуры, когда вы держите трубный ключ",
+ "cmparallelpipes.ponder.outline_segment.text_2": "Вы можете настроить соединения заблокированных труб с помощью трубного ключа",
+ "cmparallelpipes.ponder.outline_segment.text_3": "Вы можете добавить конечную точку",
+ "cmparallelpipes.ponder.outline_segment.text_4": "... или удалить её",
+ "cmparallelpipes.ponder.outline_segment.text_5": "Но помните, трубе нужно как минимум 2 открытые конечные точки, иначе вы не сможете их удалить.",
+ "item.cmparallelpipes.pipe_wrench": "Трубный ключ"
+}

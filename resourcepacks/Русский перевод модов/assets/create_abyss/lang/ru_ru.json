@@ -1,0 +1,22 @@
+{
+ "block.create_abyss.abyss_ceiling": "Потолок бездны",
+ "block.create_abyss.burning_sand": "Горящий песок",
+ "block.create_abyss.burning_wood": "Горящая древесина",
+ "block.create_abyss.deepslate_geothermal_vent": "Глубинносланцевый геотермальный источник",
+ "block.create_abyss.foam_rock_geothermal_vent": "Геотермальный источник пенистой породы",
+ "block.create_abyss.geothermal_vent": "Геотермальный источник",
+ "block.create_abyss.magma": "Поток магмы",
+ "create_abyss.command.no_liana_ground": "Рядом с вами не найдено твёрдой земли для лиан.",
+ "create_abyss.command.queue_terrain_lianas": "Поставлено в очередь %s подводных лиан по местности в радиусе %s",
+ "entity.create_abyss.abyssal_cuttlefish": "Абиссальная каракатица",
+ "entity.create_abyss.isopod": "Гигантский изопод",
+ "entity.create_abyss.magmatic_snail": "Магматическая улитка",
+ "entity.create_abyss.pelican_eel": "Пеликановидный угорь",
+ "entity.create_abyss.segment_hitbox": "Сегмент существа",
+ "item.create_abyss.abyssal_cuttlefish_spawn_egg": "Яйцо призыва абиссальной каракатицы",
+ "item.create_abyss.isopod_spawn_egg": "Яйцо призыва гигантского изопода",
+ "item.create_abyss.magmatic_snail_spawn_egg": "Яйцо призыва магматической улитки",
+ "item.create_abyss.pelican_eel_spawn_egg": "Яйцо призыва пеликановидного угря",
+ "jukebox_song.create_abyss.seafoam": "Caner Crebes - Seafoam",
+ "jukebox_song.create_abyss.snells_window": "Caner Crebes - Snell's Window"
+}

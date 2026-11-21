@@ -1,0 +1,4 @@
+{
+ "option.clientsort.overrideItems.tooltip.2.item": "minecraft:red_shulker_box",
+ "option.clientsort.policies.description.4": "<class>/<title>,(<offset>)/<from slot>,<sort>,<fill stacks>,<restock>,<transfer>,<auto op>/<reverse>,(<ignored slots>)"
+}

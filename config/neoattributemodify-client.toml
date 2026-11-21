@@ -1,0 +1,4 @@
+#Enable NeoAttributeModify's custom formatting of item attribute tooltip lines.
+#Disable when another mod (such as Apothic Attributes) formats the same lines.
+#Decorative item restrictions and actual item attributes remain active.
+customAttributeTooltips = true

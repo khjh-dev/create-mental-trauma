@@ -1,0 +1,13 @@
+name = "Sable: AeroDynamic (Create Aeronautics) 1.0.0"
+filename = "Sable_AeroDynamic-1.21.1-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha512"
+hash = "0b1f87a8aa3fa27d54bfcd537474173ab23237efdd81e3d34edb6fbae1857d005c835038f07be22547ab6a2a954405c66309981c25a1aaf033dbf40413ab8129"
+url = "https://cdn.modrinth.com/data/3F0nO3Lg/versions/T3iKAZ25/Sable_AeroDynamic-1.21.1-1.0.0.jar"
+
+[update]
+[update.modrinth]
+mod-id = "3F0nO3Lg"
+version = "T3iKAZ25"

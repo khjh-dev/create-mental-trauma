@@ -1,0 +1,149 @@
+#Electric crusher
+[crusher]
+	#Resistance between the two terminals, in ohms (Power Grid's electric motor uses 25.6).
+	# Default: 25.6
+	# Range: 0.1 ~ 100000.0
+	coilResistance = 25.6
+	#Power in watts at which the crusher works at normal speed (~258 V across 25.6 ohm).
+	# Default: 2600.0
+	# Range: 1.0 ~ 1.0E7
+	ratedPower = 2600.0
+	#Below this fraction of the rated power the crusher stalls.
+	# Default: 0.1
+	# Range: 0.0 ~ 1.0
+	minPowerFraction = 0.1
+	#Speed cap when supplied with more than the rated power (2.0 = up to twice as fast).
+	# Default: 2.0
+	# Range: 1.0 ~ 16.0
+	maxOverdrive = 2.0
+	#Ticks needed to crush one item at rated power.
+	# Default: 40
+	# Range: 1 ~ 72000
+	ticksPerItem = 40
+	#Chance that a plain block (not in #matrix:crusher_no_slag) turns into slag instead of scrap.
+	# Default: 0.5
+	# Range: 0.0 ~ 1.0
+	slagChance = 0.5
+	#Chance that a free-to-gather block (#matrix:crusher_cheap: dirt, grass, flowers, sand...) turns into slag.
+	# Default: 0.75
+	# Range: 0.0 ~ 1.0
+	cheapSlagChance = 0.75
+
+#URM-2 separator
+[urm2]
+	#Resistance between the URM-2 terminals, in ohms.
+	# Default: 12.8
+	# Range: 0.1 ~ 100000.0
+	coilResistance = 12.8
+	#Power in watts at which the URM-2 runs at full speed (~320 V across 12.8 ohm).
+	# Default: 8000.0
+	# Range: 1.0 ~ 1.0E8
+	ratedPower = 8000.0
+	#Below this fraction of the rated power the URM-2 stops (and its fan stands still).
+	# Default: 0.25
+	# Range: 0.0 ~ 1.0
+	minPowerFraction = 0.25
+	#Ticks one cycle takes at rated power (600 = 30 s).
+	# Default: 600
+	# Range: 1 ~ 1000000
+	ticksPerCycle = 600
+	#Scrap consumed per cycle.
+	# Default: 16
+	# Range: 1 ~ 64
+	scrapPerCycle = 16
+	#Liquid matter produced per cycle, in mB (1000 mB = one bucket).
+	# Default: 50
+	# Range: 1 ~ 100000
+	matterPerCycle = 50
+	#Internal liquid matter tank, in mB.
+	# Default: 8000
+	# Range: 1000 ~ 1000000
+	tankCapacity = 8000
+
+#VM-3 recipe recording computer
+[vm3]
+	#Resistance between the Power Grid terminals, in ohms (lower draws more power).
+	# Default: 25.6
+	# Range: 0.1 ~ 10000.0
+	coilResistance = 25.6
+	#Power at which recording runs at full speed, in watts.
+	# Default: 2000.0
+	# Range: 1.0 ~ 1000000.0
+	ratedPower = 2000.0
+	#Below this fraction of the rated power the computer does not work.
+	# Default: 0.25
+	# Range: 0.0 ~ 1.0
+	minPowerFraction = 0.25
+
+#MRS-4 matter replicator
+[mrs4]
+	#Resistance between the Power Grid terminals, in ohms (lower draws more power).
+	# Default: 6.4
+	# Range: 0.1 ~ 10000.0
+	coilResistance = 6.4
+	#Power at which synthesis runs at full speed, in watts.
+	# Default: 10000.0
+	# Range: 1.0 ~ 1000000.0
+	ratedPower = 10000.0
+	#Below this fraction of the rated power the replicator does not work.
+	# Default: 0.25
+	# Range: 0.0 ~ 1.0
+	minPowerFraction = 0.25
+	#Multiplier on the liquid matter value of items (values: data/*/matrix_matter_values, derived through recipes).
+	# Default: 1.0
+	# Range: 0.01 ~ 1000.0
+	costMultiplier = 1.0
+	#Multiplier on the synthesis time (40 + 10 * sqrt(cost) ticks at rated power).
+	# Default: 1.0
+	# Range: 0.01 ~ 1000.0
+	timeMultiplier = 1.0
+	#Internal liquid matter tank, in mB.
+	# Default: 16000
+	# Range: 1000 ~ 1000000
+	tankCapacity = 16000
+
+#BM-12 biological replicator
+[bm12]
+	#Resistance between the Power Grid terminals, in ohms (lower draws more power).
+	# Default: 2.0
+	# Range: 0.1 ~ 10000.0
+	coilResistance = 2.0
+	#Power at which a cycle runs at full speed, in watts.
+	# Default: 32000.0
+	# Range: 1.0 ~ 1000000.0
+	ratedPower = 32000.0
+	#Below this fraction of the rated power the replicator does not work.
+	# Default: 0.25
+	# Range: 0.0 ~ 1.0
+	minPowerFraction = 0.25
+	#Cycle length at rated power: base ticks ...
+	# Default: 100.0
+	# Range: 1.0 ~ 100000.0
+	baseTicks = 100.0
+	#... plus this many ticks per point of maximum health.
+	# Default: 10.0
+	# Range: 0.0 ~ 10000.0
+	ticksPerHealth = 10.0
+
+#PRM-3 work mech and the mech rack
+[mech]
+	#Battery capacity of the PRM-3, in joules (walking takes 2 kW, each drill 4 kW).
+	# Default: 4000000
+	# Range: 10000 ~ 1000000000
+	battery = 4000000
+	#Share of the mech rack's power that ends up in the docked mech's battery.
+	# Default: 0.9
+	# Range: 0.0 ~ 1.0
+	chargerEfficiency = 0.9
+	#Resistance between the mech rack terminals, in ohms (8: the rated 24 kW at 55 A, which any copper wire carries).
+	# Default: 8.0
+	# Range: 0.1 ~ 10000.0
+	rackResistance = 8.0
+	#Rated power of the mech rack, in watts (below a tenth of it the rack does not assemble).
+	# Default: 24000.0
+	# Range: 1.0 ~ 1.0E7
+	rackRatedPower = 24000.0
+	#Energy the mech rack takes to assemble a PRM-3 from its parts, in joules.
+	# Default: 3600000.0
+	# Range: 1.0 ~ 1.0E9
+	rackAssemblyEnergy = 3600000.0

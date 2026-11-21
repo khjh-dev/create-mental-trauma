@@ -1,0 +1,7 @@
+#Show a note on empty Torchlands pages while the server registry is not implemented
+showDevelopmentNotice = true
+showBoundaries = true
+showBoundaryWalls = true
+# Default: 0.7
+# Range: 0.1 ~ 1.0
+boundaryBrightness = 0.7

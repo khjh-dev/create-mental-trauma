@@ -1,0 +1,20 @@
+{
+ "advancement.createmetallurgy.graphite_molds": "Графитовые формы",
+ "advancement.createmetallurgy.graphite_molds.desc": "Создайте любую форму",
+ "block.createmetallurgy.tundish": "Промежуточный ковш",
+ "createmetallurgy.generic.icon.down": "↓",
+ "createmetallurgy.generic.icon.heart": "❤",
+ "createmetallurgy.generic.icon.up": "↑",
+ "createmetallurgy.generic.symbol.equal": "=",
+ "createmetallurgy.generic.symbol.greater": ">",
+ "createmetallurgy.generic.symbol.greater_eq": "≥",
+ "createmetallurgy.generic.symbol.less": "<",
+ "createmetallurgy.generic.symbol.less_eq": "≤",
+ "createmetallurgy.gui.ladle_filter.any_address": "Любой адрес",
+ "createmetallurgy.gui.ladle_filter.any_fluid": "Любая жидкость",
+ "createmetallurgy.gui.ladle_filter.blank_address": "Только пустой",
+ "createmetallurgy.gui.ladle_filter.empty_fluid": "Только пустая",
+ "item.createmetallurgy.ladle_filter.tooltip.behaviour1": "Открывает _интерфейс настройки_.",
+ "item.createmetallurgy.ladle_filter.tooltip.condition1": "При ПКМ",
+ "item.createmetallurgy.ladle_filter.tooltip.summary": "_Сопоставляет предметы ковша_ по их целевому _адресу_ и содержимому _жидкостей_. Можно использовать в _слотах фильтра_ компонентов Create"
+}

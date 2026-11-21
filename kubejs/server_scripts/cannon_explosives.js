@@ -1,0 +1,40 @@
+// High explosive shells, charges and fuzes in the installed CBC version.
+ServerEvents.recipes(event => {
+
+  // --- pack guard: content for mods that are not installed is skipped ---
+  const __has = id => { try { return Item.exists(id) } catch (e) { return false } }
+  const __need = ['overgeared:iron_plate']
+  const __missing = __need.filter(function (id) { return !__has(id) })
+  if (__missing.length) { console.info('[skip] cannon_explosives.js: missing ' + __missing.join(', ')); return }
+  event.remove({ id: "createbigcannons:ap_shell" })
+  event.custom({"type":"create:mechanical_crafting","accept_mirrored":true,"category":"misc","key":{"C":{"tag":"c:ingots/cast_iron"},"I":{"tag":"c:ingots/iron"},"S":{"tag":"minecraft:wooden_slabs"},"T":{"tag":"createbigcannons:high_explosive_materials"},"Z":{"item":"overgeared:steel_plate"}},"pattern":["ZC ","ICI","ITI"," S "],"result":{"count":1,"id":"createbigcannons:ap_shell"}}).id('kubejs:cannon_danger/r0')
+  event.remove({ id: "createbigcannons:delayed_impact_fuze" })
+  event.custom({"type":"minecraft:crafting_shapeless","category":"misc","ingredients":[{"item":"createbigcannons:timed_fuze"},{"item":"createbigcannons:impact_fuze"},{"item":"overgeared:iron_plate"}],"result":{"count":1,"id":"createbigcannons:delayed_impact_fuze"}}).id('kubejs:cannon_danger/r1')
+  event.remove({ id: "createbigcannons:delayed_inertia_fuze" })
+  event.custom({"type":"minecraft:crafting_shapeless","category":"misc","ingredients":[{"item":"createbigcannons:timed_fuze"},{"item":"createbigcannons:inertia_fuze"},{"item":"overgeared:iron_plate"}],"result":{"count":1,"id":"createbigcannons:delayed_inertia_fuze"}}).id('kubejs:cannon_danger/r2')
+  event.remove({ id: "createbigcannons:drop_mortar_shell" })
+  event.custom({"type":"minecraft:crafting_shaped","category":"misc","key":{"C":{"item":"createbigcannons:powder_charge"},"I":{"item":"overgeared:iron_plate"},"S":{"item":"create:shaft"},"X":{"tag":"createbigcannons:high_explosive_materials"},"Z":{"item":"overgeared:steel_plate"}},"pattern":["ZX ","ISI"," C "],"result":{"count":1,"id":"createbigcannons:drop_mortar_shell"}}).id('kubejs:cannon_danger/r3')
+  event.remove({ id: "createbigcannons:flak_autocannon_round" })
+  event.custom({"type":"minecraft:crafting_shaped","category":"misc","key":{"C":{"item":"overgeared:iron_plate"},"G":{"tag":"createbigcannons:gunpowder"},"S":{"item":"createbigcannons:shot_balls"},"Z":{"item":"overgeared:steel_plate"}},"pattern":["SZ","G ","C "],"result":{"count":2,"id":"createbigcannons:flak_autocannon_round"}}).id('kubejs:cannon_danger/r4')
+  event.remove({ id: "createbigcannons:fluid_shell" })
+  event.custom({"type":"create:mechanical_crafting","accept_mirrored":true,"category":"misc","key":{"I":{"tag":"c:ingots/iron"},"P":{"item":"create:fluid_pipe"},"S":{"tag":"minecraft:wooden_slabs"},"Z":{"item":"overgeared:steel_plate"}},"pattern":["ZI ","IPI","IPI"," S "],"result":{"count":1,"id":"createbigcannons:fluid_shell"}}).id('kubejs:cannon_danger/r5')
+  event.remove({ id: "createbigcannons:he_shell" })
+  event.custom({"type":"create:mechanical_crafting","accept_mirrored":true,"category":"misc","key":{"I":{"tag":"c:ingots/iron"},"S":{"tag":"minecraft:wooden_slabs"},"T":{"tag":"createbigcannons:high_explosive_materials"},"Z":{"item":"overgeared:steel_plate"}},"pattern":["ZI ","ITI","ITI"," S "],"result":{"count":1,"id":"createbigcannons:he_shell"}}).id('kubejs:cannon_danger/r6')
+  event.remove({ id: "createbigcannons:impact_fuze" })
+  event.custom({"type":"minecraft:crafting_shaped","category":"misc","key":{"R":{"tag":"createbigcannons:dusts_redstone"},"T":{"tag":"createbigcannons:impact_fuze_head"},"Z":{"item":"overgeared:iron_plate"}},"pattern":["T","R","Z"],"result":{"count":4,"id":"createbigcannons:impact_fuze"}}).id('kubejs:cannon_danger/r7')
+  event.remove({ id: "createbigcannons:inertia_fuze" })
+  event.custom({"type":"minecraft:crafting_shaped","category":"misc","key":{"R":{"tag":"createbigcannons:dusts_redstone"},"S":{"item":"createbigcannons:recoil_spring"},"T":{"tag":"createbigcannons:impact_fuze_head"},"Z":{"item":"overgeared:iron_plate"}},"pattern":["TZ","S ","R "],"result":{"count":2,"id":"createbigcannons:inertia_fuze"}}).id('kubejs:cannon_danger/r8')
+  event.remove({ id: "createbigcannons:powder_charge" })
+  event.custom({"type":"minecraft:crafting_shapeless","category":"misc","ingredients":[{"item":"createbigcannons:packed_gunpowder"},{"item":"createbigcannons:empty_powder_charge"},{"item":"overgeared:steel_plate"},{"item":"irons_artifice:blackpowder"}],"result":{"count":1,"id":"createbigcannons:powder_charge"}}).id('kubejs:cannon_danger/r9')
+  event.remove({ id: "createbigcannons:proximity_fuze" })
+  event.custom({"type":"minecraft:crafting_shaped","category":"misc","key":{"A":{"item":"minecraft:iron_bars"},"C":{"tag":"createbigcannons:gems_quartz"},"I":{"tag":"c:ingots/iron"},"R":{"tag":"createbigcannons:dusts_redstone"},"Z":{"item":"overgeared:iron_plate"}},"pattern":["ZA ","RCR"," I "],"result":{"count":4,"id":"createbigcannons:proximity_fuze"}}).id('kubejs:cannon_danger/r10')
+  event.remove({ id: "createbigcannons:shrapnel_shell" })
+  event.custom({"type":"create:mechanical_crafting","accept_mirrored":true,"category":"misc","key":{"I":{"tag":"c:ingots/iron"},"L":{"item":"createbigcannons:shot_balls"},"P":{"tag":"createbigcannons:gunpowder"},"S":{"tag":"minecraft:wooden_slabs"},"Z":{"item":"overgeared:steel_plate"}},"pattern":["ZI ","ILI","IPI"," S "],"result":{"count":1,"id":"createbigcannons:shrapnel_shell"}}).id('kubejs:cannon_danger/r11')
+  event.remove({ id: "createbigcannons:smoke_shell" })
+  event.custom({"type":"create:mechanical_crafting","category":"misc","key":{"H":{"item":"minecraft:hay_block"},"I":{"tag":"c:ingots/iron"},"P":{"item":"overgeared:iron_plate"},"Z":{"item":"overgeared:steel_plate"}},"pattern":["PHP","PHP","PIP","Z  "],"result":{"count":1,"id":"createbigcannons:smoke_shell"},"accept_mirrored":false}).id('kubejs:cannon_danger/r12')
+  event.remove({ id: "createbigcannons:timed_fuze" })
+  event.custom({"type":"minecraft:crafting_shaped","category":"misc","key":{"C":{"item":"minecraft:clock"},"I":{"tag":"c:ingots/iron"},"R":{"tag":"createbigcannons:dusts_redstone"},"Z":{"item":"overgeared:iron_plate"}},"pattern":["IZ","C ","R "],"result":{"count":4,"id":"createbigcannons:timed_fuze"}}).id('kubejs:cannon_danger/r13')
+  event.remove({ id: "createbigcannons:wired_fuze" })
+  event.custom({"type":"minecraft:crafting_shaped","category":"misc","key":{"I":{"tag":"c:ingots/copper"},"W":{"tag":"createbigcannons:dusts_redstone"},"Z":{"item":"overgeared:iron_plate"}},"pattern":["WIW","Z  "],"result":{"count":4,"id":"createbigcannons:wired_fuze"}}).id('kubejs:cannon_danger/r14')
+  console.info('[cannon danger] 15 rounds, shells and fuzes registered')
+})

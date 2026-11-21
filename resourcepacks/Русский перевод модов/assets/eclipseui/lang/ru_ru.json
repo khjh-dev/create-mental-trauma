@@ -1,0 +1,12 @@
+{
+ "eclipseui.button.done": "Готово",
+ "eclipseui.button.reset": "Сбросить",
+ "eclipseui.button.save": "Сохранить",
+ "eclipseui.colorpicker.title": "Выбор цвета",
+ "eclipseui.confirm.no": "Отмена",
+ "eclipseui.confirm.unsaved_changes.message": "У вас есть несохранённые изменения. Отбросить их?",
+ "eclipseui.confirm.unsaved_changes.title": "Несохранённые изменения",
+ "eclipseui.confirm.yes": "Отбросить",
+ "eclipseui.toggle.off": "ВЫКЛ",
+ "eclipseui.toggle.on": "ВКЛ"
+}

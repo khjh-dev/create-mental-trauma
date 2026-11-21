@@ -1,0 +1,22 @@
+{
+  "type": "createdieselgenerators:distillation",
+  "ingredients": [
+    {
+      "type": "neoforge:tag",
+      "amount": 100,
+      "tag": "c:crude_oil"
+    }
+  ],
+  "heat_requirement": "superheated",
+  "processing_time": 40,
+  "results": [
+    {
+      "id": "createdieselgenerators:diesel",
+      "amount": 75
+    },
+    {
+      "id": "createdieselgenerators:gasoline",
+      "amount": 75
+    }
+  ]
+}

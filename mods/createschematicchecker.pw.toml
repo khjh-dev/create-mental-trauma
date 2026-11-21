@@ -1,0 +1,13 @@
+name = "CSC_v2.27.47_for_Create_v6.0_neoforge"
+filename = "createschematicchecker-2.27.47-6.0-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha512"
+hash = "0157a5289f0815e3c62a88714ae5112169d067d93640afaf1db65649fdc023b1b08ce17375694f9bf31c702a93851d8a1567ea63ba15ac0bee1b9f3b57f7a502"
+url = "https://cdn.modrinth.com/data/ULzrAD1U/versions/RFQJoh8W/createschematicchecker-2.27.47-6.0-neoforge-1.21.1.jar"
+
+[update]
+[update.modrinth]
+mod-id = "ULzrAD1U"
+version = "RFQJoh8W"

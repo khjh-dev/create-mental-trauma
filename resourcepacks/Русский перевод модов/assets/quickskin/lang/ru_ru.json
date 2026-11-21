@@ -1,0 +1,14 @@
+{
+ "quickskin.button.confirm": "Подтвердить",
+ "quickskin.button.skin_websites": "Сайты со скинами",
+ "quickskin.button.website_hd": "HD",
+ "quickskin.button.website_normal": "Обычный",
+ "quickskin.cape.section.favorites": "Избранное",
+ "quickskin.context.edit_cape": "Изменить",
+ "quickskin.dropzone.capes.short_click": "или перетащите",
+ "quickskin.dropzone.capes.short_main": "Импортировать",
+ "quickskin.menu.body_width": "Тело: %s",
+ "quickskin.menu.skins": "Скины",
+ "quickskin.tooltip.body_width": "Ширина руки предпросматриваемого скина",
+ "quickskin.tooltip.import_skin": "Импортировать скин (или перетащите файлы куда угодно)"
+}

@@ -1,0 +1,10 @@
+{
+ "sounds.config.iceStress.option": "Треск льда",
+ "sounds.config.iceStress.option.description": "Звуковой эффект, воспроизводимый при прыжке на льду. Изначально из мода Icebreak для WinterJam 2024.",
+ "sounds.config.option.description.enableVerboseSoundTypeLogging": "Записывать ли в консоль подробные сведения о типах звуков блоков? Полезно для отладки.",
+ "sounds.config.option.enableEnderpearlVariety": "Разнообразие звуков эндер-жемчуга",
+ "sounds.config.option.enableVerboseSoundTypeLogging": "Подробный журнал типов звуков",
+ "sounds.config.swordSwoosh.option": "Свист меча",
+ "sounds.config.swordSwoosh.option.description": "Звуковой эффект, воспроизводимый при атаке мечом.",
+ "sounds.subtitle.sword_swoosh": "Взмахи меча"
+}

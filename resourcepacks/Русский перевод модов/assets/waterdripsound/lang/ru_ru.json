@@ -1,0 +1,17 @@
+{
+ "config.waterdripsound.blockAnimateCountMultiplier": "Множитель количества частиц блоков",
+ "config.waterdripsound.blockAnimateNotSupported": "§eНастройки частиц блоков отключены из-за конфликта модов:",
+ "config.waterdripsound.blockAnimateNotSupported.effective": "§eМод «Effective» уже имеет эту функцию",
+ "config.waterdripsound.blockAnimateRangeMultiplier": "Множитель дальности частиц блоков",
+ "config.waterdripsound.dripChance": "Шанс капель",
+ "config.waterdripsound.enable": "Включить звук капель",
+ "config.waterdripsound.general": "Настройки звуков капель",
+ "config.waterdripsound.soundCategory": "Категория звука капель",
+ "config.waterdripsound.useDripstoneSounds": "Использовать звуки капельника",
+ "config.waterdripsound.volume": "Громкость капель",
+ "key.waterdripsound.category": "Общие",
+ "tooltip.config.waterdripsound.blockAnimateCountMultiplier": "Умножает количество блоков, обновляющих эффекты частиц каждый тик\nЧем выше значение, тем заметнее влияние на производительность!\n1.0 — как в ванили, чем выше — тем больше блоков создают частицы\nЧтобы сохранить плотность как в ванили, значение должно быть квадратом дальности\n(т. е. дальность 2.0 -> количество 4.0, дальность 3.0 -> количество 9.0 и т. д.)",
+ "tooltip.config.waterdripsound.blockAnimateRangeMultiplier": "Умножает максимальную дальность эффектов частиц блоков\n(капли, дым, падающие листья, светлячки, столбы пузырей и т. д.)\nТакже влияет на фоновые звуки некоторых блоков (огонь, лава, порталы и т. д.)\n1.0 — как в ванили, чем выше — тем дальше могут появляться частицы",
+ "tooltip.config.waterdripsound.dripChance": "Шанс появления частицы капли при случайной анимации блока\nОдин из 10 — как в ванили, чем выше — тем реже",
+ "tooltip.config.waterdripsound.useDripstoneSounds": "Если включено, используются звуки капель воды/лавы на капельнике,\n добавленные в 1.17.\nЕсли нет, используются звуки из более старых\n версий мода."
+}

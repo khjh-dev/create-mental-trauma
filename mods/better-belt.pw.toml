@@ -1,0 +1,13 @@
+name = "Create Better Belt 0.1.4 - NeoForge 1.21.1"
+filename = "create_better_belt-neoforge-1.21.1-0.1.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha512"
+hash = "408e916a2df27c50830b1a7b6bd58bdb78254702c9fa8098a13e38744f2102c6f974c9ca6a28a7b0d4595138b236f710bc191d72c64bc7246d6c3ee71e205299"
+url = "https://cdn.modrinth.com/data/bWsUYlqP/versions/QjWK2xzN/create_better_belt-neoforge-1.21.1-0.1.4.jar"
+
+[update]
+[update.modrinth]
+mod-id = "bWsUYlqP"
+version = "QjWK2xzN"

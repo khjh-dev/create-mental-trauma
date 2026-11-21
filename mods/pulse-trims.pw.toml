@@ -1,0 +1,13 @@
+name = "pulse-trims-1.0.2-fabric-1.21.1"
+filename = "pulse-trims-1.0.2-fabric-1.21.1.jar"
+side = "client"
+
+[download]
+hash-format = "sha512"
+hash = "7ba7a1ce3fbbc140b5b18555cd9b7eac5f842e3bbf4a0f07f7f57134da672f85914431e1793e82b5f2c6dc4f60548d9391772865be3525674c079282ff966b3f"
+url = "https://cdn.modrinth.com/data/5YOjKSuq/versions/7eMd7e5t/pulse-trims-1.0.2-fabric-1.21.1.jar"
+
+[update]
+[update.modrinth]
+mod-id = "5YOjKSuq"
+version = "7eMd7e5t"

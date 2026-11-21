@@ -1,0 +1,14 @@
+{
+ "block.ballastmod.ballast_stones": "Балластные камни",
+ "item.ballastmod.ballast_stones": "Балластные камни",
+ "tooltip.ballastmod.ballast_stones": "Имеет большую массу с каждым добавленным слоем!",
+ "tooltip.ballastmod.ballast_stones_info_prompt": "§8Удерживайте [§r§7Shift§r§8] для подробностей§r",
+ "tooltip.ballastmod.ballast_stones_layer1": "§81 слой: §r§eТяжёлый§r§8 (2 kpg)§r",
+ "tooltip.ballastmod.ballast_stones_layer2": "§82 слоя: §r§eТяжёлый§r§8 (3 kpg)§r",
+ "tooltip.ballastmod.ballast_stones_layer3": "§83 слоя: §r§cСверхтяжёлый§r§8 (4 kpg)§r",
+ "tooltip.ballastmod.ballast_stones_layer4": "§84 слоя: §r§cСверхтяжёлый§r§8 (5 kpg)§r",
+ "tooltip.ballastmod.ballast_stones_layer5": "§85 слоёв: §r§4Чрезвычайно тяжёлый§r§8 (6 kpg)§r",
+ "tooltip.ballastmod.ballast_stones_layer6": "§86 слоёв: §r§4Чрезвычайно тяжёлый§r§8 (7 kpg)§r",
+ "tooltip.ballastmod.ballast_stones_layer7": "§87 слоёв: §r§7Невероятно тяжёлый§r§8 (8 kpg)§r",
+ "tooltip.ballastmod.ballast_stones_layer8": "§88 слоёв: §r§7Невероятно тяжёлый§r§8 (9 kpg)§r"
+}

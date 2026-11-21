@@ -1,0 +1,80 @@
+#.
+#Ladle related configuration
+[ladle]
+	#.
+	#[in milliBuckets (mB)]
+	#The amount of liquid a Ladle can hold.
+	# Default: 4000
+	# Range: > 1
+	ladleCapacity = 4000
+	#.
+	#The number of addresses that can be written on a Ladle.
+	# Default: 10
+	# Range: > 0
+	ladleMaxAddress = 10
+
+#.
+#Crucible related configuration
+[crucible]
+	#.
+	#[in Blocks]
+	#The maximum height a crucible can reach.
+	# Default: 4
+	# Range: > 1
+	crucibleMaxHeight = 4
+	#.
+	#[in Blocks]
+	#The maximum width a crucible can reach.
+	# Default: 5
+	# Range: > 1
+	crucibleMaxWidth = 5
+	#.
+	#[in Buckets]
+	#The amount of liquid a crucible can hold per block.
+	# Default: 1
+	# Range: > 1
+	crucibleCapacity = 1
+
+#.
+#Faucet related configuration
+[faucet]
+	#.
+	#[in Blocks]
+	#The maximum height a faucet fluid can be poured.
+	# Default: 5
+	# Range: > 1
+	faucetMaxHeight = 5
+	#.
+	#[in milliBuckets (mB)]
+	#The flow rate the faucet can output.
+	# Default: 10
+	# Range: > 1
+	faucetFlowRate = 10
+
+#.
+#Tundish related configuration
+[tundish]
+	#.
+	#[in Blocks]
+	#The maximum length a tundish.
+	# Default: 6
+	# Range: > 1
+	tundishMaxLength = 6
+	#.
+	#[in milliBuckets (mB)]
+	#The amount of liquid a Ladle can hold.
+	# Default: 4000
+	# Range: > 1
+	tundishCapacity = 4000
+	#.
+	#[in milliBuckets (mB)]
+	#The amount of fluid filled each precipitation tick.
+	# Default: 10
+	# Range: > 1
+	tundishPrecipitationAmount = 10
+	#.
+	#[in milliBuckets (mB)]
+	#The amount of fluid filled each stalactite drip.
+	# Default: 50
+	# Range: > 1
+	tundishDripAmount = 50

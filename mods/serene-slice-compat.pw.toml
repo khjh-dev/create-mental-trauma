@@ -1,0 +1,13 @@
+name = "0.4.3 For NeoForge 1.21.1"
+filename = "sereneslicecompat-0.4.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha512"
+hash = "dd713654197681f750dfe88375967180ff932320a365fd384247187d3d1d1d41e84c6270bafc8d18317373ba3ecceaaaeaf32beddc313cce251b441f71e6b817"
+url = "https://cdn.modrinth.com/data/OdyyFUwv/versions/RzWHpo3G/sereneslicecompat-0.4.3.jar"
+
+[update]
+[update.modrinth]
+mod-id = "OdyyFUwv"
+version = "RzWHpo3G"

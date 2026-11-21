@@ -1,0 +1,61 @@
+[gating]
+	#Block furnace/smelter output when the result item is locked.
+	gate_smelting = true
+	#Also gate bonus (unlocks) items, not just direct node items.
+	gate_bonus_items = true
+	#Award skill-tree EXP when smelting gated items.
+	award_smelt_exp = true
+
+[diminishing_returns]
+	#After this many crafts of the same item, multiplier drops to tier1.
+	# Default: 32
+	# Range: 1 ~ 1000
+	tier1_at = 32
+	#EXP multiplier after tier1 threshold.
+	# Default: 0.75
+	# Range: 0.0 ~ 1.0
+	tier1_multiplier = 0.75
+	#After this many crafts, multiplier drops to tier2.
+	# Default: 64
+	# Range: 1 ~ 10000
+	tier2_at = 64
+	#EXP multiplier after tier2 threshold.
+	# Default: 0.5
+	# Range: 0.0 ~ 1.0
+	tier2_multiplier = 0.5
+	#After this many crafts, multiplier drops to tier3.
+	# Default: 128
+	# Range: 1 ~ 100000
+	tier3_at = 128
+	#EXP multiplier after tier3 threshold. 0 stops infinite farming entirely; a small non-zero value keeps manual crafting paying a trickle.
+	# Default: 0.05
+	# Range: 0.0 ~ 1.0
+	tier3_multiplier = 0.05
+
+[kinetic_exp]
+	#Passive EXP from running kinetic generators (RPM -> EXP). Early-game helper.
+	enabled = true
+	#Total generator RPM required for 1 EXP per second. A single water wheel (~16 RPM) alone earns almost nothing; only a real network pays.
+	# Default: 256
+	# Range: 16 ~ 100000
+	rpm_per_exp = 256
+	#Hard cap on passive EXP per second per player, no matter how many generators.
+	# Default: 0.25
+	# Range: 0.0 ~ 10.0
+	max_exp_per_sec = 0.25
+
+[events]
+	#Enable world events (golden planet, discount night, comet).
+	enabled = true
+	#Golden planet duration in ticks.
+	# Default: 2400
+	# Range: 200 ~ 24000
+	golden_planet_ticks = 2400
+	#Discount night duration in ticks.
+	# Default: 2400
+	# Range: 200 ~ 24000
+	discount_night_ticks = 2400
+	#Comet duration in ticks.
+	# Default: 1200
+	# Range: 200 ~ 24000
+	comet_ticks = 1200

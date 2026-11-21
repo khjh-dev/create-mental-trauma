@@ -1,0 +1,6 @@
+{
+ "item.physics_staff.physics_staff": "Физический посох",
+ "itemGroup.physics_staff": "Физический посох",
+ "message.physics_staff.lock_released": "Фиксация физического посоха снята: воздух в заплечном резервуаре закончился",
+ "message.physics_staff.requires_charged_backtank": "Для использования физического посоха нужно надеть заряженный заплечный резервуар"
+}

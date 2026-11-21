@@ -1,0 +1,13 @@
+{
+ "text.nowheel.category.advanced": "Дополнительные настройки",
+ "text.nowheel.category.general": "Общие",
+ "text.nowheel.distanceCulling": "Отсечение по дистанции",
+ "text.nowheel.distanceCulling.tooltip": "Отсекает объекты, которые Entity Culling не может отследить. Повышает производительность на дальности прорисовки 8+.",
+ "text.nowheel.forceRemoving": "Принудительный бэкенд удаления",
+ "text.nowheel.forceRemoving.tooltip": "Включайте, только если производительность намного ниже, чем в предыдущих версиях Nowheel. Принудительно использует устаревший бэкенд удаления на косвенных бэкендах Flywheel.",
+ "text.nowheel.overrideEntityCulling": "Переопределять лимиты Entity Culling",
+ "text.nowheel.overrideEntityCulling.tooltip": "Переопределяет настройки Entity Culling, чтобы отсекать конструкции, которые по умолчанию не отсекались бы. Может повысить производительность в отдельных случаях. Требуется перезапуск.",
+ "text.nowheel.tickCulling": "Отсечение тиков",
+ "text.nowheel.tickCulling.tooltip": "Пропускает клиентский тик отсечённых машин Create. Повышает производительность. Отключите, если некоторые объекты анимируются неправильно.",
+ "text.nowheel.title": "Nowheel"
+}

@@ -1,0 +1,12 @@
+FilterLab Studio 效果自制器
+============================
+
+1. 在 effects/ 里新建 <英文id>.json，参考自带的两个示例。
+2. code 字段是一段 GLSL 代码，直接操作 vec3 color（当前像素颜色）。
+   可用变量：uv / texCoord（纹理坐标）、uTime（秒）、InSize / OutSize（分辨率）。
+3. uniforms 声明的参数会自动出现在游戏内「FilterLab 设置 → 自制效果」里，
+   支持 float（滑条）和 color（#RRGGBB，自动拆成 RGB 三个滑条）。
+4. textures 可以引用 textures/ 目录里的 PNG：声明后在 code 里用
+   texture(uNoise, uv).rgb 采样（自动无缝循环）。
+5. 改完文件后，到游戏内「自制效果」页点「重载自制效果」即可热更新，
+   不用重启游戏。写错了也不会崩溃：效果会被跳过，错误见日志。

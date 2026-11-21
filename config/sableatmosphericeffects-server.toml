@@ -1,0 +1,53 @@
+#Aerodynamic loads applied to Sable constructions.
+[aerodynamics]
+	#server aerodynamics
+	enabled = true
+	#removes universal_drag from Sable.
+	suppressSableUniversalDrag = true
+	#I don't think you should touch this; essentially, it's just a second `densityScale` constant.
+	# Default: 400.0
+	# Range: 1.0 ~ 100000.0
+	blockMassKilograms = 400.0
+	#just air density.
+	# Default: 7.0
+	# Range: 0.0 ~ 20.0
+	densityScale = 7.0
+	#Multiplier on skin friction. The coefficient itself is computed from the, Reynolds number
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	frictionScale = 1.0
+	#Wave drag multiplier at subsonic/supersonic speeds
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	waveDragScale = 1.0
+	#LiftScale multiplayer
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	potentialLiftScale = 1.0
+	#How far below ambient the separated wake behind a construction sits, as a
+	#fraction of dynamic pressure.
+	# Default: 0.3
+	# Range: 0.0 ~ 1.0
+	basePressureCoefficient = 0.3
+	#How many panels the outer skin is merged down before the flow is solved.
+	#Higher resolves the moment across large surfaces more finely, at a linear cost
+	#every physics substep.
+	# Default: 384
+	# Range: 24 ~ 4096
+	panelBudget = 384
+
+#I don't think you need this. Off by default.
+[diagnostics]
+	#recorded
+	enabled = false
+	#
+	# 
+	# Default: 10
+	# Range: 1 ~ 200
+	traceIntervalTicks = 10
+	#"\n ")
+	# Default: 100000
+	# Range: 1000 ~ 10000000
+	maxLinesPerConstruction = 100000
+	#A developer of this mod has defined this config option with a blank comment, which causes obscure bugs in NeoForge's config system and will cause a crash in the future. Please report this to the mod author.
+	probeOnFirstBuild = true

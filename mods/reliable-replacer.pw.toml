@@ -1,0 +1,13 @@
+name = "Reliable Replacer NeoForge 1.21.1 - 1.8.3"
+filename = "reliable_replacer-1.8.3+1.21.1-neoforge.jar"
+side = "server"
+
+[download]
+hash-format = "sha512"
+hash = "61c93edde3a1b819bf7c77c5538882d2ebd8ac28011c34901c7d3c2c005f33f3022e61e7ce3a6f17acaabbc2456adb1475910bba983c69723d6a4f878c04b484"
+url = "https://cdn.modrinth.com/data/swDAEYpN/versions/tULPF0XU/reliable_replacer-1.8.3%2B1.21.1-neoforge.jar"
+
+[update]
+[update.modrinth]
+mod-id = "swDAEYpN"
+version = "tULPF0XU"

@@ -1,0 +1,13 @@
+name = "Create: CROWNS x Create: More burners Compat 1.2.4"
+filename = "alexsimprovements-1.2.4.jar"
+side = "server"
+
+[download]
+hash-format = "sha512"
+hash = "c6fcbf40ce9f29d72dfad6e9c4c836b5684b068db69b886ec00fa469e3115e8a63d256ad0dbece524f10f7abe1af8508262462d48c1f4731c2a6ef252dad3927"
+url = "https://cdn.modrinth.com/data/sU6QKKmE/versions/DjtEzbW1/alexsimprovements-1.2.4.jar"
+
+[update]
+[update.modrinth]
+mod-id = "sU6QKKmE"
+version = "DjtEzbW1"

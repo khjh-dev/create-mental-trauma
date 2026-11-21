@@ -1,0 +1,11 @@
+{
+  "id": "rainbow_wave",
+  "name": "彩虹波浪",
+  "enabled": false,
+  "uniforms": [
+    { "id": "uStrength", "label": "强度", "type": "float", "min": 0.0, "max": 1.0, "def": 0.3 },
+    { "id": "uSpeed",    "label": "速度", "type": "float", "min": 0.0, "max": 5.0, "def": 1.0 }
+  ],
+  "helpers": "vec3 rainbow(float t) {\n    return 0.5 + 0.5 * cos(6.28318 * (t + vec3(0.0, 0.33, 0.67)));\n}",
+  "code": "vec3 rb = rainbow(uv.x * 0.5 + uTime * uSpeed * 0.1 + uv.y * 0.2);\ncolor = mix(color, rb, uStrength);"
+}

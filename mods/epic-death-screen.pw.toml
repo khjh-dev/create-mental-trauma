@@ -1,0 +1,13 @@
+name = "Epic Death Screen 2.0"
+filename = "epicdeathscreen-neoforge-1.21.1-1.1.0-beta.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha512"
+hash = "f4ab13b4247e417cd21ce8047f32f659b77f22efa69c0e4f1c4452ad6faeb8550f8abfa4ab8f720531368d50e99d4e72c61e6984dcfc7fd224b2fd8cac698f61"
+url = "https://cdn.modrinth.com/data/NBq5BYpp/versions/L3hQRVlG/epicdeathscreen-neoforge-1.21.1-1.1.0-beta.2.jar"
+
+[update]
+[update.modrinth]
+mod-id = "NBq5BYpp"
+version = "L3hQRVlG"

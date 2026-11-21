@@ -1,0 +1,13 @@
+name = "âï¸Create: Kinetic Waypoints 0.1.2"
+filename = "create-kinetic-waypoints-0.1.2-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha512"
+hash = "5ea2b3f393d2e3da6d10d77e9249f81adf88617357a9acab03a1731aa1c1af4027cc83fdb493b72cc3c330d827563ead67a55a55b5005e970bb96d0868efc472"
+url = "https://cdn.modrinth.com/data/MOszCHEz/versions/qjvtykBT/create-kinetic-waypoints-0.1.2-neoforge-1.21.1.jar"
+
+[update]
+[update.modrinth]
+mod-id = "MOszCHEz"
+version = "qjvtykBT"

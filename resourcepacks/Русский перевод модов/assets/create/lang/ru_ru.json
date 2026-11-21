@@ -1,0 +1,15 @@
+{
+ "create.gui.stock_keeper.click_to_cycle": "Нажмите для переключения",
+ "create.gui.stock_keeper.jei_sync.none": "Без синхронизации",
+ "create.gui.stock_keeper.jei_sync.none.description": "Поиски «Хранителя запасов» и «Просмотрщика рецептов» остаются независимыми",
+ "create.gui.stock_keeper.jei_sync.sync_both": "Синхронизация с «Просмотрщиком рецептов» и обратно",
+ "create.gui.stock_keeper.jei_sync.sync_both.description": "Поиски «Хранителя запасов» и «Просмотрщика рецептов» будут синхронизированы",
+ "create.gui.stock_keeper.jei_sync.sync_from_jei": "Синхронизация из «Просмотрщика рецептов»",
+ "create.gui.stock_keeper.jei_sync.sync_from_jei.description": "Поиск в «Просмотрщике рецептов» будет отражён «Хранителем запасов»",
+ "create.gui.stock_keeper.jei_sync.sync_from_stock_keeper": "Синхронизация из «Хранителя запасов»",
+ "create.gui.stock_keeper.jei_sync.sync_from_stock_keeper.description": "Поиск в «Хранителе запасов» будет отражён «Просмотрщиком рецептов»",
+ "create.keyinfo.alt_modifier": "Модификатор Alt",
+ "create.keyinfo.ctrl_modifier": "Модификатор Ctrl",
+ "create.keyinfo.shift_modifier": "Модификатор Shift",
+ "tag.item.c.foods.dough.wheat": "Пшеничное тесто"
+}

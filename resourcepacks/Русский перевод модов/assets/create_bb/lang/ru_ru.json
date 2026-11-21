@@ -1,0 +1,17 @@
+{
+ "create_bb.menu.title": "Настройка тележек",
+ "create_bb.tooltips.switch_to_bogey_menu": "Открыть меню Steam 'n' Rails",
+ "create_bb.tooltips.switch_to_bb_menu": "Открыть меню блоков и тележек",
+ "create_bb.bogies.style.triple_axle_extended_rodless": "0-6-0 удлинённая, без шатунов",
+ "create_bb.menu.type": "Тележка: ",
+ "create_bb.valve_gear.gearless": "Без шестерён",
+ "create_bb.valve_gear.rodless": "Без шатунов",
+ "create_bb.valve_gear.pistonless": "Без поршней",
+ "create_bb.length.spaced": "С промежутком",
+ "create_bb.bogies.style.single_axle_rodless": "0-2-0 без шатунов",
+ "create_bb.bogies.style.double_axle_rodless": "0-4-0 без шатунов",
+ "create_bb.bogies.style.triple_axle_rodless": "0-6-0 без шатунов",
+ "create_bb.bogies.style.quadruple_axle_rodless": "0-8-0 без шатунов",
+ "create_bb.bogies.style.quintuple_axle_rodless": "0-10-0 без шатунов",
+ "create_bb.bogies.style.sextuple_axle_rodless": "0-12-0 без шатунов"
+}

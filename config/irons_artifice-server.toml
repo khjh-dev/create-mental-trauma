@@ -1,0 +1,39 @@
+[illificer]
+	#Chance (0-1) for an Illificer to replace an Patrol Leader on natural patrol
+	# Default: 0.5
+	# Range: 0.0 ~ 1.0
+	replacePatrolLeader = 0.5
+
+[drowned-pirates]
+	#Chance (0-1) for Drowned Pirates to ambush various ocean chests
+	# Default: 0.25
+	# Range: 0.0 ~ 1.0
+	drownedPirateAmbush = 0.25
+
+#Gun components overrides (applies to base stats)
+#Each [[guns.overrides]] table names one gun item id, and sets components by id.
+#Component value overrides can be numerical or boolean (true/false)
+#Only components already in the gun's base stats can be changed. Common component ids:
+#  "irons_artifice:damage", "irons_artifice:spread", "irons_artifice:fire_delay", "irons_artifice:projectile_count", "irons_artifice:bullet_speed", "irons_artifice:knockback", "irons_artifice:character_blowback"
+#Example:
+#  [[guns.overrides]]
+#  item = "irons_artifice:musket"
+#  "irons_artifice:damage" = 24.0
+#  "irons_artifice:spread" = 0.25
+[guns]
+	#Whether the overrides below apply
+	enabled = true
+	[[guns.overrides]]
+		item = "irons_artifice:flintlock"
+	[[guns.overrides]]
+		item = "irons_artifice:musket"
+	[[guns.overrides]]
+		item = "irons_artifice:blunderbuss"
+	[[guns.overrides]]
+		item = "irons_artifice:blackpowder_revolver"
+	[[guns.overrides]]
+		item = "irons_artifice:six_shooter"
+	[[guns.overrides]]
+		item = "irons_artifice:arquebus"
+	[[guns.overrides]]
+		item = "irons_artifice:clockwork_rifle"

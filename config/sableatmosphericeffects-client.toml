@@ -1,0 +1,15 @@
+#Rendering quality:
+[rendering]
+	#luminescence intensity
+	# Default: 1.0
+	# Range: 0.0 ~ 4.0
+	intensity = 1.0
+	# 
+	#More shells look more volumetric and cost proportionally more geometry.
+	# Default: 4
+	# Range: 1 ~ 6
+	shellLayers = 4
+	#Effect levels: higher settings mean a fuller, denser look—and lower FPS
+	# Default: 12000
+	# Range: 512 ~ 60000
+	envelopeVertices = 12000

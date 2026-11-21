@@ -1,0 +1,8 @@
+{
+ "foggyborder.yacl.category.client": "Настройки клиента",
+ "foggyborder.yacl.option.disable-worldborder": "Отключить границу мира",
+ "foggyborder.yacl.option.fog-end-distance-multiplier": "Множитель дистанции конца тумана",
+ "foggyborder.yacl.option.fog-start-distance-multiplier": "Множитель дистанции начала тумана",
+ "foggyborder.yacl.option.minimum-fog-end-distance": "Минимальная дистанция конца тумана",
+ "foggyborder.yacl.option.minimum-fog-start-distance": "Минимальная дистанция начала тумана"
+}

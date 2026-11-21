@@ -1,0 +1,4 @@
+[logging]
+	#Hide Loconautics debug INFO messages ([maneuver], [boilerfix], [issue274], ...).
+	#Warnings and errors are kept.
+	quietInfo = true

@@ -1,0 +1,13 @@
+name = "Create: Constellation 3.2.5"
+filename = "createtree-3.2.5.jar"
+side = "both"
+
+[download]
+hash-format = "sha512"
+hash = "43cd2794321cec22c14d487a8883482d17fab85b97b3c34724d8638452eabcd56cee80401aab19146769c67dcef6374f04463aab84442210671e5c3e8ebb39ea"
+url = "https://cdn.modrinth.com/data/ft99Yjl4/versions/x7ptDDW5/createtree-3.2.5.jar"
+
+[update]
+[update.modrinth]
+mod-id = "ft99Yjl4"
+version = "x7ptDDW5"

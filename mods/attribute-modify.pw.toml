@@ -1,0 +1,13 @@
+name = "Attribute Modify 1.3.0"
+filename = "neoattributemodify-1.3.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha512"
+hash = "f6e6e68a3fc81ef0a8a5b3ac5294421aeea45531408e6677a607bf725302d9bd5171bdc0b3955a7086ae3752db179f5ab2b52b631609ebc524fbcaeb7fb3ea36"
+url = "https://cdn.modrinth.com/data/bOWz461U/versions/8jZscamL/neoattributemodify-1.3.0.jar"
+
+[update]
+[update.modrinth]
+mod-id = "bOWz461U"
+version = "8jZscamL"

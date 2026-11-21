@@ -1,0 +1,13 @@
+name = "Boundless: Quests 1.21.1-neo-12.1"
+filename = "boundless-1.21.1-neo-12.1.jar"
+side = "client"
+
+[download]
+hash-format = "sha512"
+hash = "02d47b0e7c610a66876af4ad5173217daaad7d8abc923dfd334b8129f24bf25a38dbfe612d15df0cc5f91551976e680d370aca9f11c9dc6625d345b199c45125"
+url = "https://cdn.modrinth.com/data/Pe7paqrv/versions/3xX7awEW/boundless-1.21.1-neo-12.1.jar"
+
+[update]
+[update.modrinth]
+mod-id = "Pe7paqrv"
+version = "3xX7awEW"

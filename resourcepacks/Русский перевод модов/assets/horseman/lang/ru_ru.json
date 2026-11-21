@@ -1,0 +1,10 @@
+{
+ "gui.horseman.summoning.cannot_bind.already_bound_to_someone_else": "§cЭто животное уже привязано",
+ "gui.horseman.summoning.cannot_bind.already_bound_to_you": "§cЭто животное уже привязано к вам",
+ "gui.horseman.summoning.cannot_bind.no_instrument": "§cНельзя привязать: нет инструмента",
+ "horseman.configuration.copper_horn_enabled": "Медный рог включён",
+ "horseman.configuration.leash_knot_sounds": "Звуки узла поводка",
+ "horseman.jei.info.copper_horn3": "Лошадь может реагировать на несколько инструментов.",
+ "subtitles.horseman.item.lead.break": "Узел поводка рвётся",
+ "subtitles.horseman.item.lead.untied": "Узел поводка развязан"
+}

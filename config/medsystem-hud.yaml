@@ -1,0 +1,48 @@
+# Show health bar
+showHealth: true
+
+# Show hunger bar (same style as health)
+showHunger: true
+
+# Show armor bar (same style as health)
+showArmor: true
+
+# Show numeric values next to the bars
+showNumbers: true
+
+# Hide the vanilla bar for every module enabled above
+hideVanilla: true
+
+# Horizontal offset
+offsetX: 0
+
+# Vertical offset
+offsetY: 0
+
+# Bar width in GUI pixels
+width: 100
+
+# Bar height in GUI pixels
+height: 8
+
+# Space between bars
+spacing: 3
+
+# Health color at full health
+healthColor: #FF3B3B
+
+# Health color when almost dead
+healthLowColor: #FFB300
+
+# Hunger bar color
+hungerColor: #D08A3E
+
+# Armor bar color
+armorColor: #AFC6D9
+
+# Background opacity
+backgroundAlpha: 110
+
+# Border opacity
+borderAlpha: 180
+

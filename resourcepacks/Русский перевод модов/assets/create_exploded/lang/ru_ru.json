@@ -1,0 +1,12 @@
+{
+ "block.create_exploded.example_block": "Пример блока",
+ "create_exploded.configuration.items": "Список предметов",
+ "create_exploded.configuration.logDirtBlock": "Логировать блок земли",
+ "create_exploded.configuration.magicNumber": "Магическое число",
+ "create_exploded.configuration.magicNumberIntroduction": "Текст магического числа",
+ "create_exploded.configuration.section.create_exploded.common.toml": "Конфигурации Create: Exploded",
+ "create_exploded.configuration.section.create_exploded.common.toml.title": "Конфигурации Create: Exploded",
+ "create_exploded.configuration.title": "Конфигурации Create: Exploded",
+ "item.create_exploded.example_item": "Пример предмета",
+ "itemGroup.create_exploded": "Вкладка примера мода"
+}

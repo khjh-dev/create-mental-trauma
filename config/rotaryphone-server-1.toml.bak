@@ -1,0 +1,33 @@
+#Length of newly assigned phone numbers; changing it does not renumber existing phones.
+# Default: 5
+# Range: 3 ~ 8
+phone_number_length = 5
+# Default: 30
+# Range: 5 ~ 300
+ring_timeout_seconds = 30
+# Default: 40
+# Range: 10 ~ 200
+ring_interval_ticks = 40
+global_directory_enabled = true
+default_publication = false
+redstone_while_ringing = true
+# Default: 16
+# Range: 2 ~ 64
+speakerphone_radius = 16
+cross_dimension_calls = true
+#Zero disables maximum duration.
+# Default: 0
+# Range: 0 ~ 240
+max_call_minutes = 0
+# Default: 10
+# Range: 1 ~ 200
+dial_cooldown_ticks = 10
+telephone_effect_enabled = true
+#Soft saturation amount applied only to telephone voice.
+# Default: 2.2
+# Range: 1.0 ~ 3.5
+telephone_drive = 2.2
+#Quiet line hiss while a participant speaks; zero disables hiss.
+# Default: 0.0012
+# Range: 0.0 ~ 0.01
+telephone_noise_level = 0.0012

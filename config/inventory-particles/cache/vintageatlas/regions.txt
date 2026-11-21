@@ -1,0 +1,10 @@
+vintageatlas:atlas_sheet	inventory_particles:atlas_sheet/glint/glint0_0	0	0	8	8
+vintageatlas:atlas_sheet	inventory_particles:atlas_sheet/glint/glint0_1	8	0	8	8
+vintageatlas:atlas_sheet	inventory_particles:atlas_sheet/glint/glint0_2	16	0	8	8
+vintageatlas:atlas_sheet	inventory_particles:atlas_sheet/glint/glint0_3	24	0	8	8
+vintageatlas:atlas_sheet	inventory_particles:atlas_sheet/glint/glint0_4	32	0	8	8
+vintageatlas:copper_pin	inventory_particles:copper_pin/glint/glint0_0	40	0	8	8
+vintageatlas:copper_pin	inventory_particles:copper_pin/glint/glint0_1	48	0	8	8
+vintageatlas:copper_pin	inventory_particles:copper_pin/glint/glint0_2	56	0	8	8
+vintageatlas:copper_pin	inventory_particles:copper_pin/glint/glint0_3	64	0	8	8
+vintageatlas:copper_pin	inventory_particles:copper_pin/glint/glint0_4	72	0	8	8

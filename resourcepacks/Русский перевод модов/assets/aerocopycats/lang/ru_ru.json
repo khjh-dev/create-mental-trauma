@@ -1,0 +1,12 @@
+{
+ "aerocopycats.configuration.items": "Список предметов",
+ "aerocopycats.configuration.logDirtBlock": "Журналировать блок земли",
+ "aerocopycats.configuration.magicNumber": "Магическое число",
+ "aerocopycats.configuration.magicNumberIntroduction": "Текст магического числа",
+ "aerocopycats.configuration.section.aerocopycats.common.toml": "Конфигурации aero_copycats",
+ "aerocopycats.configuration.section.aerocopycats.common.toml.title": "Конфигурации aero_copycats",
+ "aerocopycats.configuration.title": "Конфигурации aero_copycats",
+ "block.aerocopycats.example_block": "Блок-пример",
+ "item.aerocopycats.example_item": "Предмет-пример",
+ "itemGroup.aerocopycats": "Вкладка мода-примера"
+}

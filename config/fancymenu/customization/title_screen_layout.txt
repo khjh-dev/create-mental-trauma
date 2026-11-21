@@ -1,0 +1,516 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = title_screen
+  render_custom_elements_behind_vanilla = true
+  is_enabled = true
+  randommode = false
+  randomgroup = 1
+  layout_index = 0
+}
+
+menu_background {
+  instance_identifier = d2092640-2212-4482-8050-819c3726eadd
+  background_type = image
+  show_background = true
+  image_path = [source:local]/config/fancymenu/assets/last_adventure/background.png
+  slide = false
+  repeat_texture = false
+  parallax = false
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = false
+}
+
+element {
+  element_type = image
+  instance_identifier = 6a6858d0-6b19-5587-92fe-8c0aba4ea4f9
+  anchor_point = mid-centered
+  sticky_anchor = true
+  x = 0
+  y = 0
+  width = 310
+  height = 222
+  stay_on_screen = false
+  auto_sizing = false
+  base_opacity = 1.0
+  appearance_delay = no_delay
+  disappearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  enable_parallax = false
+  load_once_per_session = false
+  layer_hidden_in_editor = false
+  source = [source:local]/config/fancymenu/assets/last_adventure/main_frame.png
+  repeat_texture = false
+  nine_slice_texture = false
+}
+
+element {
+  element_type = image
+  instance_identifier = ba79ab8a-e799-503f-94a9-0e3b5d32d86a
+  anchor_point = mid-centered
+  sticky_anchor = true
+  x = 0
+  y = -83
+  width = 264
+  height = 40
+  stay_on_screen = false
+  auto_sizing = false
+  base_opacity = 1.0
+  appearance_delay = no_delay
+  disappearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  enable_parallax = false
+  load_once_per_session = false
+  layer_hidden_in_editor = false
+  source = [source:local]/config/fancymenu/assets/last_adventure/heading.png
+  repeat_texture = false
+  nine_slice_texture = false
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = mc_titlescreen_singleplayer_button
+  anchor_point = mid-centered
+  sticky_anchor = true
+  x = -96
+  y = 10
+  width = 90
+  height = 112
+  stay_on_screen = false
+  auto_sizing = false
+  base_opacity = 1.0
+  appearance_delay = no_delay
+  disappearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  enable_parallax = false
+  load_once_per_session = false
+  layer_hidden_in_editor = false
+  is_hidden = false
+  navigatable = true
+  transparent_background = false
+  underline_label_on_hover = false
+  label = Одиночная игра
+  backgroundnormal = [source:local]/config/fancymenu/assets/last_adventure/world_normal.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/last_adventure/world_hover.png
+  background_texture_inactive = [source:local]/config/fancymenu/assets/last_adventure/world_inactive.png
+  nine_slice_custom_background = false
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = mc_titlescreen_multiplayer_button
+  anchor_point = mid-centered
+  sticky_anchor = true
+  x = 0
+  y = 10
+  width = 90
+  height = 112
+  stay_on_screen = false
+  auto_sizing = false
+  base_opacity = 1.0
+  appearance_delay = no_delay
+  disappearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  enable_parallax = false
+  load_once_per_session = false
+  layer_hidden_in_editor = false
+  is_hidden = false
+  navigatable = true
+  transparent_background = false
+  underline_label_on_hover = false
+  label = Сетевая игра
+  backgroundnormal = [source:local]/config/fancymenu/assets/last_adventure/network_normal.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/last_adventure/network_hover.png
+  background_texture_inactive = [source:local]/config/fancymenu/assets/last_adventure/network_inactive.png
+  nine_slice_custom_background = false
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = mc_titlescreen_options_button
+  anchor_point = mid-centered
+  sticky_anchor = true
+  x = 96
+  y = 10
+  width = 90
+  height = 112
+  stay_on_screen = false
+  auto_sizing = false
+  base_opacity = 1.0
+  appearance_delay = no_delay
+  disappearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  enable_parallax = false
+  load_once_per_session = false
+  layer_hidden_in_editor = false
+  is_hidden = false
+  navigatable = true
+  transparent_background = false
+  underline_label_on_hover = false
+  label = Настройки
+  backgroundnormal = [source:local]/config/fancymenu/assets/last_adventure/settings_normal.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/last_adventure/settings_hover.png
+  background_texture_inactive = [source:local]/config/fancymenu/assets/last_adventure/settings_inactive.png
+  nine_slice_custom_background = false
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = mc_titlescreen_quit_button
+  anchor_point = mid-centered
+  sticky_anchor = true
+  x = 0
+  y = 90
+  width = 96
+  height = 18
+  stay_on_screen = false
+  auto_sizing = false
+  base_opacity = 1.0
+  appearance_delay = no_delay
+  disappearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  enable_parallax = false
+  load_once_per_session = false
+  layer_hidden_in_editor = false
+  is_hidden = false
+  navigatable = true
+  transparent_background = false
+  underline_label_on_hover = false
+  label = Выход
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = forge_titlescreen_mods_button
+  anchor_point = mid-centered
+  sticky_anchor = true
+  x = -93
+  y = 90
+  width = 74
+  height = 18
+  stay_on_screen = false
+  auto_sizing = false
+  base_opacity = 1.0
+  appearance_delay = no_delay
+  disappearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  enable_parallax = false
+  load_once_per_session = false
+  layer_hidden_in_editor = false
+  is_hidden = false
+  navigatable = true
+  transparent_background = false
+  underline_label_on_hover = false
+  label = Моды
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = 376388
+  anchor_point = mid-centered
+  sticky_anchor = true
+  x = -133
+  y = 90
+  width = 20
+  height = 18
+  stay_on_screen = false
+  auto_sizing = false
+  base_opacity = 1.0
+  appearance_delay = no_delay
+  disappearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  enable_parallax = false
+  load_once_per_session = false
+  layer_hidden_in_editor = false
+  is_hidden = false
+  navigatable = true
+  transparent_background = false
+  underline_label_on_hover = false
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = 628388
+  anchor_point = mid-centered
+  sticky_anchor = true
+  x = 133
+  y = 90
+  width = 20
+  height = 18
+  stay_on_screen = false
+  auto_sizing = false
+  base_opacity = 1.0
+  appearance_delay = no_delay
+  disappearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  enable_parallax = false
+  load_once_per_session = false
+  layer_hidden_in_editor = false
+  is_hidden = false
+  navigatable = true
+  transparent_background = false
+  underline_label_on_hover = false
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = mc_titlescreen_realms_button
+  anchor_point = mid-centered
+  sticky_anchor = true
+  x = 0
+  y = 0
+  width = 20
+  height = 20
+  stay_on_screen = false
+  auto_sizing = false
+  base_opacity = 1.0
+  appearance_delay = no_delay
+  disappearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  enable_parallax = false
+  load_once_per_session = false
+  layer_hidden_in_editor = false
+  is_hidden = true
+  navigatable = true
+  transparent_background = false
+  underline_label_on_hover = false
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = minecraft_realms_notification_icons_widget
+  anchor_point = mid-centered
+  sticky_anchor = true
+  x = 0
+  y = 0
+  width = 20
+  height = 20
+  stay_on_screen = false
+  auto_sizing = false
+  base_opacity = 1.0
+  appearance_delay = no_delay
+  disappearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  enable_parallax = false
+  load_once_per_session = false
+  layer_hidden_in_editor = false
+  is_hidden = true
+  navigatable = true
+  transparent_background = false
+  underline_label_on_hover = false
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = minecraft_splash_widget
+  anchor_point = mid-centered
+  sticky_anchor = true
+  x = 0
+  y = 0
+  width = 20
+  height = 20
+  stay_on_screen = false
+  auto_sizing = false
+  base_opacity = 1.0
+  appearance_delay = no_delay
+  disappearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  enable_parallax = false
+  load_once_per_session = false
+  layer_hidden_in_editor = false
+  is_hidden = true
+  navigatable = true
+  transparent_background = false
+  underline_label_on_hover = false
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = minecraft_logo_widget
+  anchor_point = mid-centered
+  sticky_anchor = true
+  x = 0
+  y = 0
+  width = 20
+  height = 20
+  stay_on_screen = false
+  auto_sizing = false
+  base_opacity = 1.0
+  appearance_delay = no_delay
+  disappearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  enable_parallax = false
+  load_once_per_session = false
+  layer_hidden_in_editor = false
+  is_hidden = true
+  navigatable = true
+  transparent_background = false
+  underline_label_on_hover = false
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = minecraft_branding_widget
+  anchor_point = mid-centered
+  sticky_anchor = true
+  x = 0
+  y = 0
+  width = 20
+  height = 20
+  stay_on_screen = false
+  auto_sizing = false
+  base_opacity = 1.0
+  appearance_delay = no_delay
+  disappearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  enable_parallax = false
+  load_once_per_session = false
+  layer_hidden_in_editor = false
+  is_hidden = true
+  navigatable = true
+  transparent_background = false
+  underline_label_on_hover = false
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = title_screen_copyright_button
+  anchor_point = mid-centered
+  sticky_anchor = true
+  x = 0
+  y = 0
+  width = 20
+  height = 20
+  stay_on_screen = false
+  auto_sizing = false
+  base_opacity = 1.0
+  appearance_delay = no_delay
+  disappearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  enable_parallax = false
+  load_once_per_session = false
+  layer_hidden_in_editor = false
+  is_hidden = true
+  navigatable = true
+  transparent_background = false
+  underline_label_on_hover = false
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = 604388
+  anchor_point = mid-centered
+  sticky_anchor = true
+  x = 0
+  y = 0
+  width = 20
+  height = 20
+  stay_on_screen = false
+  auto_sizing = false
+  base_opacity = 1.0
+  appearance_delay = no_delay
+  disappearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  enable_parallax = false
+  load_once_per_session = false
+  layer_hidden_in_editor = false
+  is_hidden = true
+  navigatable = true
+  transparent_background = false
+  underline_label_on_hover = false
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = 376306
+  anchor_point = mid-centered
+  sticky_anchor = true
+  x = 0
+  y = 0
+  width = 20
+  height = 20
+  stay_on_screen = false
+  auto_sizing = false
+  base_opacity = 1.0
+  appearance_delay = no_delay
+  disappearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  enable_parallax = false
+  load_once_per_session = false
+  layer_hidden_in_editor = false
+  is_hidden = true
+  navigatable = true
+  transparent_background = false
+  underline_label_on_hover = false
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = 604354
+  anchor_point = mid-centered
+  sticky_anchor = true
+  x = 0
+  y = 0
+  width = 20
+  height = 20
+  stay_on_screen = false
+  auto_sizing = false
+  base_opacity = 1.0
+  appearance_delay = no_delay
+  disappearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  enable_parallax = false
+  load_once_per_session = false
+  layer_hidden_in_editor = false
+  is_hidden = true
+  navigatable = true
+  transparent_background = false
+  underline_label_on_hover = false
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = 604306
+  anchor_point = mid-centered
+  sticky_anchor = true
+  x = 0
+  y = 0
+  width = 20
+  height = 20
+  stay_on_screen = false
+  auto_sizing = false
+  base_opacity = 1.0
+  appearance_delay = no_delay
+  disappearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  enable_parallax = false
+  load_once_per_session = false
+  layer_hidden_in_editor = false
+  is_hidden = true
+  navigatable = true
+  transparent_background = false
+  underline_label_on_hover = false
+}
+

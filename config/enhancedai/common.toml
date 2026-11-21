@@ -1,0 +1,5 @@
+"Enable Mobs" = true
+
+[Mobs]
+	#Enables a Mobs Properties Randomness data pack that adds even more buffs to mobs. Only gets enabled if MPR is installed
+	"Enable MPR data pack" = true

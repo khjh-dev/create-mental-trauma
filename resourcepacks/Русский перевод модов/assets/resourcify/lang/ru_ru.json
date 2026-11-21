@@ -1,0 +1,4 @@
+{
+ "resourcify.config.disable-gifs.description": "Отключает отрисовку GIF в Resourcify — это может помочь уменьшить подтормаживания при загрузке изображений.",
+ "resourcify.config.disable-gifs.title": "Отключить отрисовку GIF"
+}

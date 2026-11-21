@@ -1,0 +1,10 @@
+{
+ "item.yungscavebiomes.ancient_armor_trim_smithing_template": "Кузнечный шаблон",
+ "text.autoconfig.yungscavebiomes-fabric-1_20_1.option.config.lostCaves": "Затерянные пещеры",
+ "text.autoconfig.yungscavebiomes-fabric-1_20_1.option.config.lostCaves.enableSandstorms": "Включить песчаные бури",
+ "text.autoconfig.yungscavebiomes-fabric-1_20_1.option.config.lostCaves.extraSandstormParticles": "Отображать дополнительные частицы во время песчаных бурь",
+ "text.autoconfig.yungscavebiomes-fabric-1_20_1.option.config.lostCaves.maxSandstormDuration": "Макс. длительность песчаной бури (секунды)",
+ "text.autoconfig.yungscavebiomes-fabric-1_20_1.option.config.lostCaves.maxTimeBetweenSandstorms": "Макс. время между песчаными бурями (секунды)",
+ "text.autoconfig.yungscavebiomes-fabric-1_20_1.option.config.lostCaves.minSandstormDuration": "Мин. длительность песчаной бури (секунды)",
+ "text.autoconfig.yungscavebiomes-fabric-1_20_1.option.config.lostCaves.minTimeBetweenSandstorms": "Мин. время между песчаными бурями (секунды)"
+}

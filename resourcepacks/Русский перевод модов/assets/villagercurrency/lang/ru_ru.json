@@ -1,0 +1,9 @@
+{
+ "villagercurrency.configuration.enabled": "Включить замену валюты",
+ "villagercurrency.configuration.exchangeRate": "Обменный курс",
+ "villagercurrency.configuration.section.villagercurrency.common.toml": "Конфигурация Villager Currency",
+ "villagercurrency.configuration.section.villagercurrency.common.toml.title": "Конфигурация Villager Currency",
+ "villagercurrency.configuration.sourceCurrency": "ID предмета исходной валюты",
+ "villagercurrency.configuration.targetCurrency": "ID предмета целевой валюты",
+ "villagercurrency.configuration.title": "Конфигурация Villager Currency"
+}

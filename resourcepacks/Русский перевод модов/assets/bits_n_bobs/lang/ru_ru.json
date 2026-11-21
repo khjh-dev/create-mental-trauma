@@ -1,0 +1,15 @@
+{
+ "bits_n_bobs.ponder.foreign_label": "Bits n Bobs",
+ "block.bits_n_bobs.industrial_truss": "Металлическая ферма",
+ "block.bits_n_bobs.industrial_truss.tooltip.summary": "Можно использовать, чтобы _заключать трубы и валы в корпус_.",
+ "block.bits_n_bobs.industrial_truss_pipe": "Труба металлической фермы",
+ "block.bits_n_bobs.industrial_truss_shaft": "Вал промышленной фермы",
+ "create.gui.assembly.exception.bits_n_bobs.no_chain_to_attach_to": "Поблизости нет цепи зубчатых колёс для присоединения!",
+ "message.bits_n_bobs.cogwheel_chain.chain_addition_aborted.invalid_cogwheel_type.cogwheel_chain_type.bits_n_bobs.belt": "Ременные приводы зубчатых колёс должны устанавливаться на фланцевое зубчатое колесо!",
+ "message.bits_n_bobs.cogwheel_chain.chain_addition_aborted.invalid_cogwheel_type.cogwheel_chain_type.bits_n_bobs.chain": "Цепные приводы зубчатых колёс нельзя разместить на этом зубчатом колесе!",
+ "message.bits_n_bobs.cogwheel_chain.chain_addition_aborted.invalid_cogwheel_type.cogwheel_chain_type.bits_n_bobs.rope": "Канатные приводы зубчатых колёс должны устанавливаться на фланцевое зубчатое колесо!",
+ "message.bits_n_bobs.cogwheel_chain.chain_addition_aborted.not_enough_material": "Недостаточно материалов для завершения цепи!",
+ "message.bits_n_bobs.cogwheel_chain.chain_addition_aborted.out_of_node_count": "Цепь зубчатых колёс превышает максимальное число узлов!",
+ "tooltip.bits_n_bobs.suppressed_cogwheel": "Это деревянное зубчатое колесо скрыто из-за настроек Bits 'n' Bobs",
+ "tab.bits_n_bobs.base": "Bits 'n' Bobs"
+}

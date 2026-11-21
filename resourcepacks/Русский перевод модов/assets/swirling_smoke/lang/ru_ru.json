@@ -1,0 +1,23 @@
+{
+ "swirling_smoke.configuration.aeronauticsPropellerRange": "Радиус пропеллера Aeronautics",
+ "swirling_smoke.configuration.baseWindStrength": "Базовая сила ветра",
+ "swirling_smoke.configuration.calmWindChance": "Шанс тихого ветра",
+ "swirling_smoke.configuration.createFanRange": "Радиус механического вентилятора",
+ "swirling_smoke.configuration.enableAeronauticsCompat": "Совместимость с Create: Aeronautics",
+ "swirling_smoke.configuration.enableCreateFanCompat": "Совместимость с механическим вентилятором Create",
+ "swirling_smoke.configuration.enableHeightEffect": "Влияние высоты",
+ "swirling_smoke.configuration.enableSteamNRailsCompat": "Совместимость со Steam 'n' Rails",
+ "swirling_smoke.configuration.enableTurbulence": "Турбулентность",
+ "swirling_smoke.configuration.enableWeatherWind": "Погодный ветер",
+ "swirling_smoke.configuration.enableWindTypes": "Постоянные типы ветра",
+ "swirling_smoke.configuration.gustChance": "Шанс порыва",
+ "swirling_smoke.configuration.normalWindChance": "Шанс обычного ветра",
+ "swirling_smoke.configuration.propellerMultiplier": "Множитель пропеллера",
+ "swirling_smoke.configuration.section.swirling_smoke.client.toml": "Swirling Smoke",
+ "swirling_smoke.configuration.section.swirling_smoke.client.toml.title": "Swirling Smoke",
+ "swirling_smoke.configuration.smokeFullHeight": "Высота полного ветра дыма",
+ "swirling_smoke.configuration.smokeStartHeight": "Высота начала ветра дыма",
+ "swirling_smoke.configuration.stormMultiplier": "Множитель бури",
+ "swirling_smoke.configuration.strongWindChance": "Шанс сильного ветра",
+ "swirling_smoke.configuration.title": "Конфигурация Swirling Smoke"
+}

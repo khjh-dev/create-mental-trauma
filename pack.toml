@@ -1,0 +1,13 @@
+name = "Create: Mental Trauma"
+author = "smeta"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "98258fd4469013d504b284fc7ed088c264e9718941b85e6b22fe9962e1a725b6"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.265"

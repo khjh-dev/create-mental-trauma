@@ -1,0 +1,18 @@
+{
+ "block.createpropulsion.advanced_tilt_adapter": "Улучшенный адаптер наклона",
+ "block.createpropulsion.platinum_fluid_vessel": "Платиновый жидкостный сосуд",
+ "block.createpropulsion.solid_fuel_thruster": "Твердотопливный двигатель",
+ "createpropulsion.advanced_tilt_adapter.left_angle": "Предел левого угла",
+ "createpropulsion.advanced_tilt_adapter.right_angle": "Предел правого угла",
+ "createpropulsion.advanced_tilt_adapter.tooltip.independent": "Каждая сторона имеет собственный предел угла.",
+ "createpropulsion.advanced_tilt_adapter.tooltip.shared": "Обе стороны используют одинаковый предел угла.",
+ "createpropulsion.advanced_tilt_adapter.tooltip.summary": "Адаптер наклона с настраиваемыми максимальными углами для каждой стороны. Удерживайте Ctrl при установке значения, чтобы переключить общие пределы.",
+ "createpropulsion.gui.goggles.solid_fuel_thruster.burn_time": "время горения",
+ "createpropulsion.gui.goggles.solid_fuel_thruster.fuel_label": "Твёрдое топливо",
+ "createpropulsion.gui.goggles.solid_fuel_thruster.infinite": "Бесконечно",
+ "createpropulsion.gui.goggles.solid_fuel_thruster.superheated": "Перегретый",
+ "createpropulsion.platinum_fluid_vessel.tooltip.summary": "Хранит жидкости как медный жидкостный сосуд, но с удвоенной ёмкостью на блок.",
+ "createpropulsion.solid_fuel_thruster.tooltip.summary": "Компактный двигатель, сжигающий твёрдые предметы сзади. Красный камень работает только как вкл/выкл. Гаечный ключ открывает люк и забирает топливо из контейнеров позади.",
+ "death.attack.createpropulsion.coral": "%1$s погиб, слившись с кораллом",
+ "itemGroup.createpropulsion.base": "Create Propulsion: Simulated"
+}

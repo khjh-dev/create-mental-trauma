@@ -1,0 +1,4 @@
+#Surface discovery radius in blocks; loaded chunks only.
+# Default: 64
+# Range: 16 ~ 128
+discoveryRadius = 64

@@ -1,0 +1,13 @@
+name = "TireTrack 3.2.0"
+filename = "TireTracks-3.2.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha512"
+hash = "b984dcfb6650e6f77c343e959f919d817f617feb847bf149566271989684f89956c88e85a9c9e2225e64d8e3c560f53ae656f4b6dc729fce7671a8d847fcdfe7"
+url = "https://cdn.modrinth.com/data/DRLhknEQ/versions/TmfuMNnB/TireTracks-3.2.0.jar"
+
+[update]
+[update.modrinth]
+mod-id = "DRLhknEQ"
+version = "TmfuMNnB"

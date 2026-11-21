@@ -1,0 +1,9 @@
+{
+ "config.reliable_recount.category.general": "Общие",
+ "config.reliable_recount.font_style": "Стиль шрифта",
+ "config.reliable_recount.title": "Конфигурация Reliable Recount",
+ "text.cloth-config.reliable_recount.font_style.create": "Create",
+ "text.cloth-config.reliable_recount.font_style.noelle": "Noelle",
+ "text.cloth-config.reliable_recount.font_style.noelle_tiny": "Noelle (мелкий)",
+ "text.cloth-config.reliable_recount.font_style.vanilla": "Ванильный"
+}

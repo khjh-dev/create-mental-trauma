@@ -1,0 +1,13 @@
+name = "Artifice Create Recipes 0.1.2"
+filename = "artifice_create_recipes-0.1.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha512"
+hash = "a60596e3ccc8e4e19fd010c65ccbc15d563c9ca879ae60f7ec8ef512c90d975087351729c13c8e5f6ab5f71951c73711c781aae2999163b1418283b6aa9bd8e5"
+url = "https://cdn.modrinth.com/data/EWZF4LwS/versions/FamDUcvf/artifice_create_recipes-0.1.2.jar"
+
+[update]
+[update.modrinth]
+mod-id = "EWZF4LwS"
+version = "FamDUcvf"

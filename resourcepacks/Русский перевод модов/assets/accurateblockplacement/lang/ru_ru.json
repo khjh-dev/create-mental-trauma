@@ -1,0 +1,15 @@
+{
+ "net.clayborn.accurateblockplacement.fastbreakingdisabled": "§7Быстрое разрушение блоков: §cОтключено",
+ "net.clayborn.accurateblockplacement.fastbreakingenabled": "§7Быстрое разрушение блоков: §aВключено",
+ "net.clayborn.accurateblockplacement.modplacementmodemessage": "§7Accurate Block Placement: §aВключено",
+ "net.clayborn.accurateblockplacement.togglefastbreaking": "Переключить режим разрушения",
+ "net.clayborn.accurateblockplacement.togglevanillaplacement": "Переключить режим установки",
+ "net.clayborn.accurateblockplacement.vanillaplacementmodemessage": "§7Accurate Block Placement: §cОтключено",
+ "text.autoconfig.accurateblockplacement.option.accuratePlacementEnabled": "Accurate Block Placement включено",
+ "text.autoconfig.accurateblockplacement.option.confirmation": "Подтверждение при переключении",
+ "text.autoconfig.accurateblockplacement.option.confirmationType": "Тип подтверждения",
+ "text.autoconfig.accurateblockplacement.option.confirmationType.CHAT": "Чат",
+ "text.autoconfig.accurateblockplacement.option.confirmationType.HUD": "HUD",
+ "text.autoconfig.accurateblockplacement.option.fastBreakingEnabled": "Быстрое разрушение блоков включено",
+ "text.autoconfig.accurateblockplacement.title": "Accurate Block Placement"
+}

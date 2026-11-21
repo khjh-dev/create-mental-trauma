@@ -1,0 +1,8 @@
+{
+ "curios.networking.failed": "Сбой сетевого обмена Curios",
+ "curios.tooltip.inactive": "Неактивный слот",
+ "gui.curios.page": "Страница %d / %d",
+ "gui.curios.toggle.cosmetics": "Переключить косметику",
+ "curios.identifier.pouch": "Мешочек",
+ "curios.identifier.satchel": "Сумка"
+}

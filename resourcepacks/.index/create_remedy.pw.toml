@@ -1,0 +1,18 @@
+filename = 'Create- Remedy (GOLD).zip'
+name = 'Create: Remedy'
+side = 'client'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '0.4'
+
+[download]
+hash = '92004451031604bf75e11b3b11d6ebc488d29d4af0c959561bb632ac3b7cfe7126335bdc0e2e556ac1dfa54fffd461d546c2824a680f9185538a74fef3bf4a71'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/8N41skri/versions/vliu1yBO/Create%3A Remedy %28GOLD%29.zip'
+
+[update.modrinth]
+mod-id = '8N41skri'
+version = 'vliu1yBO'

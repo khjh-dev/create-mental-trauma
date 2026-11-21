@@ -1,0 +1,13 @@
+name = "Create: Copycat Casing 0.7.1"
+filename = "createcopycatcasing-0.7.1+mc1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha512"
+hash = "7a4926a04eb64b112f167ef65e102781c3c27304e55ba7028a60caa113faf51a2bbe75d109485edf3496a3bf976efe07599779102a2e453a0b23252ecc736961"
+url = "https://cdn.modrinth.com/data/3sbnHYvu/versions/bxdJ3dHX/createcopycatcasing-0.7.1%2Bmc1.21.1.jar"
+
+[update]
+[update.modrinth]
+mod-id = "3sbnHYvu"
+version = "bxdJ3dHX"

@@ -1,0 +1,5 @@
+{
+ "gui.aeromodular.hold.length": "Длина: %s блоков",
+ "gui.aeromodular.hold.thrust": "Примерная тяга: %s%%",
+ "gui.aeromodular.hold.hint": "Удерживайте правую кнопку мыши и тяните. Отпустите, чтобы применить."
+}

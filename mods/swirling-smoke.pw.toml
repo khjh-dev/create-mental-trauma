@@ -1,0 +1,13 @@
+name = "swirling smoke 1.1.0"
+filename = "swirling_smoke-1.1.0.jar"
+side = "client"
+
+[download]
+hash-format = "sha512"
+hash = "45be5dc10cea69cba737920240b70801003b89fe3bcc3ad64bb0cf1023ede9fac60a4975264d49400f5e26a306e5823e452420927f7e3d35e06d1a88a17c84bf"
+url = "https://cdn.modrinth.com/data/sty93Scj/versions/SNhVWp9j/swirling_smoke-1.1.0.jar"
+
+[update]
+[update.modrinth]
+mod-id = "sty93Scj"
+version = "SNhVWp9j"

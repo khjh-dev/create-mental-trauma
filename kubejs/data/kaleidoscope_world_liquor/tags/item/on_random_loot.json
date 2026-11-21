@@ -1,0 +1,9 @@
+{
+ "replace": false,
+ "values": [
+  {
+   "id": "kaleidoscope_world_liquor:brew_accelerator",
+   "required": false
+  }
+ ]
+}

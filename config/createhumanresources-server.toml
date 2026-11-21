@@ -1,0 +1,72 @@
+#Master switch for all hazards.
+enabled = true
+#Disable ALL damage caused by this mod. Grabbing and throwing still work. Launches grant 10 seconds of fall protection; unrelated environment damage remains possible.
+damageEnabled = true
+gearTrapsEnabled = true
+pressEnabled = true
+contactFlingEnabled = true
+#Capture distance from the incoming pinch point: 1 = 0.12, 2 = 0.4, 3 = 0.8 blocks. Uses the player's body bounds.
+# Default: 2
+# Range: 1 ~ 3
+captureRange = 2
+#Network CAPACITY in SU, not current consumption. At or below this, gears cannot grab you.
+# Default: 5000.0
+# Range: 0.0 ~ 1.0E12
+minimumGrabSU = 5000.0
+#Capacity at which a full tear is lethal to ordinary survival players. Must exceed minimumGrabSU.
+# Default: 150000.0
+# Range: 1.0 ~ 1.0E12
+lethalSU = 3000000.0
+#Damage points immediately below lethalSU (2 points = one heart).
+# Default: 18.0
+# Range: 0.0 ~ 10000.0
+maximumNonlethalTierDamage = 12.0
+#Higher values soften the low/mid SU tiers. Total damage is independent of RPM and tear duration.
+# Default: 1.35
+# Range: 0.1 ~ 8.0
+damageExponent = 1.6
+#Tooth travel for a complete tear, measured on the smaller cog. 90 degrees at 16 RPM takes 0.9375 seconds before tick rounding.
+# Default: 90.0
+# Range: 15.0 ~ 360.0
+tearAngleDegrees = 180.0
+#Fixed number of evenly spaced injuries per full tear, independent of RPM. Fast tears deliver the same hit count faster.
+# Default: 5
+# Range: 1 ~ 20
+damagePulsesPerTear = 5
+#1 = cog pitch circumference * RPM / 1200 blocks per tick; large cogs have twice the pitch radius.
+# Default: 1.0
+# Range: 0.01 ~ 10.0
+pullSpeedMultiplier = 1.0
+# Default: 1.0
+# Range: 0.01 ~ 10.0
+exitThrustMultiplier = 1.0
+#Maximum launch velocity in blocks per tick.
+# Default: 3.9
+# Range: 0.05 ~ 3.9
+maximumLaunchSpeed = 3.9
+# Default: 200.0
+# Range: 1.0 ~ 100000.0
+contactFlingMinimumRPM = 200.0
+#Contact fling injury at the minimum fling RPM, in damage points. 2 points = one heart. Scales with the square root of RPM; normal armor and resistance apply.
+# Default: 2.0
+# Range: 0.0 ~ 1000.0
+contactFlingDamage = 1.0
+#Maximum direct contact fling injury, excluding ordinary landing damage.
+# Default: 6.0
+# Range: 0.0 ~ 1000.0
+maximumContactFlingDamage = 4.0
+# Default: 1.0
+# Range: 0.01 ~ 10.0
+contactFlingMultiplier = 1.0
+#Ticks of immunity to another machine capture/fling after release.
+# Default: 20
+# Range: 1 ~ 1200
+recaptureCooldownTicks = 20
+#Scale the SU damage curve for each real press impact. Lethal SU still guarantees a lethal impact unless damage is disabled.
+# Default: 1.5
+# Range: 0.0 ~ 100.0
+pressDamageMultiplier = 0.8
+#Minimum press injury below the lethal tier, even on weak networks. Set to zero to use only the SU curve.
+# Default: 2.0
+# Range: 0.0 ~ 10000.0
+minimumPressDamage = 1.0

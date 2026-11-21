@@ -1,0 +1,4 @@
+#Maximum time to authenticate a remote connection, in seconds.
+# Default: 120
+# Range: 30 ~ 600
+authenticationTimeoutSeconds = 120

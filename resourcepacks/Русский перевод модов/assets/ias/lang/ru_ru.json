@@ -1,0 +1,4 @@
+{
+ "ias.config.closeOnLogin": "Закрывать после входа",
+ "ias.config.closeOnLogin.tip": "Закрывать экран аккаунта после входа в систему."
+}

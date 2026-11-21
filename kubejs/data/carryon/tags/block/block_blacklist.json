@@ -1,0 +1,1161 @@
+{
+ "replace": false,
+ "values": [
+  {
+   "id": "kaleidoscope_cookery:suspicious_stir_fry",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:zongzi_plate",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:spicy_blood_stew",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:clay_pot_milk_tea",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:table_crimson",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:tieguanyin",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:tundra_style_sashimi",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:tea_banner",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:buddha_jumps_over_the_wall",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:trash_can",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:chair_crimson",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:kalc/quark/cook_stool_azalea",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:fruit_basket",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:tomato_crop",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:biluochun",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:strung_mushrooms",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:cook_stool_birch",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:cook_stool_spruce",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:bamboo_tray",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:enamel_basin",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:end_style_sashimi",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:dongpo_pork",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:sweet_and_sour_ender_pearls",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:dough_drop_soup",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:oolong",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:sticky_candy_plate",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:tomato_platter",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:four_joy_meatball_soup",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:oil_pot",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:crimson_fungus_pot_soup",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:chair_acacia",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:stargazy_pie",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:chair_warped",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:chopping_board",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:table_mangrove",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:recipe_block",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:table_cherry",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:table_jungle",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:chorus_fried_egg",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:oil_block",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:table_bamboo",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:long_bench",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:blaze_lamb_chop",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:cook_stool_mangrove",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:kalc/quark/chair_ancient",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:steamer",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:chair_cherry",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:cook_stool_cherry",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:lettuce_crop",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:kalc/quark/table_blossom",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:butter_tea",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:cold_roasted_meat",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:red_mushroom_pot_soup",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:mystery_tea",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:dark_cuisine",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:spicy_chicken",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:table_oak",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:flower_tea",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:numbing_spicy_chicken",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:table_spruce",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:frost_lamb_chop",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:fried_spring_roll",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:kalc/quark/cook_stool_ancient",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:chair_bamboo",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:cold_cut_ham_slices",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:stuffed_tiger_skin_pepper",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:cook_stool_crimson",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:warped_fungus_pot_soup",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:bamboo_tube_rice",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:fried_caterpillar",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:braised_pork_ribs",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:crystal_lamb_chop",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:stockpot",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:shawarma_spit",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:chair_spruce",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:kitchenware_racks",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:table_warped",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:chair_dark_oak",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:golden_salad",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:kalc/quark/chair_azalea",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:cook_stool_warped",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:qingtuan_plate",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:pan_seared_knight_steak",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:cook_stool_acacia",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:table_dark_oak",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:berry_platter",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:desert_style_sashimi",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:candied_potato",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:chili_ristra",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:baozi_plate",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:brown_mushroom_pot_soup",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:chair_oak",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:kalc/quark/cook_stool_blossom",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:pot",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:cook_stool_oak",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:chorus_fruit_platter",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:kalc/quark/table_ancient",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:straw_block",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:chair_birch",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:stove",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:oil_splashed_fish",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:tea_tree",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:chili_crop",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:nether_style_sashimi",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:chair_mangrove",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:shengjian_mantou_plate",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:slime_ball_meal",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:fondant_spider_eye",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:cook_stool_dark_oak",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:apple_platter",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:chair_jungle",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:fondant_pie",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:teapot",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:spicy_rabbit_head",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:cook_stool_jungle",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:empty_cup",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:sakura_fubuki",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:table_acacia",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:eight_immortals_table",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:cook_stool_bamboo",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:millstone",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:table_birch",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:sticky_rice_cake_plate",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:kalc/quark/chair_blossom",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:rice_crop",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:kalc/quark/table_azalea",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:barley_tea",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:watermelon_platter",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:red_lantern",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:cold_style_sashimi",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:cellar_cabinet",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:grape_crop",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:whiskey",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:magenta_sofa",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:ice_grape_crop",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:red_sofa",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:black_sofa",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:grass_sandwich_board",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:mondrian_painting",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:yellow_pendant_lamp",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:string_lights_white",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:polaris_sweet_white",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:girl_with_pearl_earring_painting",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:string_lights_light_gray",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:purple_sofa",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:string_lights_gray",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:yellow_bar_stool",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:wither_rose_sandwich_board",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:mother_snow",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:father_painting",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:orange_bar_stool",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:brandy",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:mojito",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:catnip_incense",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:circular_rack",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:carignan",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:vodka",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:bloody_mary",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:shaker",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:stepladder",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:black_bar_stool",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:son_of_man_painting",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:green_bar_stool",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:light_blue_bar_stool",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:gold_grape_crop",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:allium_sandwich_board",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:red_bar_stool",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:string_lights_magenta",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:ysbb_painting",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:champagne",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:holder",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:plum_wine",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:pink_sofa",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:white_bar_stool",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:great_wave_painting",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:water_bottle",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:lime_sofa",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:sauvignon_blanc_dry_white",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:string_lights_yellow",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:barrel",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:signature_cocktail",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:empty_glassware",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:string_lights_lime",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:tilted_rack",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:rum",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:van_gogh_self_portrait_painting",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:string_lights_green",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:wild_grapevine_plant",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:mystery_cocktail",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:light_gray_bar_stool",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:orchid_sandwich_board",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:empty_bottle",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:light_blue_sofa",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:unknown_painting",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:string_lights_pink",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:string_lights_colorless",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:blue_pendant_lamp",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:string_lights_orange",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:brown_sofa",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:blue_sofa",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:miners_star",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:mona_lisa_painting",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:riesling_dry_white",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:godfather",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:sweet_berry_wine",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:sherry",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:string_lights_blue",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:ginkgo_incense",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:allium_garden",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:base_sandwich_board",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:snow_incense",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:ice_grapevine_trellis",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:pink_bar_stool",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:dragon_breath_bottle",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:potion_bottle",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:string_lights_brown",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:gold_grapevine_trellis",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:red_queen",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:torchflower_sandwich_board",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:pine_incense",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:pressing_tub",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:string_lights_cyan",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:honey_wine",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:ice_wine",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:tap",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:sunset_glow",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:tulip_sandwich_board",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:bell_pendant_lamp",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:string_lights_black",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:tartaric_acid_painting",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:string_lights_purple",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:sculk_special",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:magenta_bar_stool",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:luminous_bride",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:screwdriver",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:bar_cabinet",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:sakura_incense",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:string_lights_red",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:orange_sofa",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:watermelon_juice",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:white_lady",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:vinegar",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:purple_bar_stool",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:string_lights_light_blue",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:depth_charge",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:emerald",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:brown_bar_stool",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:pink_petals_sandwich_board",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:master_marisa_painting",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:butterfly_incense",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:bar_counter",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:sakura_wine",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:lime_bar_stool",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:blue_bar_stool",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:brass_heart",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:wild_grapevine",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:nether_special",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:chalkboard",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:light_gray_sofa",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:glowflower_brew",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:starry_night_painting",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:cr019_painting",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:cyan_sofa",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:sunflower_sandwich_board",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:cornflower_sandwich_board",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:green_sofa",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:poppy_sandwich_board",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:glassware_holder",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:madame_shexiang",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:azure_bluet_sandwich_board",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:yellow_sofa",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:wine",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:gray_bar_stool",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:pitcher_plant_sandwich_board",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:spore_incense",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:xp_bottle",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:table",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:molotov",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:white_sofa",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:glass_bar_cabinet",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:peony_sandwich_board",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:gray_sofa",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:honey_bottle",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:david_painting",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:grapevine_trellis",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:grasshopper",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:firefly_incense",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:trellis",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:cyan_bar_stool",
+   "required": false
+  }
+ ]
+}

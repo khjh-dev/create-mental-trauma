@@ -1,0 +1,13 @@
+name = "firearrows-neoforge-1.21.1-13.5"
+filename = "firearrows-neoforge-1.21.1-13.5.jar"
+side = "server"
+
+[download]
+hash-format = "sha512"
+hash = "c3dc3933669857cd85675eeb3d939c57ca2ba2a337567ffd2c557e1a24d99068aca9d8ce7f61569f19c7966ccd0a487061bcb79edeffa17a343cc6d0d63cfa34"
+url = "https://cdn.modrinth.com/data/NoajjpZQ/versions/fBnK5Knk/firearrows-neoforge-1.21.1-13.5.jar"
+
+[update]
+[update.modrinth]
+mod-id = "NoajjpZQ"
+version = "fBnK5Knk"

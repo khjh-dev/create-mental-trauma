@@ -1,0 +1,69 @@
+#Client-side seismic projector hologram rendering.
+[projectorVisuals]
+	#Render hologram fill in addition to outlines.
+	fillEnabled = true
+	#Fill alpha channel (0-255).
+	# Default: 70
+	# Range: 0 ~ 255
+	fillAlpha = 70
+	#Outline alpha channel (0-255).
+	# Default: 200
+	# Range: 0 ~ 255
+	edgeAlpha = 200
+	#World hologram face offset from block borders. Negative expands, positive shrinks.
+	# Default: 0.0
+	# Range: -0.45 ~ 0.45
+	blockEdgeInset = 0.0
+	#Render dashed guide lines from the projector to detected targets.
+	guideLinesEnabled = true
+	#In-world projector dashed guide line thickness.
+	# Default: 0.5
+	# Range: 0.2 ~ 1.0
+	guideLineWidth = 0.5
+	#Maximum number of exact veins displayed at once. Resource types take turns, starting with their closest veins; nearer types receive extra slots.
+	# Default: 10
+	# Range: 0 ~ 256
+	visibleVeinsMax = 10
+	#Ponder-only hologram face offset from block borders. Negative expands, positive shrinks.
+	# Default: 0.0
+	# Range: -0.45 ~ 0.45
+	ponderBlockEdgeInset = 0.0
+	#Ponder projector dashed guide line thickness.
+	# Default: 0.5
+	# Range: 0.2 ~ 1.0
+	ponderGuideLineWidth = 0.5
+
+#Client-side seismogram UI and projector placement guides.
+[seismogramUi]
+	#Show nearest signal sidebar while holding a seismogram.
+	sidebarEnabled = true
+	#Maximum number of nearest signals shown in the seismogram sidebar.
+	# Default: 5
+	# Range: 1 ~ 16
+	sidebarMaxSignals = 5
+	#Show triangulation invalid-distance boundary when a nearby projector has exactly one loaded node.
+	boundaryOverlayEnabled = true
+
+#Client-side in-world seismic waves. Opacity multiplies texture alpha and fades over each wave's lifetime.
+[waves]
+	#Starting opacity of impact waves from the hand hammer and station, at any pressure. Set 0 to hide.
+	# Default: 1.0
+	# Range: 0.0 ~ 1.0
+	impactOpacity = 1.0
+	#Starting echo opacity at confidence 0, at any pressure. Intermediate confidence interpolates between the two endpoints.
+	# Default: 1.0
+	# Range: 0.0 ~ 1.0
+	echoLowConfidenceOpacity = 1.0
+	#Starting echo opacity at confidence 1, at any pressure. Set both echo endpoints to 0 to hide echoes.
+	# Default: 1.0
+	# Range: 0.0 ~ 1.0
+	echoHighConfidenceOpacity = 1.0
+
+#Client-side camera feedback.
+[camera]
+	#Enable seismic camera shake effects.
+	shakeEnabled = true
+	#Multiplier applied to seismic camera shake intensity.
+	# Default: 1.0
+	# Range: 0.0 ~ 2.0
+	shakeScale = 1.0

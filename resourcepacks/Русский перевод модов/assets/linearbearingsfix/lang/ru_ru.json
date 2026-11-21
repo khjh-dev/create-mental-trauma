@@ -1,0 +1,12 @@
+{
+ "block.linearbearingsfix.example_block": "Блок-пример",
+ "item.linearbearingsfix.example_item": "Предмет-пример",
+ "itemGroup.linearbearingsfix": "Вкладка примера мода",
+ "linearbearingsfix.configuration.items": "Список предметов",
+ "linearbearingsfix.configuration.logDirtBlock": "Записывать блок земли в лог",
+ "linearbearingsfix.configuration.magicNumber": "Магическое число",
+ "linearbearingsfix.configuration.magicNumberIntroduction": "Текст магического числа",
+ "linearbearingsfix.configuration.section.linearbearingsfix.common.toml": "Конфигурация Linear Bearings Fix",
+ "linearbearingsfix.configuration.section.linearbearingsfix.common.toml.title": "Конфигурация Linear Bearings Fix",
+ "linearbearingsfix.configuration.title": "Конфигурация Linear Bearings Fix"
+}

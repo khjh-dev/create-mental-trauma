@@ -1,0 +1,4469 @@
+{
+ "replace": false,
+ "values": [
+  {
+   "id": "minecraft:note_block",
+   "required": false
+  },
+  {
+   "id": "minecraft:attached_melon_stem",
+   "required": false
+  },
+  {
+   "id": "minecraft:attached_pumpkin_stem",
+   "required": false
+  },
+  {
+   "id": "minecraft:azalea",
+   "required": false
+  },
+  {
+   "id": "minecraft:bamboo",
+   "required": false
+  },
+  {
+   "id": "minecraft:barrel",
+   "required": false
+  },
+  {
+   "id": "minecraft:bee_nest",
+   "required": false
+  },
+  {
+   "id": "minecraft:beehive",
+   "required": false
+  },
+  {
+   "id": "minecraft:beetroots",
+   "required": false
+  },
+  {
+   "id": "minecraft:big_dripleaf_stem",
+   "required": false
+  },
+  {
+   "id": "minecraft:big_dripleaf",
+   "required": false
+  },
+  {
+   "id": "minecraft:bookshelf",
+   "required": false
+  },
+  {
+   "id": "minecraft:brown_mushroom_block",
+   "required": false
+  },
+  {
+   "id": "minecraft:brown_mushroom",
+   "required": false
+  },
+  {
+   "id": "minecraft:campfire",
+   "required": false
+  },
+  {
+   "id": "minecraft:carrots",
+   "required": false
+  },
+  {
+   "id": "minecraft:cartography_table",
+   "required": false
+  },
+  {
+   "id": "minecraft:carved_pumpkin",
+   "required": false
+  },
+  {
+   "id": "minecraft:cave_vines_plant",
+   "required": false
+  },
+  {
+   "id": "minecraft:cave_vines",
+   "required": false
+  },
+  {
+   "id": "minecraft:chest",
+   "required": false
+  },
+  {
+   "id": "minecraft:chorus_flower",
+   "required": false
+  },
+  {
+   "id": "minecraft:chorus_plant",
+   "required": false
+  },
+  {
+   "id": "minecraft:cocoa",
+   "required": false
+  },
+  {
+   "id": "minecraft:composter",
+   "required": false
+  },
+  {
+   "id": "minecraft:crafting_table",
+   "required": false
+  },
+  {
+   "id": "minecraft:crimson_fungus",
+   "required": false
+  },
+  {
+   "id": "minecraft:daylight_detector",
+   "required": false
+  },
+  {
+   "id": "minecraft:dead_bush",
+   "required": false
+  },
+  {
+   "id": "minecraft:fern",
+   "required": false
+  },
+  {
+   "id": "minecraft:fletching_table",
+   "required": false
+  },
+  {
+   "id": "minecraft:glow_lichen",
+   "required": false
+  },
+  {
+   "id": "minecraft:short_grass",
+   "required": false
+  },
+  {
+   "id": "minecraft:hanging_roots",
+   "required": false
+  },
+  {
+   "id": "minecraft:jack_o_lantern",
+   "required": false
+  },
+  {
+   "id": "minecraft:jukebox",
+   "required": false
+  },
+  {
+   "id": "minecraft:ladder",
+   "required": false
+  },
+  {
+   "id": "minecraft:large_fern",
+   "required": false
+  },
+  {
+   "id": "minecraft:lectern",
+   "required": false
+  },
+  {
+   "id": "minecraft:lily_pad",
+   "required": false
+  },
+  {
+   "id": "minecraft:loom",
+   "required": false
+  },
+  {
+   "id": "minecraft:melon_stem",
+   "required": false
+  },
+  {
+   "id": "minecraft:melon",
+   "required": false
+  },
+  {
+   "id": "minecraft:mushroom_stem",
+   "required": false
+  },
+  {
+   "id": "minecraft:nether_wart",
+   "required": false
+  },
+  {
+   "id": "minecraft:potatoes",
+   "required": false
+  },
+  {
+   "id": "minecraft:pumpkin_stem",
+   "required": false
+  },
+  {
+   "id": "minecraft:pumpkin",
+   "required": false
+  },
+  {
+   "id": "minecraft:red_mushroom_block",
+   "required": false
+  },
+  {
+   "id": "minecraft:red_mushroom",
+   "required": false
+  },
+  {
+   "id": "minecraft:scaffolding",
+   "required": false
+  },
+  {
+   "id": "minecraft:small_dripleaf",
+   "required": false
+  },
+  {
+   "id": "minecraft:smithing_table",
+   "required": false
+  },
+  {
+   "id": "minecraft:soul_campfire",
+   "required": false
+  },
+  {
+   "id": "minecraft:spore_blossom",
+   "required": false
+  },
+  {
+   "id": "minecraft:sugar_cane",
+   "required": false
+  },
+  {
+   "id": "minecraft:sweet_berry_bush",
+   "required": false
+  },
+  {
+   "id": "minecraft:tall_grass",
+   "required": false
+  },
+  {
+   "id": "minecraft:trapped_chest",
+   "required": false
+  },
+  {
+   "id": "minecraft:twisting_vines_plant",
+   "required": false
+  },
+  {
+   "id": "minecraft:twisting_vines",
+   "required": false
+  },
+  {
+   "id": "minecraft:vine",
+   "required": false
+  },
+  {
+   "id": "minecraft:warped_fungus",
+   "required": false
+  },
+  {
+   "id": "minecraft:weeping_vines_plant",
+   "required": false
+  },
+  {
+   "id": "minecraft:weeping_vines",
+   "required": false
+  },
+  {
+   "id": "minecraft:wheat",
+   "required": false
+  },
+  {
+   "id": "#minecraft:banners",
+   "required": false
+  },
+  {
+   "id": "#minecraft:fence_gates",
+   "required": false
+  },
+  {
+   "id": "#minecraft:logs",
+   "required": false
+  },
+  {
+   "id": "#minecraft:planks",
+   "required": false
+  },
+  {
+   "id": "#minecraft:saplings",
+   "required": false
+  },
+  {
+   "id": "#minecraft:signs",
+   "required": false
+  },
+  {
+   "id": "#minecraft:wooden_buttons",
+   "required": false
+  },
+  {
+   "id": "#minecraft:wooden_doors",
+   "required": false
+  },
+  {
+   "id": "#minecraft:wooden_fences",
+   "required": false
+  },
+  {
+   "id": "#minecraft:wooden_pressure_plates",
+   "required": false
+  },
+  {
+   "id": "#minecraft:wooden_slabs",
+   "required": false
+  },
+  {
+   "id": "#minecraft:wooden_stairs",
+   "required": false
+  },
+  {
+   "id": "#minecraft:wooden_trapdoors",
+   "required": false
+  },
+  {
+   "id": "minecraft:mangrove_roots",
+   "required": false
+  },
+  {
+   "id": "#minecraft:all_hanging_signs",
+   "required": false
+  },
+  {
+   "id": "minecraft:bamboo_mosaic",
+   "required": false
+  },
+  {
+   "id": "minecraft:bamboo_mosaic_slab",
+   "required": false
+  },
+  {
+   "id": "minecraft:bamboo_mosaic_stairs",
+   "required": false
+  },
+  {
+   "id": "#minecraft:bamboo_blocks",
+   "required": false
+  },
+  {
+   "id": "minecraft:chiseled_bookshelf",
+   "required": false
+  },
+  {
+   "id": "analogaudio:radio",
+   "required": false
+  },
+  {
+   "id": "analogaudio:speaker",
+   "required": false
+  },
+  {
+   "id": "#another_furniture:benches",
+   "required": false
+  },
+  {
+   "id": "#another_furniture:chairs",
+   "required": false
+  },
+  {
+   "id": "#another_furniture:drawers",
+   "required": false
+  },
+  {
+   "id": "#another_furniture:lamps",
+   "required": false
+  },
+  {
+   "id": "#another_furniture:lamp_connectors",
+   "required": false
+  },
+  {
+   "id": "#another_furniture:flower_boxes",
+   "required": false
+  },
+  {
+   "id": "#another_furniture:shelves",
+   "required": false
+  },
+  {
+   "id": "#another_furniture:shutters",
+   "required": false
+  },
+  {
+   "id": "#another_furniture:sofas",
+   "required": false
+  },
+  {
+   "id": "#another_furniture:stools",
+   "required": false
+  },
+  {
+   "id": "#another_furniture:tables",
+   "required": false
+  },
+  {
+   "id": "#another_furniture:tall_stools",
+   "required": false
+  },
+  {
+   "id": "create_ca:brass_chain_drive",
+   "required": false
+  },
+  {
+   "id": "create_ca:brass_gearbox",
+   "required": false
+  },
+  {
+   "id": "create_ca:inverted_gearshift",
+   "required": false
+  },
+  {
+   "id": "create_ca:inverted_clutch",
+   "required": false
+  },
+  {
+   "id": "create_ca:adjustable_brass_chain_gearshift",
+   "required": false
+  },
+  {
+   "id": "createcasing:andesite_encased_fluid_pipe",
+   "required": false
+  },
+  {
+   "id": "createcasing:andesite_configurable_gearbox",
+   "required": false
+  },
+  {
+   "id": "createcasing:andesite_automatic_clutch",
+   "required": false
+  },
+  {
+   "id": "createcasing:brass_encased_fluid_pipe",
+   "required": false
+  },
+  {
+   "id": "createcasing:brass_gearbox",
+   "required": false
+  },
+  {
+   "id": "createcasing:brass_press",
+   "required": false
+  },
+  {
+   "id": "createcasing:brass_mixer",
+   "required": false
+  },
+  {
+   "id": "createcasing:brass_depot",
+   "required": false
+  },
+  {
+   "id": "createcasing:brass_encased_chain_drive",
+   "required": false
+  },
+  {
+   "id": "createcasing:brass_adjustable_chain_gearshift",
+   "required": false
+  },
+  {
+   "id": "createcasing:brass_configurable_gearbox",
+   "required": false
+  },
+  {
+   "id": "createcasing:brass_chain_conveyor",
+   "required": false
+  },
+  {
+   "id": "createcasing:brass_gearshift",
+   "required": false
+  },
+  {
+   "id": "createcasing:brass_clutch",
+   "required": false
+  },
+  {
+   "id": "createcasing:brass_automatic_clutch",
+   "required": false
+  },
+  {
+   "id": "createcasing:brass_deployer",
+   "required": false
+  },
+  {
+   "id": "createcasing:brass_portable_storage_interface",
+   "required": false
+  },
+  {
+   "id": "createcasing:brass_encased_fan",
+   "required": false
+  },
+  {
+   "id": "createcasing:brass_mechanical_harvester",
+   "required": false
+  },
+  {
+   "id": "createcasing:brass_mechanical_saw",
+   "required": false
+  },
+  {
+   "id": "createcasing:brass_mechanical_drill",
+   "required": false
+  },
+  {
+   "id": "createcasing:brass_mechanical_plough",
+   "required": false
+  },
+  {
+   "id": "createcasing:brass_mechanical_roller",
+   "required": false
+  },
+  {
+   "id": "createcasing:copper_encased_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:copper_encased_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:copper_encased_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:copper_gearbox",
+   "required": false
+  },
+  {
+   "id": "createcasing:copper_press",
+   "required": false
+  },
+  {
+   "id": "createcasing:copper_mixer",
+   "required": false
+  },
+  {
+   "id": "createcasing:copper_depot",
+   "required": false
+  },
+  {
+   "id": "createcasing:copper_encased_chain_drive",
+   "required": false
+  },
+  {
+   "id": "createcasing:copper_adjustable_chain_gearshift",
+   "required": false
+  },
+  {
+   "id": "createcasing:copper_configurable_gearbox",
+   "required": false
+  },
+  {
+   "id": "createcasing:copper_chain_conveyor",
+   "required": false
+  },
+  {
+   "id": "createcasing:copper_gearshift",
+   "required": false
+  },
+  {
+   "id": "createcasing:copper_clutch",
+   "required": false
+  },
+  {
+   "id": "createcasing:copper_automatic_clutch",
+   "required": false
+  },
+  {
+   "id": "createcasing:copper_deployer",
+   "required": false
+  },
+  {
+   "id": "createcasing:copper_portable_storage_interface",
+   "required": false
+  },
+  {
+   "id": "createcasing:copper_encased_fan",
+   "required": false
+  },
+  {
+   "id": "createcasing:copper_mechanical_harvester",
+   "required": false
+  },
+  {
+   "id": "createcasing:copper_mechanical_saw",
+   "required": false
+  },
+  {
+   "id": "createcasing:copper_mechanical_drill",
+   "required": false
+  },
+  {
+   "id": "createcasing:copper_mechanical_plough",
+   "required": false
+  },
+  {
+   "id": "createcasing:copper_mechanical_roller",
+   "required": false
+  },
+  {
+   "id": "createcasing:railway_encased_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:railway_encased_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:railway_encased_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:railway_encased_fluid_pipe",
+   "required": false
+  },
+  {
+   "id": "createcasing:railway_gearbox",
+   "required": false
+  },
+  {
+   "id": "createcasing:railway_press",
+   "required": false
+  },
+  {
+   "id": "createcasing:railway_mixer",
+   "required": false
+  },
+  {
+   "id": "createcasing:railway_depot",
+   "required": false
+  },
+  {
+   "id": "createcasing:railway_encased_chain_drive",
+   "required": false
+  },
+  {
+   "id": "createcasing:railway_adjustable_chain_gearshift",
+   "required": false
+  },
+  {
+   "id": "createcasing:railway_configurable_gearbox",
+   "required": false
+  },
+  {
+   "id": "createcasing:railway_chain_conveyor",
+   "required": false
+  },
+  {
+   "id": "createcasing:railway_gearshift",
+   "required": false
+  },
+  {
+   "id": "createcasing:railway_clutch",
+   "required": false
+  },
+  {
+   "id": "createcasing:railway_automatic_clutch",
+   "required": false
+  },
+  {
+   "id": "createcasing:railway_deployer",
+   "required": false
+  },
+  {
+   "id": "createcasing:railway_portable_storage_interface",
+   "required": false
+  },
+  {
+   "id": "createcasing:railway_encased_fan",
+   "required": false
+  },
+  {
+   "id": "createcasing:railway_mechanical_harvester",
+   "required": false
+  },
+  {
+   "id": "createcasing:railway_mechanical_saw",
+   "required": false
+  },
+  {
+   "id": "createcasing:railway_mechanical_drill",
+   "required": false
+  },
+  {
+   "id": "createcasing:railway_mechanical_plough",
+   "required": false
+  },
+  {
+   "id": "createcasing:railway_mechanical_roller",
+   "required": false
+  },
+  {
+   "id": "createcasing:shadow_steel_encased_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:shadow_steel_encased_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:shadow_steel_encased_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:shadow_steel_encased_fluid_pipe",
+   "required": false
+  },
+  {
+   "id": "createcasing:shadow_steel_gearbox",
+   "required": false
+  },
+  {
+   "id": "createcasing:shadow_steel_press",
+   "required": false
+  },
+  {
+   "id": "createcasing:shadow_steel_mixer",
+   "required": false
+  },
+  {
+   "id": "createcasing:shadow_steel_depot",
+   "required": false
+  },
+  {
+   "id": "createcasing:shadow_steel_encased_chain_drive",
+   "required": false
+  },
+  {
+   "id": "createcasing:shadow_steel_adjustable_chain_gearshift",
+   "required": false
+  },
+  {
+   "id": "createcasing:shadow_steel_configurable_gearbox",
+   "required": false
+  },
+  {
+   "id": "createcasing:shadow_steel_chain_conveyor",
+   "required": false
+  },
+  {
+   "id": "createcasing:shadow_steel_gearshift",
+   "required": false
+  },
+  {
+   "id": "createcasing:shadow_steel_clutch",
+   "required": false
+  },
+  {
+   "id": "createcasing:shadow_steel_automatic_clutch",
+   "required": false
+  },
+  {
+   "id": "createcasing:shadow_steel_deployer",
+   "required": false
+  },
+  {
+   "id": "createcasing:shadow_steel_portable_storage_interface",
+   "required": false
+  },
+  {
+   "id": "createcasing:shadow_steel_encased_fan",
+   "required": false
+  },
+  {
+   "id": "createcasing:shadow_steel_mechanical_harvester",
+   "required": false
+  },
+  {
+   "id": "createcasing:shadow_steel_mechanical_saw",
+   "required": false
+  },
+  {
+   "id": "createcasing:shadow_steel_mechanical_drill",
+   "required": false
+  },
+  {
+   "id": "createcasing:shadow_steel_mechanical_plough",
+   "required": false
+  },
+  {
+   "id": "createcasing:shadow_steel_mechanical_roller",
+   "required": false
+  },
+  {
+   "id": "createcasing:refined_radiance_encased_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:refined_radiance_encased_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:refined_radiance_encased_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:refined_radiance_encased_fluid_pipe",
+   "required": false
+  },
+  {
+   "id": "createcasing:refined_radiance_gearbox",
+   "required": false
+  },
+  {
+   "id": "createcasing:refined_radiance_press",
+   "required": false
+  },
+  {
+   "id": "createcasing:refined_radiance_mixer",
+   "required": false
+  },
+  {
+   "id": "createcasing:refined_radiance_depot",
+   "required": false
+  },
+  {
+   "id": "createcasing:refined_radiance_encased_chain_drive",
+   "required": false
+  },
+  {
+   "id": "createcasing:refined_radiance_adjustable_chain_gearshift",
+   "required": false
+  },
+  {
+   "id": "createcasing:refined_radiance_configurable_gearbox",
+   "required": false
+  },
+  {
+   "id": "createcasing:refined_radiance_chain_conveyor",
+   "required": false
+  },
+  {
+   "id": "createcasing:refined_radiance_gearshift",
+   "required": false
+  },
+  {
+   "id": "createcasing:refined_radiance_clutch",
+   "required": false
+  },
+  {
+   "id": "createcasing:refined_radiance_automatic_clutch",
+   "required": false
+  },
+  {
+   "id": "createcasing:refined_radiance_deployer",
+   "required": false
+  },
+  {
+   "id": "createcasing:refined_radiance_portable_storage_interface",
+   "required": false
+  },
+  {
+   "id": "createcasing:refined_radiance_encased_fan",
+   "required": false
+  },
+  {
+   "id": "createcasing:refined_radiance_mechanical_harvester",
+   "required": false
+  },
+  {
+   "id": "createcasing:refined_radiance_mechanical_saw",
+   "required": false
+  },
+  {
+   "id": "createcasing:refined_radiance_mechanical_drill",
+   "required": false
+  },
+  {
+   "id": "createcasing:refined_radiance_mechanical_plough",
+   "required": false
+  },
+  {
+   "id": "createcasing:refined_radiance_mechanical_roller",
+   "required": false
+  },
+  {
+   "id": "createcasing:creative_casing",
+   "required": false
+  },
+  {
+   "id": "createcasing:creative_encased_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:creative_encased_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:creative_encased_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:creative_encased_fluid_pipe",
+   "required": false
+  },
+  {
+   "id": "createcasing:creative_gearbox",
+   "required": false
+  },
+  {
+   "id": "createcasing:creative_press",
+   "required": false
+  },
+  {
+   "id": "createcasing:creative_mixer",
+   "required": false
+  },
+  {
+   "id": "createcasing:creative_depot",
+   "required": false
+  },
+  {
+   "id": "createcasing:creative_encased_chain_drive",
+   "required": false
+  },
+  {
+   "id": "createcasing:creative_adjustable_chain_gearshift",
+   "required": false
+  },
+  {
+   "id": "createcasing:creative_configurable_gearbox",
+   "required": false
+  },
+  {
+   "id": "createcasing:creative_chain_conveyor",
+   "required": false
+  },
+  {
+   "id": "createcasing:creative_gearshift",
+   "required": false
+  },
+  {
+   "id": "createcasing:creative_clutch",
+   "required": false
+  },
+  {
+   "id": "createcasing:creative_automatic_clutch",
+   "required": false
+  },
+  {
+   "id": "createcasing:creative_deployer",
+   "required": false
+  },
+  {
+   "id": "createcasing:creative_portable_storage_interface",
+   "required": false
+  },
+  {
+   "id": "createcasing:creative_encased_fan",
+   "required": false
+  },
+  {
+   "id": "createcasing:creative_mechanical_harvester",
+   "required": false
+  },
+  {
+   "id": "createcasing:creative_mechanical_saw",
+   "required": false
+  },
+  {
+   "id": "createcasing:creative_mechanical_drill",
+   "required": false
+  },
+  {
+   "id": "createcasing:creative_mechanical_plough",
+   "required": false
+  },
+  {
+   "id": "createcasing:creative_mechanical_roller",
+   "required": false
+  },
+  {
+   "id": "createcasing:industrial_iron_encased_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:industrial_iron_encased_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:industrial_iron_encased_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:industrial_iron_encased_fluid_pipe",
+   "required": false
+  },
+  {
+   "id": "createcasing:industrial_iron_gearbox",
+   "required": false
+  },
+  {
+   "id": "createcasing:industrial_iron_press",
+   "required": false
+  },
+  {
+   "id": "createcasing:industrial_iron_mixer",
+   "required": false
+  },
+  {
+   "id": "createcasing:industrial_iron_depot",
+   "required": false
+  },
+  {
+   "id": "createcasing:industrial_iron_encased_chain_drive",
+   "required": false
+  },
+  {
+   "id": "createcasing:industrial_iron_adjustable_chain_gearshift",
+   "required": false
+  },
+  {
+   "id": "createcasing:industrial_iron_configurable_gearbox",
+   "required": false
+  },
+  {
+   "id": "createcasing:industrial_iron_chain_conveyor",
+   "required": false
+  },
+  {
+   "id": "createcasing:industrial_iron_gearshift",
+   "required": false
+  },
+  {
+   "id": "createcasing:industrial_iron_clutch",
+   "required": false
+  },
+  {
+   "id": "createcasing:industrial_iron_automatic_clutch",
+   "required": false
+  },
+  {
+   "id": "createcasing:industrial_iron_deployer",
+   "required": false
+  },
+  {
+   "id": "createcasing:industrial_iron_portable_storage_interface",
+   "required": false
+  },
+  {
+   "id": "createcasing:industrial_iron_encased_fan",
+   "required": false
+  },
+  {
+   "id": "createcasing:industrial_iron_mechanical_harvester",
+   "required": false
+  },
+  {
+   "id": "createcasing:industrial_iron_mechanical_saw",
+   "required": false
+  },
+  {
+   "id": "createcasing:industrial_iron_mechanical_drill",
+   "required": false
+  },
+  {
+   "id": "createcasing:industrial_iron_mechanical_plough",
+   "required": false
+  },
+  {
+   "id": "createcasing:industrial_iron_mechanical_roller",
+   "required": false
+  },
+  {
+   "id": "createcasing:weathered_iron_encased_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:weathered_iron_encased_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:weathered_iron_encased_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:weathered_iron_encased_fluid_pipe",
+   "required": false
+  },
+  {
+   "id": "createcasing:weathered_iron_gearbox",
+   "required": false
+  },
+  {
+   "id": "createcasing:weathered_iron_press",
+   "required": false
+  },
+  {
+   "id": "createcasing:weathered_iron_mixer",
+   "required": false
+  },
+  {
+   "id": "createcasing:weathered_iron_depot",
+   "required": false
+  },
+  {
+   "id": "createcasing:weathered_iron_encased_chain_drive",
+   "required": false
+  },
+  {
+   "id": "createcasing:weathered_iron_adjustable_chain_gearshift",
+   "required": false
+  },
+  {
+   "id": "createcasing:weathered_iron_configurable_gearbox",
+   "required": false
+  },
+  {
+   "id": "createcasing:weathered_iron_chain_conveyor",
+   "required": false
+  },
+  {
+   "id": "createcasing:weathered_iron_gearshift",
+   "required": false
+  },
+  {
+   "id": "createcasing:weathered_iron_clutch",
+   "required": false
+  },
+  {
+   "id": "createcasing:weathered_iron_automatic_clutch",
+   "required": false
+  },
+  {
+   "id": "createcasing:weathered_iron_deployer",
+   "required": false
+  },
+  {
+   "id": "createcasing:weathered_iron_portable_storage_interface",
+   "required": false
+  },
+  {
+   "id": "createcasing:weathered_iron_encased_fan",
+   "required": false
+  },
+  {
+   "id": "createcasing:weathered_iron_mechanical_harvester",
+   "required": false
+  },
+  {
+   "id": "createcasing:weathered_iron_mechanical_saw",
+   "required": false
+  },
+  {
+   "id": "createcasing:weathered_iron_mechanical_drill",
+   "required": false
+  },
+  {
+   "id": "createcasing:weathered_iron_mechanical_plough",
+   "required": false
+  },
+  {
+   "id": "createcasing:weathered_iron_mechanical_roller",
+   "required": false
+  },
+  {
+   "id": "createcasing:zinc_casing",
+   "required": false
+  },
+  {
+   "id": "createcasing:zinc_encased_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:zinc_encased_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:zinc_encased_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:zinc_encased_fluid_pipe",
+   "required": false
+  },
+  {
+   "id": "createcasing:andesite_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:andesite_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:brass_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:brass_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:brass_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:copper_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:copper_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:copper_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:zinc_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:zinc_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:zinc_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:mldeg_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:glass_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:acacia_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:acacia_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:acacia_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:birch_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:birch_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:birch_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:bamboo_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:bamboo_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:bamboo_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:cherry_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:cherry_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:cherry_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:crimson_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:crimson_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:crimson_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:dark_oak_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:dark_oak_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:dark_oak_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:oak_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:oak_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:oak_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:jungle_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:jungle_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:jungle_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:mangrove_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:mangrove_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:mangrove_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:warped_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:warped_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:warped_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:spruce_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:andesite_portable_fluid_interface",
+   "required": false
+  },
+  {
+   "id": "createcasing:brass_portable_fluid_interface",
+   "required": false
+  },
+  {
+   "id": "createcasing:zinc_portable_fluid_interface",
+   "required": false
+  },
+  {
+   "id": "createcasing:andesite_encased_andesite_fluid_pipe",
+   "required": false
+  },
+  {
+   "id": "createcasing:andesite_encased_brass_fluid_pipe",
+   "required": false
+  },
+  {
+   "id": "createcasing:andesite_encased_zinc_fluid_pipe",
+   "required": false
+  },
+  {
+   "id": "createcasing:brass_encased_andesite_fluid_pipe",
+   "required": false
+  },
+  {
+   "id": "createcasing:brass_encased_brass_fluid_pipe",
+   "required": false
+  },
+  {
+   "id": "createcasing:brass_encased_zinc_fluid_pipe",
+   "required": false
+  },
+  {
+   "id": "createcasing:copper_encased_andesite_fluid_pipe",
+   "required": false
+  },
+  {
+   "id": "createcasing:copper_encased_brass_fluid_pipe",
+   "required": false
+  },
+  {
+   "id": "createcasing:copper_encased_zinc_fluid_pipe",
+   "required": false
+  },
+  {
+   "id": "createcasing:railway_encased_andesite_fluid_pipe",
+   "required": false
+  },
+  {
+   "id": "createcasing:railway_encased_brass_fluid_pipe",
+   "required": false
+  },
+  {
+   "id": "createcasing:railway_encased_zinc_fluid_pipe",
+   "required": false
+  },
+  {
+   "id": "createcasing:shadow_steel_encased_andesite_fluid_pipe",
+   "required": false
+  },
+  {
+   "id": "createcasing:shadow_steel_encased_brass_fluid_pipe",
+   "required": false
+  },
+  {
+   "id": "createcasing:shadow_steel_encased_zinc_fluid_pipe",
+   "required": false
+  },
+  {
+   "id": "createcasing:refined_radiance_encased_andesite_fluid_pipe",
+   "required": false
+  },
+  {
+   "id": "createcasing:refined_radiance_encased_brass_fluid_pipe",
+   "required": false
+  },
+  {
+   "id": "createcasing:refined_radiance_encased_zinc_fluid_pipe",
+   "required": false
+  },
+  {
+   "id": "createcasing:creative_encased_andesite_fluid_pipe",
+   "required": false
+  },
+  {
+   "id": "createcasing:creative_encased_brass_fluid_pipe",
+   "required": false
+  },
+  {
+   "id": "createcasing:creative_encased_zinc_fluid_pipe",
+   "required": false
+  },
+  {
+   "id": "createcasing:industrial_iron_encased_andesite_fluid_pipe",
+   "required": false
+  },
+  {
+   "id": "createcasing:industrial_iron_encased_brass_fluid_pipe",
+   "required": false
+  },
+  {
+   "id": "createcasing:industrial_iron_encased_zinc_fluid_pipe",
+   "required": false
+  },
+  {
+   "id": "createcasing:weathered_iron_encased_andesite_fluid_pipe",
+   "required": false
+  },
+  {
+   "id": "createcasing:weathered_iron_encased_brass_fluid_pipe",
+   "required": false
+  },
+  {
+   "id": "createcasing:weathered_iron_encased_zinc_fluid_pipe",
+   "required": false
+  },
+  {
+   "id": "createcasing:zinc_encased_andesite_fluid_pipe",
+   "required": false
+  },
+  {
+   "id": "createcasing:zinc_encased_brass_fluid_pipe",
+   "required": false
+  },
+  {
+   "id": "createcasing:zinc_encased_zinc_fluid_pipe",
+   "required": false
+  },
+  {
+   "id": "createcasing:andesite_encased_brass_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:andesite_encased_copper_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:andesite_encased_zinc_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:andesite_encased_mldeg_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:andesite_encased_glass_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:andesite_encased_acacia_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:andesite_encased_birch_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:andesite_encased_bamboo_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:andesite_encased_cherry_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:andesite_encased_crimson_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:andesite_encased_dark_oak_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:andesite_encased_oak_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:andesite_encased_jungle_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:andesite_encased_mangrove_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:andesite_encased_warped_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:andesite_encased_spruce_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:brass_encased_brass_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:brass_encased_copper_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:brass_encased_zinc_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:brass_encased_mldeg_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:brass_encased_glass_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:brass_encased_acacia_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:brass_encased_birch_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:brass_encased_bamboo_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:brass_encased_cherry_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:brass_encased_crimson_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:brass_encased_dark_oak_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:brass_encased_oak_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:brass_encased_jungle_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:brass_encased_mangrove_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:brass_encased_warped_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:brass_encased_spruce_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:copper_encased_brass_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:copper_encased_copper_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:copper_encased_zinc_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:copper_encased_mldeg_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:copper_encased_glass_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:copper_encased_acacia_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:copper_encased_birch_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:copper_encased_bamboo_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:copper_encased_cherry_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:copper_encased_crimson_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:copper_encased_dark_oak_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:copper_encased_oak_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:copper_encased_jungle_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:copper_encased_mangrove_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:copper_encased_warped_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:copper_encased_spruce_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:railway_encased_brass_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:railway_encased_copper_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:railway_encased_zinc_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:railway_encased_mldeg_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:railway_encased_glass_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:railway_encased_acacia_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:railway_encased_birch_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:railway_encased_bamboo_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:railway_encased_cherry_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:railway_encased_crimson_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:railway_encased_dark_oak_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:railway_encased_oak_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:railway_encased_jungle_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:railway_encased_mangrove_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:railway_encased_warped_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:railway_encased_spruce_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:shadow_steel_encased_brass_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:shadow_steel_encased_copper_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:shadow_steel_encased_zinc_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:shadow_steel_encased_mldeg_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:shadow_steel_encased_glass_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:shadow_steel_encased_acacia_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:shadow_steel_encased_birch_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:shadow_steel_encased_bamboo_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:shadow_steel_encased_cherry_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:shadow_steel_encased_crimson_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:shadow_steel_encased_dark_oak_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:shadow_steel_encased_oak_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:shadow_steel_encased_jungle_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:shadow_steel_encased_mangrove_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:shadow_steel_encased_warped_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:shadow_steel_encased_spruce_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:refined_radiance_encased_brass_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:refined_radiance_encased_copper_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:refined_radiance_encased_zinc_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:refined_radiance_encased_mldeg_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:refined_radiance_encased_glass_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:refined_radiance_encased_acacia_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:refined_radiance_encased_birch_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:refined_radiance_encased_bamboo_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:refined_radiance_encased_cherry_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:refined_radiance_encased_crimson_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:refined_radiance_encased_dark_oak_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:refined_radiance_encased_oak_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:refined_radiance_encased_jungle_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:refined_radiance_encased_mangrove_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:refined_radiance_encased_warped_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:refined_radiance_encased_spruce_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:creative_encased_brass_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:creative_encased_copper_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:creative_encased_zinc_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:creative_encased_mldeg_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:creative_encased_glass_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:creative_encased_acacia_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:creative_encased_birch_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:creative_encased_bamboo_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:creative_encased_cherry_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:creative_encased_crimson_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:creative_encased_dark_oak_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:creative_encased_oak_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:creative_encased_jungle_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:creative_encased_mangrove_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:creative_encased_warped_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:creative_encased_spruce_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:industrial_iron_encased_brass_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:industrial_iron_encased_copper_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:industrial_iron_encased_zinc_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:industrial_iron_encased_mldeg_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:industrial_iron_encased_glass_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:industrial_iron_encased_acacia_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:industrial_iron_encased_birch_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:industrial_iron_encased_bamboo_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:industrial_iron_encased_cherry_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:industrial_iron_encased_crimson_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:industrial_iron_encased_dark_oak_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:industrial_iron_encased_oak_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:industrial_iron_encased_jungle_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:industrial_iron_encased_mangrove_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:industrial_iron_encased_warped_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:industrial_iron_encased_spruce_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:weathered_iron_encased_brass_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:weathered_iron_encased_copper_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:weathered_iron_encased_zinc_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:weathered_iron_encased_mldeg_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:weathered_iron_encased_glass_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:weathered_iron_encased_acacia_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:weathered_iron_encased_birch_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:weathered_iron_encased_bamboo_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:weathered_iron_encased_cherry_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:weathered_iron_encased_crimson_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:weathered_iron_encased_dark_oak_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:weathered_iron_encased_oak_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:weathered_iron_encased_jungle_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:weathered_iron_encased_mangrove_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:weathered_iron_encased_warped_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:weathered_iron_encased_spruce_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:zinc_encased_brass_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:zinc_encased_copper_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:zinc_encased_zinc_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:zinc_encased_mldeg_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:zinc_encased_glass_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:zinc_encased_acacia_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:zinc_encased_birch_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:zinc_encased_bamboo_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:zinc_encased_cherry_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:zinc_encased_crimson_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:zinc_encased_dark_oak_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:zinc_encased_oak_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:zinc_encased_jungle_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:zinc_encased_mangrove_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:zinc_encased_warped_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:zinc_encased_spruce_shaft",
+   "required": false
+  },
+  {
+   "id": "createcasing:andesite_encased_andesite_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:andesite_encased_brass_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:andesite_encased_copper_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:andesite_encased_zinc_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:andesite_encased_acacia_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:andesite_encased_birch_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:andesite_encased_bamboo_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:andesite_encased_cherry_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:andesite_encased_crimson_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:andesite_encased_dark_oak_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:andesite_encased_oak_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:andesite_encased_jungle_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:andesite_encased_mangrove_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:andesite_encased_warped_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:brass_encased_andesite_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:brass_encased_brass_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:brass_encased_copper_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:brass_encased_zinc_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:brass_encased_acacia_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:brass_encased_birch_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:brass_encased_bamboo_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:brass_encased_cherry_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:brass_encased_crimson_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:brass_encased_dark_oak_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:brass_encased_oak_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:brass_encased_jungle_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:brass_encased_mangrove_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:brass_encased_warped_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:copper_encased_andesite_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:copper_encased_brass_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:copper_encased_copper_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:copper_encased_zinc_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:copper_encased_acacia_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:copper_encased_birch_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:copper_encased_bamboo_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:copper_encased_cherry_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:copper_encased_crimson_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:copper_encased_dark_oak_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:copper_encased_oak_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:copper_encased_jungle_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:copper_encased_mangrove_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:copper_encased_warped_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:railway_encased_andesite_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:railway_encased_brass_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:railway_encased_copper_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:railway_encased_zinc_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:railway_encased_acacia_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:railway_encased_birch_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:railway_encased_bamboo_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:railway_encased_cherry_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:railway_encased_crimson_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:railway_encased_dark_oak_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:railway_encased_oak_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:railway_encased_jungle_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:railway_encased_mangrove_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:railway_encased_warped_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:shadow_steel_encased_andesite_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:shadow_steel_encased_brass_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:shadow_steel_encased_copper_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:shadow_steel_encased_zinc_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:shadow_steel_encased_acacia_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:shadow_steel_encased_birch_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:shadow_steel_encased_bamboo_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:shadow_steel_encased_cherry_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:shadow_steel_encased_crimson_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:shadow_steel_encased_dark_oak_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:shadow_steel_encased_oak_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:shadow_steel_encased_jungle_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:shadow_steel_encased_mangrove_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:shadow_steel_encased_warped_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:refined_radiance_encased_andesite_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:refined_radiance_encased_brass_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:refined_radiance_encased_copper_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:refined_radiance_encased_zinc_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:refined_radiance_encased_acacia_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:refined_radiance_encased_birch_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:refined_radiance_encased_bamboo_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:refined_radiance_encased_cherry_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:refined_radiance_encased_crimson_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:refined_radiance_encased_dark_oak_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:refined_radiance_encased_oak_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:refined_radiance_encased_jungle_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:refined_radiance_encased_mangrove_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:refined_radiance_encased_warped_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:creative_encased_andesite_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:creative_encased_brass_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:creative_encased_copper_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:creative_encased_zinc_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:creative_encased_acacia_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:creative_encased_birch_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:creative_encased_bamboo_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:creative_encased_cherry_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:creative_encased_crimson_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:creative_encased_dark_oak_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:creative_encased_oak_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:creative_encased_jungle_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:creative_encased_mangrove_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:creative_encased_warped_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:industrial_iron_encased_andesite_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:industrial_iron_encased_brass_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:industrial_iron_encased_copper_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:industrial_iron_encased_zinc_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:industrial_iron_encased_acacia_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:industrial_iron_encased_birch_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:industrial_iron_encased_bamboo_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:industrial_iron_encased_cherry_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:industrial_iron_encased_crimson_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:industrial_iron_encased_dark_oak_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:industrial_iron_encased_oak_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:industrial_iron_encased_jungle_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:industrial_iron_encased_mangrove_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:industrial_iron_encased_warped_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:weathered_iron_encased_andesite_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:weathered_iron_encased_brass_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:weathered_iron_encased_copper_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:weathered_iron_encased_zinc_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:weathered_iron_encased_acacia_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:weathered_iron_encased_birch_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:weathered_iron_encased_bamboo_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:weathered_iron_encased_cherry_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:weathered_iron_encased_crimson_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:weathered_iron_encased_dark_oak_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:weathered_iron_encased_oak_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:weathered_iron_encased_jungle_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:weathered_iron_encased_mangrove_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:weathered_iron_encased_warped_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:zinc_encased_andesite_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:zinc_encased_brass_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:zinc_encased_copper_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:zinc_encased_zinc_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:zinc_encased_acacia_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:zinc_encased_birch_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:zinc_encased_bamboo_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:zinc_encased_cherry_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:zinc_encased_crimson_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:zinc_encased_dark_oak_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:zinc_encased_oak_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:zinc_encased_jungle_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:zinc_encased_mangrove_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:zinc_encased_warped_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:andesite_encased_andesite_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:andesite_encased_brass_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:andesite_encased_copper_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:andesite_encased_zinc_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:andesite_encased_acacia_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:andesite_encased_birch_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:andesite_encased_bamboo_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:andesite_encased_cherry_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:andesite_encased_crimson_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:andesite_encased_dark_oak_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:andesite_encased_oak_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:andesite_encased_jungle_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:andesite_encased_mangrove_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:andesite_encased_warped_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:brass_encased_andesite_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:brass_encased_brass_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:brass_encased_copper_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:brass_encased_zinc_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:brass_encased_acacia_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:brass_encased_birch_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:brass_encased_bamboo_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:brass_encased_cherry_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:brass_encased_crimson_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:brass_encased_dark_oak_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:brass_encased_oak_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:brass_encased_jungle_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:brass_encased_mangrove_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:brass_encased_warped_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:copper_encased_andesite_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:copper_encased_brass_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:copper_encased_copper_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:copper_encased_zinc_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:copper_encased_acacia_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:copper_encased_birch_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:copper_encased_bamboo_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:copper_encased_cherry_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:copper_encased_crimson_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:copper_encased_dark_oak_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:copper_encased_oak_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:copper_encased_jungle_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:copper_encased_mangrove_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:copper_encased_warped_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:railway_encased_andesite_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:railway_encased_brass_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:railway_encased_copper_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:railway_encased_zinc_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:railway_encased_acacia_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:railway_encased_birch_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:railway_encased_bamboo_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:railway_encased_cherry_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:railway_encased_crimson_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:railway_encased_dark_oak_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:railway_encased_oak_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:railway_encased_jungle_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:railway_encased_mangrove_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:railway_encased_warped_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:shadow_steel_encased_andesite_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:shadow_steel_encased_brass_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:shadow_steel_encased_copper_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:shadow_steel_encased_zinc_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:shadow_steel_encased_acacia_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:shadow_steel_encased_birch_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:shadow_steel_encased_bamboo_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:shadow_steel_encased_cherry_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:shadow_steel_encased_crimson_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:shadow_steel_encased_dark_oak_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:shadow_steel_encased_oak_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:shadow_steel_encased_jungle_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:shadow_steel_encased_mangrove_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:shadow_steel_encased_warped_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:refined_radiance_encased_andesite_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:refined_radiance_encased_brass_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:refined_radiance_encased_copper_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:refined_radiance_encased_zinc_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:refined_radiance_encased_acacia_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:refined_radiance_encased_birch_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:refined_radiance_encased_bamboo_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:refined_radiance_encased_cherry_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:refined_radiance_encased_crimson_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:refined_radiance_encased_dark_oak_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:refined_radiance_encased_oak_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:refined_radiance_encased_jungle_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:refined_radiance_encased_mangrove_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:refined_radiance_encased_warped_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:creative_encased_andesite_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:creative_encased_brass_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:creative_encased_copper_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:creative_encased_zinc_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:creative_encased_acacia_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:creative_encased_birch_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:creative_encased_bamboo_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:creative_encased_cherry_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:creative_encased_crimson_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:creative_encased_dark_oak_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:creative_encased_oak_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:creative_encased_jungle_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:creative_encased_mangrove_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:creative_encased_warped_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:industrial_iron_encased_andesite_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:industrial_iron_encased_brass_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:industrial_iron_encased_copper_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:industrial_iron_encased_zinc_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:industrial_iron_encased_acacia_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:industrial_iron_encased_birch_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:industrial_iron_encased_bamboo_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:industrial_iron_encased_cherry_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:industrial_iron_encased_crimson_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:industrial_iron_encased_dark_oak_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:industrial_iron_encased_oak_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:industrial_iron_encased_jungle_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:industrial_iron_encased_mangrove_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:industrial_iron_encased_warped_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:weathered_iron_encased_andesite_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:weathered_iron_encased_brass_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:weathered_iron_encased_copper_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:weathered_iron_encased_zinc_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:weathered_iron_encased_acacia_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:weathered_iron_encased_birch_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:weathered_iron_encased_bamboo_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:weathered_iron_encased_cherry_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:weathered_iron_encased_crimson_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:weathered_iron_encased_dark_oak_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:weathered_iron_encased_oak_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:weathered_iron_encased_jungle_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:weathered_iron_encased_mangrove_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:weathered_iron_encased_warped_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:zinc_encased_andesite_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:zinc_encased_brass_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:zinc_encased_copper_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:zinc_encased_zinc_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:zinc_encased_acacia_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:zinc_encased_birch_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:zinc_encased_bamboo_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:zinc_encased_cherry_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:zinc_encased_crimson_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:zinc_encased_dark_oak_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:zinc_encased_oak_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:zinc_encased_jungle_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:zinc_encased_mangrove_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:zinc_encased_warped_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "createcasing:brass_slicer",
+   "required": false
+  },
+  {
+   "id": "createcasing:copper_slicer",
+   "required": false
+  },
+  {
+   "id": "createcasing:railway_slicer",
+   "required": false
+  },
+  {
+   "id": "createcasing:shadow_steel_slicer",
+   "required": false
+  },
+  {
+   "id": "createcasing:refined_radiance_slicer",
+   "required": false
+  },
+  {
+   "id": "createcasing:creative_slicer",
+   "required": false
+  },
+  {
+   "id": "createcasing:industrial_iron_slicer",
+   "required": false
+  },
+  {
+   "id": "createcasing:weathered_iron_slicer",
+   "required": false
+  },
+  {
+   "id": "create:schematic_table",
+   "required": false
+  },
+  {
+   "id": "create:cogwheel",
+   "required": false
+  },
+  {
+   "id": "create:large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "create:andesite_encased_shaft",
+   "required": false
+  },
+  {
+   "id": "create:brass_encased_shaft",
+   "required": false
+  },
+  {
+   "id": "create:andesite_encased_cogwheel",
+   "required": false
+  },
+  {
+   "id": "create:brass_encased_cogwheel",
+   "required": false
+  },
+  {
+   "id": "create:andesite_encased_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "create:brass_encased_large_cogwheel",
+   "required": false
+  },
+  {
+   "id": "create:gearbox",
+   "required": false
+  },
+  {
+   "id": "create:clutch",
+   "required": false
+  },
+  {
+   "id": "create:gearshift",
+   "required": false
+  },
+  {
+   "id": "create:encased_chain_drive",
+   "required": false
+  },
+  {
+   "id": "create:adjustable_chain_gearshift",
+   "required": false
+  },
+  {
+   "id": "create:belt",
+   "required": false
+  },
+  {
+   "id": "create:chain_conveyor",
+   "required": false
+  },
+  {
+   "id": "create:water_wheel",
+   "required": false
+  },
+  {
+   "id": "create:large_water_wheel",
+   "required": false
+  },
+  {
+   "id": "create:water_wheel_structure",
+   "required": false
+  },
+  {
+   "id": "create:encased_fan",
+   "required": false
+  },
+  {
+   "id": "create:nozzle",
+   "required": false
+  },
+  {
+   "id": "create:turntable",
+   "required": false
+  },
+  {
+   "id": "create:hand_crank",
+   "required": false
+  },
+  {
+   "id": "create:cuckoo_clock",
+   "required": false
+  },
+  {
+   "id": "create:mysterious_cuckoo_clock",
+   "required": false
+  },
+  {
+   "id": "create:mechanical_press",
+   "required": false
+  },
+  {
+   "id": "create:mechanical_mixer",
+   "required": false
+  },
+  {
+   "id": "create:depot",
+   "required": false
+  },
+  {
+   "id": "create:weighted_ejector",
+   "required": false
+  },
+  {
+   "id": "create:speedometer",
+   "required": false
+  },
+  {
+   "id": "create:stressometer",
+   "required": false
+  },
+  {
+   "id": "create:wooden_bracket",
+   "required": false
+  },
+  {
+   "id": "create:encased_fluid_pipe",
+   "required": false
+  },
+  {
+   "id": "create:portable_fluid_interface",
+   "required": false
+  },
+  {
+   "id": "create:mechanical_piston",
+   "required": false
+  },
+  {
+   "id": "create:sticky_mechanical_piston",
+   "required": false
+  },
+  {
+   "id": "create:piston_extension_pole",
+   "required": false
+  },
+  {
+   "id": "create:mechanical_piston_head",
+   "required": false
+  },
+  {
+   "id": "create:gantry_carriage",
+   "required": false
+  },
+  {
+   "id": "create:gantry_shaft",
+   "required": false
+  },
+  {
+   "id": "create:windmill_bearing",
+   "required": false
+  },
+  {
+   "id": "create:mechanical_bearing",
+   "required": false
+  },
+  {
+   "id": "create:clockwork_bearing",
+   "required": false
+  },
+  {
+   "id": "create:rope_pulley",
+   "required": false
+  },
+  {
+   "id": "create:elevator_pulley",
+   "required": false
+  },
+  {
+   "id": "create:cart_assembler",
+   "required": false
+  },
+  {
+   "id": "create:linear_chassis",
+   "required": false
+  },
+  {
+   "id": "create:secondary_linear_chassis",
+   "required": false
+  },
+  {
+   "id": "create:radial_chassis",
+   "required": false
+  },
+  {
+   "id": "create:contraption_controls",
+   "required": false
+  },
+  {
+   "id": "create:mechanical_drill",
+   "required": false
+  },
+  {
+   "id": "create:mechanical_saw",
+   "required": false
+  },
+  {
+   "id": "create:deployer",
+   "required": false
+  },
+  {
+   "id": "create:portable_storage_interface",
+   "required": false
+  },
+  {
+   "id": "create:redstone_contact",
+   "required": false
+  },
+  {
+   "id": "create:elevator_contact",
+   "required": false
+  },
+  {
+   "id": "create:mechanical_harvester",
+   "required": false
+  },
+  {
+   "id": "create:mechanical_plough",
+   "required": false
+  },
+  {
+   "id": "create:mechanical_roller",
+   "required": false
+  },
+  {
+   "id": "create:sail_frame",
+   "required": false
+  },
+  {
+   "id": "create:white_sail",
+   "required": false
+  },
+  {
+   "id": "create:orange_sail",
+   "required": false
+  },
+  {
+   "id": "create:magenta_sail",
+   "required": false
+  },
+  {
+   "id": "create:light_blue_sail",
+   "required": false
+  },
+  {
+   "id": "create:yellow_sail",
+   "required": false
+  },
+  {
+   "id": "create:lime_sail",
+   "required": false
+  },
+  {
+   "id": "create:pink_sail",
+   "required": false
+  },
+  {
+   "id": "create:gray_sail",
+   "required": false
+  },
+  {
+   "id": "create:light_gray_sail",
+   "required": false
+  },
+  {
+   "id": "create:cyan_sail",
+   "required": false
+  },
+  {
+   "id": "create:purple_sail",
+   "required": false
+  },
+  {
+   "id": "create:blue_sail",
+   "required": false
+  },
+  {
+   "id": "create:brown_sail",
+   "required": false
+  },
+  {
+   "id": "create:green_sail",
+   "required": false
+  },
+  {
+   "id": "create:red_sail",
+   "required": false
+  },
+  {
+   "id": "create:black_sail",
+   "required": false
+  },
+  {
+   "id": "create:andesite_casing",
+   "required": false
+  },
+  {
+   "id": "create:brass_casing",
+   "required": false
+  },
+  {
+   "id": "create:copper_casing",
+   "required": false
+  },
+  {
+   "id": "create:shadow_steel_casing",
+   "required": false
+  },
+  {
+   "id": "create:refined_radiance_casing",
+   "required": false
+  },
+  {
+   "id": "create:mechanical_crafter",
+   "required": false
+  },
+  {
+   "id": "create:sequenced_gearshift",
+   "required": false
+  },
+  {
+   "id": "create:flywheel",
+   "required": false
+  },
+  {
+   "id": "create:rotation_speed_controller",
+   "required": false
+  },
+  {
+   "id": "create:mechanical_arm",
+   "required": false
+  },
+  {
+   "id": "create:railway_casing",
+   "required": false
+  },
+  {
+   "id": "create:content_observer",
+   "required": false
+  },
+  {
+   "id": "create:stockpile_switch",
+   "required": false
+  },
+  {
+   "id": "create:creative_crate",
+   "required": false
+  },
+  {
+   "id": "create:white_postbox",
+   "required": false
+  },
+  {
+   "id": "create:orange_postbox",
+   "required": false
+  },
+  {
+   "id": "create:magenta_postbox",
+   "required": false
+  },
+  {
+   "id": "create:light_blue_postbox",
+   "required": false
+  },
+  {
+   "id": "create:yellow_postbox",
+   "required": false
+  },
+  {
+   "id": "create:lime_postbox",
+   "required": false
+  },
+  {
+   "id": "create:pink_postbox",
+   "required": false
+  },
+  {
+   "id": "create:gray_postbox",
+   "required": false
+  },
+  {
+   "id": "create:light_gray_postbox",
+   "required": false
+  },
+  {
+   "id": "create:cyan_postbox",
+   "required": false
+  },
+  {
+   "id": "create:purple_postbox",
+   "required": false
+  },
+  {
+   "id": "create:blue_postbox",
+   "required": false
+  },
+  {
+   "id": "create:brown_postbox",
+   "required": false
+  },
+  {
+   "id": "create:green_postbox",
+   "required": false
+  },
+  {
+   "id": "create:red_postbox",
+   "required": false
+  },
+  {
+   "id": "create:black_postbox",
+   "required": false
+  },
+  {
+   "id": "create:stock_ticker",
+   "required": false
+  },
+  {
+   "id": "create:display_link",
+   "required": false
+  },
+  {
+   "id": "create:redstone_link",
+   "required": false
+  },
+  {
+   "id": "create:analog_lever",
+   "required": false
+  },
+  {
+   "id": "create:lectern_controller",
+   "required": false
+  },
+  {
+   "id": "create:clipboard",
+   "required": false
+  },
+  {
+   "id": "create:copycat_step",
+   "required": false
+  },
+  {
+   "id": "create:copycat_panel",
+   "required": false
+  },
+  {
+   "id": "create:white_seat",
+   "required": false
+  },
+  {
+   "id": "create:orange_seat",
+   "required": false
+  },
+  {
+   "id": "create:magenta_seat",
+   "required": false
+  },
+  {
+   "id": "create:light_blue_seat",
+   "required": false
+  },
+  {
+   "id": "create:yellow_seat",
+   "required": false
+  },
+  {
+   "id": "create:lime_seat",
+   "required": false
+  },
+  {
+   "id": "create:pink_seat",
+   "required": false
+  },
+  {
+   "id": "create:gray_seat",
+   "required": false
+  },
+  {
+   "id": "create:light_gray_seat",
+   "required": false
+  },
+  {
+   "id": "create:cyan_seat",
+   "required": false
+  },
+  {
+   "id": "create:purple_seat",
+   "required": false
+  },
+  {
+   "id": "create:blue_seat",
+   "required": false
+  },
+  {
+   "id": "create:brown_seat",
+   "required": false
+  },
+  {
+   "id": "create:green_seat",
+   "required": false
+  },
+  {
+   "id": "create:red_seat",
+   "required": false
+  },
+  {
+   "id": "create:black_seat",
+   "required": false
+  },
+  {
+   "id": "create:cardboard_block",
+   "required": false
+  },
+  {
+   "id": "create:bound_cardboard_block",
+   "required": false
+  },
+  {
+   "id": "create_radar:auto_pitch_controller",
+   "required": false
+  },
+  {
+   "id": "create_radar:auto_yaw_controller",
+   "required": false
+  },
+  {
+   "id": "create_radar:creative_radar_plate",
+   "required": false
+  },
+  {
+   "id": "create_radar:data_link",
+   "required": false
+  },
+  {
+   "id": "create_radar:fire_controller",
+   "required": false
+  },
+  {
+   "id": "create_radar:monitor",
+   "required": false
+  },
+  {
+   "id": "create_radar:network_filterer",
+   "required": false
+  },
+  {
+   "id": "create_radar:radar_bearing",
+   "required": false
+  },
+  {
+   "id": "create_radar:radar_dish_block",
+   "required": false
+  },
+  {
+   "id": "create_radar:radar_plate_block",
+   "required": false
+  },
+  {
+   "id": "create_radar:radar_receiver_block",
+   "required": false
+  },
+  {
+   "id": "create_radar:plane_radar",
+   "required": false
+  },
+  {
+   "id": "create_radar:identification_transponder",
+   "required": false
+  },
+  {
+   "id": "create_radar:radar_warning_receiver",
+   "required": false
+  },
+  {
+   "id": "#create_high_seas:sails",
+   "required": false
+  },
+  {
+   "id": "createbigcannons:log_cannon_chamber",
+   "required": false
+  },
+  {
+   "id": "createbigcannons:log_cannon_end",
+   "required": false
+  },
+  {
+   "id": "createbigcannons:cannon_loader",
+   "required": false
+  },
+  {
+   "id": "createbigcannons:ram_head",
+   "required": false
+  },
+  {
+   "id": "createbigcannons:worm_head",
+   "required": false
+  },
+  {
+   "id": "createbigcannons:cannon_mount",
+   "required": false
+  },
+  {
+   "id": "createbigcannons:yaw_controller",
+   "required": false
+  },
+  {
+   "id": "createbigcannons:cannon_mount_extension",
+   "required": false
+  },
+  {
+   "id": "createbigcannons:fixed_cannon_mount",
+   "required": false
+  },
+  {
+   "id": "createbigcannons:cannon_carriage",
+   "required": false
+  },
+  {
+   "id": "createbigcannons:cannon_drill",
+   "required": false
+  },
+  {
+   "id": "createbigcannons:cannon_drill_bit",
+   "required": false
+  },
+  {
+   "id": "createbigcannons:cannon_builder",
+   "required": false
+  },
+  {
+   "id": "createbigcannons:cannon_builder_head",
+   "required": false
+  },
+  {
+   "id": "createbigcannons:solid_shot",
+   "required": false
+  },
+  {
+   "id": "createbigcannons:he_shell",
+   "required": false
+  },
+  {
+   "id": "createbigcannons:shrapnel_shell",
+   "required": false
+  },
+  {
+   "id": "createbigcannons:ap_shot",
+   "required": false
+  },
+  {
+   "id": "createbigcannons:ap_shell",
+   "required": false
+  },
+  {
+   "id": "createbigcannons:fluid_shell",
+   "required": false
+  },
+  {
+   "id": "createbigcannons:smoke_shell",
+   "required": false
+  },
+  {
+   "id": "createbigcannons:drop_mortar_shell",
+   "required": false
+  },
+  {
+   "id": "createbigcannons:very_small_cast_mould",
+   "required": false
+  },
+  {
+   "id": "createbigcannons:small_cast_mould",
+   "required": false
+  },
+  {
+   "id": "createbigcannons:medium_cast_mould",
+   "required": false
+  },
+  {
+   "id": "createbigcannons:large_cast_mould",
+   "required": false
+  },
+  {
+   "id": "createbigcannons:very_large_cast_mould",
+   "required": false
+  },
+  {
+   "id": "createbigcannons:cannon_end_cast_mould",
+   "required": false
+  },
+  {
+   "id": "createbigcannons:sliding_breech_cast_mould",
+   "required": false
+  },
+  {
+   "id": "createbigcannons:screw_breech_cast_mould",
+   "required": false
+  },
+  {
+   "id": "createbigcannons:autocannon_breech_cast_mould",
+   "required": false
+  },
+  {
+   "id": "createbigcannons:autocannon_recoil_spring_cast_mould",
+   "required": false
+  },
+  {
+   "id": "createbigcannons:autocannon_barrel_cast_mould",
+   "required": false
+  },
+  {
+   "id": "createdieselgenerators:chip_wood_block",
+   "required": false
+  },
+  {
+   "id": "createdieselgenerators:chip_wood_beam",
+   "required": false
+  },
+  {
+   "id": "createdieselgenerators:chip_wood_slab",
+   "required": false
+  },
+  {
+   "id": "createdieselgenerators:chip_wood_stairs",
+   "required": false
+  },
+  {
+   "id": "crowns:fuel_assembly",
+   "required": false
+  },
+  {
+   "id": "crowns:heat_exchanger",
+   "required": false
+  },
+  {
+   "id": "crowns:turbine_stage",
+   "required": false
+  },
+  {
+   "id": "crowns:steam_input",
+   "required": false
+  },
+  {
+   "id": "crowns:steam_collector",
+   "required": false
+  },
+  {
+   "id": "crowns:compressor",
+   "required": false
+  },
+  {
+   "id": "exposure:lightroom",
+   "required": false
+  },
+  {
+   "id": "irons_lib:transmog_table",
+   "required": false
+  },
+  {
+   "required": false,
+   "id": "irons_patreon_lib:transmog_table"
+  },
+  {
+   "id": "kaleidoscope_grilling:pepper_log",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_grilling:advanced_rack",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_grilling:oil_press",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_world_liquor:dark_oak_bar_cabinet",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_world_liquor:spruce_bar_cabinet",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_world_liquor:birch_bar_cabinet",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_world_liquor:oak_bar_cabinet",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_world_liquor:cherry_bar_cabinet",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_world_liquor:oak_cellar_cabinet",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_world_liquor:birch_cellar_cabinet",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_world_liquor:spruce_cellar_cabinet",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_world_liquor:dark_oak_cellar_cabinet",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_world_liquor:cherry_cellar_cabinet",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:bfxm_painting",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:bmt_painting",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:dream_painting",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:cha_painting",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:chen_painting",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:rabbit_painting",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:ch_painting",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:qxxy_painting",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:cook_stool_oak",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:cook_stool_spruce",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:cook_stool_acacia",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:cook_stool_bamboo",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:cook_stool_birch",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:cook_stool_cherry",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:cook_stool_crimson",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:cook_stool_dark_oak",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:cook_stool_jungle",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:cook_stool_mangrove",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:cook_stool_warped",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:chair_oak",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:chair_spruce",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:chair_acacia",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:chair_bamboo",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:chair_birch",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:chair_cherry",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:chair_crimson",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:chair_dark_oak",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:chair_jungle",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:chair_mangrove",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:chair_warped",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:table_oak",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:table_spruce",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:table_acacia",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:table_bamboo",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:table_birch",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:table_cherry",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:table_crimson",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:table_dark_oak",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:table_jungle",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:table_mangrove",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:table_warped",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:eight_immortals_table",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:long_bench",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:kitchenware_racks",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:bamboo_tray",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_cookery:chopping_board",
+   "required": false
+  },
+  {
+   "id": "#kaleidoscope_tavern:sandwich_board",
+   "required": false
+  },
+  {
+   "id": "#kaleidoscope_tavern:painting",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:chalkboard",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:table",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:bar_counter",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:stepladder",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:trellis",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:grapevine_trellis",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:pressing_tub",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:barrel",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:bar_cabinet",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:glass_bar_cabinet",
+   "required": false
+  },
+  {
+   "id": "kaleidoscope_tavern:cellar_cabinet",
+   "required": false
+  },
+  {
+   "id": "pipeorgans:windchest",
+   "required": false
+  },
+  {
+   "id": "pipeorgans:windchest_master",
+   "required": false
+  },
+  {
+   "id": "pipeorgans:roll_puncher",
+   "required": false
+  },
+  {
+   "id": "pipeorgans:gedeckt",
+   "required": false
+  },
+  {
+   "id": "pipeorgans:gedeckt_extension",
+   "required": false
+  },
+  {
+   "id": "pipeorgans:hohlflute",
+   "required": false
+  },
+  {
+   "id": "pipeorgans:hohlflute_extension",
+   "required": false
+  },
+  {
+   "id": "pipeorgans:posaune",
+   "required": false
+  },
+  {
+   "id": "pipeorgans:posaune_extension",
+   "required": false
+  },
+  {
+   "id": "pipeorgans:subbass",
+   "required": false
+  },
+  {
+   "id": "pipeorgans:subbass_extension",
+   "required": false
+  },
+  {
+   "id": "powergrid:plotter",
+   "required": false
+  },
+  {
+   "id": "powergrid:generator_clutch",
+   "required": false
+  },
+  {
+   "id": "powergrid:lv_switch",
+   "required": false
+  },
+  {
+   "id": "powergrid:lv_button",
+   "required": false
+  },
+  {
+   "id": "powergrid:mv_switch",
+   "required": false
+  },
+  {
+   "id": "powergrid:hv_switch",
+   "required": false
+  },
+  {
+   "id": "powergrid:spark_gap",
+   "required": false
+  },
+  {
+   "id": "powergrid:ceiling_tile",
+   "required": false
+  },
+  {
+   "id": "powergrid:ceiling_tile_lamp",
+   "required": false
+  },
+  {
+   "id": "powergrid:ceiling_tile_connector",
+   "required": false
+  },
+  {
+   "id": "powergrid:ceiling_tile_junction",
+   "required": false
+  },
+  {
+   "id": "powergrid:electric_fan",
+   "required": false
+  },
+  {
+   "id": "powergrid:circuit_design_table",
+   "required": false
+  },
+  {
+   "id": "powergrid:fe_inverter",
+   "required": false
+  },
+  {
+   "id": "powergrid:fuse_holder",
+   "required": false
+  },
+  {
+   "id": "powergrid:andesite_encased_crt",
+   "required": false
+  },
+  {
+   "id": "powergrid:brass_encased_crt",
+   "required": false
+  },
+  {
+   "id": "powergrid:ceiling_tile_solar",
+   "required": false
+  },
+  {
+   "id": "tracks:track_mount",
+   "required": false
+  },
+  {
+   "id": "yungscavebiomes:prickly_vines",
+   "required": false
+  },
+  {
+   "id": "yungscavebiomes:prickly_vines_plant",
+   "required": false
+  }
+ ]
+}

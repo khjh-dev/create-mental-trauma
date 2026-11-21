@@ -1,0 +1,4 @@
+[visual]
+	idleParticles = true
+	warmupParticles = true
+	arrivalParticles = true

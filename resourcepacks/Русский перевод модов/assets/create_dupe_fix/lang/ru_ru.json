@@ -1,0 +1,5 @@
+{
+ "block.create_dupe_fix.example_block": "Пример блока",
+ "item.create_dupe_fix.example_item": "Пример предмета",
+ "itemGroup.create_dupe_fix": "Вкладка примера мода"
+}

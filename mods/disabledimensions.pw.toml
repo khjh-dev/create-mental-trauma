@@ -1,0 +1,13 @@
+name = "DisableDimensions 0.0.98n"
+filename = "disabledimensions-0.0.98n.jar"
+side = "both"
+
+[download]
+hash-format = "sha512"
+hash = "54c27cce059ea05e1af5e662f3089f795c474f4f862a38a5213b16e1935dbfa958fc0694b1b0080314782a1ff897c9408f45de39ae075bfa1ec44d8f49119205"
+url = "https://cdn.modrinth.com/data/LXUqU2Q9/versions/zASgIBtv/disabledimensions-0.0.98n.jar"
+
+[update]
+[update.modrinth]
+mod-id = "LXUqU2Q9"
+version = "zASgIBtv"

@@ -1,0 +1,13 @@
+name = "Create: Tailwind 1.1.0 for NeoForge 1.21.1"
+filename = "CreateTailwind-1.1.0+1.21.1-neoforge.jar"
+side = "both"
+
+[download]
+hash-format = "sha512"
+hash = "49e1e1c9e96ee94986e6336ae96d7f3c92656cc91010ce9309f3c197db44cb05e9fa2a1197a844778de9607d268e43976042ff7aa96bf4978c9fb1cb2cbbb166"
+url = "https://cdn.modrinth.com/data/xBqFdX6h/versions/DvENW13b/CreateTailwind-1.1.0%2B1.21.1-neoforge.jar"
+
+[update]
+[update.modrinth]
+mod-id = "xBqFdX6h"
+version = "DvENW13b"

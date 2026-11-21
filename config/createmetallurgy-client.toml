@@ -1,0 +1,4 @@
+#.
+#[!] Need world reload to take effect.
+#Disable the display of entity ingredients in JEI/EMI.
+showEntitiesInJEI = true

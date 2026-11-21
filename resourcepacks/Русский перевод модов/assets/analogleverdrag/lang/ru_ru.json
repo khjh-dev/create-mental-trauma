@@ -1,0 +1,9 @@
+{
+ "key.categories.analogleverdrag": "lever drugster",
+ "screen.analogleverdrag.config.debug_logs.description": "Записывает подробные журналы совместимости в latest.log. Также используйте привязку клавиши «Скопировать полный отчёт отладки», чтобы скопировать текущую информацию о цели/досягаемости/Sable/DBW для сообщений об ошибках.",
+ "config.analogleverdrag.enable_caverns_and_chasms_resistor": "Включить резистор Caverns & Chasms",
+ "screen.analogleverdrag.config.enable_caverns_and_chasms_resistor.description": "Серверный/общий переключатель: включить управление перетаскиванием для резистора Caverns & Chasms для всех игроков.",
+ "config.analogleverdrag.client_enable_caverns_and_chasms_resistor": "Клиентское включение резистора Caverns & Chasms",
+ "screen.analogleverdrag.config.client_enable_caverns_and_chasms_resistor.description": "Клиентский переключатель: показывать/использовать интерфейс ALD для резистора Caverns & Chasms на этом клиенте.",
+ "key.analogleverdrag.debug_report": "Скопировать полный отчёт отладки"
+}

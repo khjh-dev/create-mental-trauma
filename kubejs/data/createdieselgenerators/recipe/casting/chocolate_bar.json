@@ -1,0 +1,17 @@
+{
+  "type": "createdieselgenerators:casting",
+  "ingredients": [
+    {
+      "type": "neoforge:single",
+      "fluid": "create:chocolate",
+      "amount": 250
+    }
+  ],
+  "mold": "createdieselgenerators:bar",
+  "results": [
+    {
+      "id": "create:bar_of_chocolate",
+      "count": 1
+    }
+  ]
+}

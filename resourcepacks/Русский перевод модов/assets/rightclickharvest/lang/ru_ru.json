@@ -1,0 +1,10 @@
+{
+ "config.rightclickharvest.experienceType": "Тип опыта",
+ "config.rightclickharvest.experienceType.cost": "Тратит опыт",
+ "config.rightclickharvest.experienceType.none": "Нет",
+ "config.rightclickharvest.experienceType.reward": "Даёт опыт",
+ "config.rightclickharvest.experienceType.tooltip": "Брать или давать опыт при сборе урожая.",
+ "config.rightclickharvest.showServerWarning": "Показывать предупреждение о сервере",
+ "config.rightclickharvest.showServerWarning.tooltip": "Показывать ли предупреждение об игре на сервере, где RightClickHarvest не установлен.",
+ "text.rightclickharvest.install_on_server_warning": "RightClickHarvest не установлен на сервере. Для работы мод должен быть установлен на сервере, а также, по желанию, на клиенте. Установите %s в %s в конфигурации, чтобы отключить это сообщение."
+}

@@ -1,0 +1,202 @@
+#Enable or disable the custom Better HP HUD. When false, the vanilla HUD is fully restored.
+enableCustomHUD = true
+#Scale of BetterHP HUD icons. 1.0 = normal size
+# Default: 1.0
+# Range: 0.5 ~ 4.0
+hudIconScale = 1.0
+#Scale of BetterHP HUD text. 1.0 = normal size
+# Default: 1.0
+# Range: 0.5 ~ 4.0
+hudTextScale = 1.0
+#Show vanilla hearts
+showVanillaHearts = false
+#Show vanilla armor bar
+showVanillaArmor = false
+#Show vanilla hunger bar
+showVanillaHunger = false
+#Show vanilla oxygen bubbles
+showVanillaOxygen = false
+#Show vanilla mount hearts (when riding an entity like a horse)
+showVanillaMountHealth = false
+#Show custom health icon
+showHealthIcon = true
+#Show numeric health instead of vanilla health bar
+showNumericHealth = true
+#Enable dynamic health color change (Green -> Full, Yellow -> Low, Red -> Critical)
+enableDynamicHealthColor = true
+#Color of the health numerical value in the HUD. Uses Decimal color code; Default is Red
+# Default: 16733525
+# Range: 0 ~ 16777215
+healthColor = 16733525
+#Swap the health icon and text colour while Poisoned, Withered or Frozen (like vanilla's heart types).
+#Frozen covers powder snow and, with Eidolon: Repraised, the Chilled effect.
+showStatusHealthIcons = true
+#Horizontal position of the health icon display
+# Default: -70
+# Range: -1000 ~ 1000
+healthDisplayX = -70
+#Vertical position of the health icon display
+# Default: 43
+# Range: 0 ~ 1000
+healthDisplayY = 43
+#Show +Absorption numeric text
+showAbsorptionText = true
+#Place absorption right after the rendered health text so it never overlaps
+absorptionFollowHealthWidth = true
+#Absorption X offset RELATIVE to the health anchor (used if absorptionFollowHealthWidth=false)
+# Default: -18
+# Range: -1000 ~ 1000
+absorptionOffsetX = -18
+#Absorption Y offset RELATIVE to the health anchor (positive moves down)
+# Default: 0
+# Range: -1000 ~ 1000
+absorptionOffsetY = 0
+#Show custom armor icon
+showArmorIcon = true
+#Horizontal position of the armor icon display
+# Default: -5
+# Range: -1000 ~ 1000
+armorDisplayX = -5
+#Vertical position of the armor icon display
+# Default: 56
+# Range: 0 ~ 1000
+armorDisplayY = 56
+#Show custom toughness icon
+showToughnessIcon = true
+#Horizontal position of the toughness icon display
+# Default: 35
+# Range: -1000 ~ 1000
+toughnessDisplayX = 35
+#Vertical position of the toughness icon display
+# Default: 56
+# Range: 0 ~ 1000
+toughnessDisplayY = 56
+#Show custom hunger icon
+showHungerIcon = true
+#Show numeric hunger instead of vanilla hunger bar
+showNumericHunger = true
+#Horizontal position of the hunger icon display
+# Default: 45
+# Range: -1000 ~ 1000
+hungerDisplayX = 45
+#Vertical position of the hunger icon display
+# Default: 43
+# Range: 0 ~ 1000
+hungerDisplayY = 43
+#Show +Saturation numeric text
+showSaturationText = true
+#Hide saturation number when vanilla hunger bar is enabled
+hideSaturationIfVanillaHunger = true
+#Show custom oxygen icon when underwater
+showOxygenIcon = true
+#Show numeric oxygen value when underwater
+showNumericOxygen = true
+#Horizontal position of the oxygen icon display
+# Default: 67
+# Range: -1000 ~ 1000
+oxygenDisplayX = 67
+#Vertical position of the oxygen icon display
+# Default: 60
+# Range: 0 ~ 1000
+oxygenDisplayY = 60
+#Show custom mount health icon and value on HUD when riding
+showMountIcon = true
+#Horizontal position of the mount health icon display
+# Default: -70
+# Range: -1000 ~ 1000
+mountDisplayX = -70
+#Vertical position of the mount health icon display
+# Default: 63
+# Range: 0 ~ 1000
+mountDisplayY = 63
+#If Iron's Spells & Spellbooks is installed, render BetterHP's mana display.
+enableIronsManaCompat = true
+#Show Iron's Spells & Spellbooks mana value (only when Iron's is installed)
+showMana = true
+#Show numeric mana value
+showNumericMana = true
+#Show mana icon
+showManaIcon = true
+#Hide Iron's own mana bar while BetterHP is showing mana. Only the mana bar is hidden;
+#Iron's spell bar, cast bar and recast bar are left alone.
+hideIronsManaOverlay = true
+#Place mana right after the rendered health text so it never overlaps
+manaFollowHealthWidth = true
+#Mana X offset relative to the health anchor (used if manaFollowHealthWidth=false)
+# Default: 122
+# Range: -1000 ~ 1000
+manaOffsetX = 122
+#Mana Y offset relative to the health anchor (positive moves up)
+# Default: 0
+# Range: -1000 ~ 1000
+manaOffsetY = 0
+#Moves the vanilla held-item name text (e.g., 'Splash Potion of Healing'). Negative = higher, Positive = lower.
+# Default: -10
+# Range: -40 ~ 40
+selectedItemNameOffsetY = -10
+#Only apply the selected item name offset when the player has armor > 0.
+moveSelectedItemNameOnlyWhenArmor = true
+
+#AppleSkin compat (only active when AppleSkin is installed).
+[appleskin]
+	#Master switch for AppleSkin compat.
+	enabled = true
+	#Hide AppleSkin's bar overlays while the matching vanilla bar is hidden by BetterHP,
+	#so they don't float over empty space. BetterHP shows the same info as text instead.
+	hideAppleSkinBarOverlays = true
+	#While holding food, show how much hunger (+N) and saturation it restores next to the hunger value.
+	#Follows AppleSkin's own 'showFoodValuesHudOverlay' / 'showFoodValuesHudOverlayWhenOffhand' settings.
+	showFoodPreview = true
+	#While holding food, show the estimated health it will regenerate next to the health value.
+	#Follows AppleSkin's own 'showFoodHealthHudOverlay' setting.
+	showHealthPreview = true
+	#Draw a thin exhaustion bar under the hunger value.
+	#Follows AppleSkin's own 'showFoodExhaustionHudUnderlay' setting.
+	showExhaustionBar = true
+
+#Eidolon: Repraised compat (only active when Eidolon: Repraised is installed).
+[eidolon]
+	#Master switch for Eidolon: Repraised compat.
+	enabled = true
+	#When you are Chilled (hit by a Wraith, Bonechill wand, frost spells...), your health turns frozen:
+	#the health icon becomes an ice bottle and the number turns icy blue. Chilled also blocks healing.
+	chilledFrozenHearts = true
+	#Show Eidolon ethereal (soul) health as a purple +N after your health.
+	showEtherealHealth = true
+	#Hide Eidolon's own heart overlay while vanilla hearts are hidden by BetterHP,
+	#so its ethereal/frozen hearts don't float over empty space.
+	hideEidolonHeartsOverlay = true
+
+#Legendary Survival Overhaul compat (only active when LSO is installed).
+[legendarySurvivalOverhaul]
+	#Master switch for Legendary Survival Overhaul compat.
+	enabled = true
+	#Show thirst as a BetterHP value (water bottle icon) instead of LSO's thirst bar.
+	replaceThirstBar = true
+	#Show thirst saturation as +N after the thirst value.
+	showThirstSaturation = true
+	#Horizontal position of the thirst display
+	# Default: 45
+	# Range: -1000 ~ 1000
+	thirstDisplayX = 45
+	#Vertical position of the thirst display
+	# Default: 74
+	# Range: 0 ~ 1000
+	thirstDisplayY = 74
+	#Show body temperature as a BetterHP value (thermometer icon) instead of LSO's temperature indicator.
+	#Uses LSO's Celsius/Fahrenheit setting.
+	replaceTemperature = true
+	#Horizontal position of the temperature display
+	# Default: -5
+	# Range: -1000 ~ 1000
+	temperatureDisplayX = -5
+	#Vertical position of the temperature display
+	# Default: 74
+	# Range: 0 ~ 1000
+	temperatureDisplayY = 74
+	#Show a frozen hunger icon/colour while LSO's Cold Hunger effect is active.
+	coldHungerFrozenIcon = true
+	#Show LSO shield health as a silver +N after your health.
+	showShieldHealth = true
+	#Show LSO broken hearts (hearts you cannot regenerate) as a dark red -N❤ after your health.
+	showBrokenHearts = true

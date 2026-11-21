@@ -1,0 +1,13 @@
+name = "Detail Armor Bar Reconstructed 5.3.3-alpha.1"
+filename = "DetailArmorBarReconstructed-5.3.3-alpha.1+1.21.1-neoforge.jar"
+side = "client"
+
+[download]
+hash-format = "sha512"
+hash = "bb6986b7e04d8d14f785dd5f19ad3823c5d49093d1474909d1b549b14620059778ce70fe94c695b87b7d9bb49c9c014b87d69c1a546503a298b07a48bca6eafb"
+url = "https://cdn.modrinth.com/data/Si9Uim4y/versions/PyPjybBB/DetailArmorBarReconstructed-5.3.3-alpha.1%2B1.21.1-neoforge.jar"
+
+[update]
+[update.modrinth]
+mod-id = "Si9Uim4y"
+version = "PyPjybBB"

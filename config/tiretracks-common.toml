@@ -1,0 +1,192 @@
+#TireTracks terrain deformation settings.
+#Mass is measured in kilograms on the same scale Create Aeronautics (Sable) uses,
+#the same number the sub level debug dump prints as 'Mass:'.
+#Default profiles: 0-45 kg light, 46-80 kg medium, 81-149 kg heavy, 150 kg and up very heavy.
+#If mass cannot be read, the medium profile is used as fallback.
+#Which blocks count as which surface is decided by block tags in
+#data/tiretracks/tags/block/, not by this file.
+[general]
+	#Upper mass bound of a light vehicle, in kilograms.
+	#Vehicles up to and including this value use the light profile.
+	# Default: 45.0
+	# Range: 0.0 ~ 100000.0
+	lightVehicleMaxMass = 45.0
+	#Upper mass bound of a medium vehicle, in kilograms.
+	#Vehicles above lightVehicleMaxMass up to and including this value use the medium profile.
+	# Default: 80.0
+	# Range: 0.0 ~ 100000.0
+	mediumVehicleMaxMass = 80.0
+	#Mass in kilograms from which a vehicle counts as very heavy.
+	#Very heavy machines get their own destructive behaviour: they crack stone bricks,
+	#can collapse soil into a hole, crush cobble into gravel and sink into sand.
+	#Anything between mediumVehicleMaxMass and this value uses the heavy profile.
+	# Default: 150.0
+	# Range: 0.0 ~ 100000.0
+	veryHeavyVehicleMinMass = 150.0
+	#Chance per check that a light vehicle wears the ground one stage deeper.
+	# Default: 0.06
+	# Range: 0.0 ~ 1.0
+	lightChance = 0.06
+	#Chance per check that a medium vehicle wears the ground one stage deeper.
+	# Default: 0.15
+	# Range: 0.0 ~ 1.0
+	mediumChance = 0.15
+	#Chance per check that a heavy vehicle wears the ground one stage deeper.
+	# Default: 0.3
+	# Range: 0.0 ~ 1.0
+	heavyChance = 0.3
+	#Chance per check that a very heavy vehicle wears the ground one stage deeper.
+	# Default: 0.45
+	# Range: 0.0 ~ 1.0
+	veryHeavyChance = 0.45
+	#Number of physics ticks between terrain checks per wheel.
+	#Lower values create tracks more often but cost more performance.
+	# Default: 4
+	# Range: 1 ~ 200
+	tickInterval = 4
+	#Master switch for every particle this mod spawns.
+	spawnParticles = true
+	#Global multiplier for the amount of particles in every puff:
+	#spray, dust, splashes, snow, flying clods and deformation puffs alike.
+	#1.0 is the old amount, 1.5 is the new default, lower it if particles cost you frames.
+	# Default: 1.5
+	# Range: 0.1 ~ 5.0
+	particleVolumeMultiplier = 1.5
+
+#Progressive ruts.
+#Ground wears down one stage at a time and the stage is the block itself:
+#  0 turf (anything in #tiretracks:turf)
+#  1 coarse dirt
+#  2 loose fill: mud when wet, sand in hot dry biomes, gravel otherwise
+#  3 puddle: water, or ice in a freezing biome
+#Dirt paths are no longer part of the chain: wheels churn ground up, they do not
+#tamp a tidy footpath. Existing dirt paths still count as stage 0 and wear onward.
+#Heavier vehicles are allowed to reach deeper stages.
+[ruts]
+	#Deepest stage a light vehicle can reach.
+	# Default: 1
+	# Range: 0 ~ 3
+	lightMaxStage = 1
+	#Deepest stage a medium vehicle can reach.
+	# Default: 2
+	# Range: 0 ~ 3
+	mediumMaxStage = 2
+	#Deepest stage a heavy vehicle can reach.
+	# Default: 3
+	# Range: 0 ~ 3
+	heavyMaxStage = 3
+	#Deepest stage a very heavy vehicle can reach.
+	# Default: 3
+	# Range: 0 ~ 3
+	veryHeavyMaxStage = 3
+	#Whether a fully worn wet rut may fill with water, or ice in a freezing biome.
+	#Only happens when the rut has a solid floor and solid ground on all four sides,
+	#so water can never run off across the landscape.
+	puddles = true
+	#Chance multiplier while it is raining on the block, or next to water.
+	# Default: 1.6
+	# Range: 0.0 ~ 10.0
+	wetChanceMultiplier = 1.6
+	#Chance multiplier in hot dry biomes.
+	# Default: 0.85
+	# Range: 0.0 ~ 10.0
+	dryChanceMultiplier = 0.85
+	#Biome base temperature from which ground counts as dry.
+	#Desert and badlands are 2.0, savanna 1.2, plains 0.8.
+	# Default: 0.95
+	# Range: -1.0 ~ 5.0
+	dryBiomeTemperature = 0.95
+
+#Hard surfaces and very heavy machines.
+#Rock does not churn like soil, so it has its own much smaller chances:
+#most passes leave it exactly as it was.
+[hardground]
+	#Multiplier applied to the vehicle chance when driving on stone.
+	#Stone is stubborn: at the default 0.25 a heavy vehicle cracks it into
+	#cobblestone or andesite on roughly one check in thirteen, so a rock road
+	#takes real traffic to appear instead of one lap.
+	#Light vehicles never mark stone at all.
+	# Default: 0.25
+	# Range: 0.0 ~ 1.0
+	stoneCrackMultiplier = 0.25
+	#Chance per check that a very heavy vehicle crushes cracked rock
+	#(cobblestone or andesite) further into gravel.
+	#Only very heavy vehicles do this, and only where the gravel has solid ground
+	#beneath it, so nothing falls through the world.
+	# Default: 0.05
+	# Range: 0.0 ~ 1.0
+	stoneCrushChance = 0.05
+	#Chance per check that a very heavy vehicle cracks stone bricks into
+	#cracked stone bricks. Cracked bricks are the end of the line: a paved road
+	#gets scarred, never destroyed.
+	# Default: 0.08
+	# Range: 0.0 ~ 1.0
+	stoneBrickCrackChance = 0.08
+	#Chance per check that soil simply gives way under a very heavy vehicle and
+	#leaves an open hole one block deep.
+	#Deliberately tiny: this is the rare moment a 150 kg machine drops a wheel
+	#into the ground, not a digging tool. Only fires where there is solid ground
+	#below, so it can never open a shaft into a cave.
+	# Default: 0.02
+	# Range: 0.0 ~ 1.0
+	groundCollapseChance = 0.02
+	#How many sand blocks a very heavy vehicle can punch through in one go.
+	#Heavy vehicles always remove a single block; very heavy ones dig this deep,
+	#so the sand above caves in and the machine genuinely buries itself.
+	#Digging stops as soon as the column runs out of sand or solid ground.
+	# Default: 2
+	# Range: 1 ~ 4
+	sandSinkDepth = 2
+
+#Snow handling.
+#Passes shave layers off, then the last layer is driven into the ground as ice,
+#which further passes polish into packed ice. Both only happen in biomes cold
+#enough to keep them, so no melting holes appear in a temperate lawn.
+[snow]
+	#Whether wheels affect snow at all.
+	eatSnow = true
+	#Whether snow is packed into an ice track instead of simply disappearing.
+	#Turn off for the old behaviour, where the last layer vanishes.
+	packSnow = true
+	#Chance per check that a groomed ice track is polished into packed ice.
+	# Default: 0.35
+	# Range: 0.0 ~ 1.0
+	snowToIceChance = 0.35
+	#Chance that the last snow layer leaves mud underneath.
+	#Only used where snow cannot be packed: warm biomes, or packSnow = false.
+	# Default: 0.25
+	# Range: 0.0 ~ 1.0
+	snowToMudChance = 0.25
+
+#Cosmetic spray thrown up by rolling wheels.
+#Water and rain give splashes and bubbles, sand and gravel give dust plumes,
+#snow gives snowflakes, soil gives flying clods.
+#Grass and moss spray plain dirt, never green bits.
+#Requires spawnParticles = true. Amounts are scaled by particleVolumeMultiplier.
+[spray]
+	#Whether wheels throw up surface particles while driving.
+	wheelSpray = true
+	#Number of physics ticks between spray puffs per wheel.
+	#Spray is also skipped while a wheel stays on the same block, so a parked vehicle is quiet.
+	# Default: 2
+	# Range: 1 ~ 200
+	sprayInterval = 2
+	#Base particle amount per puff, before particleVolumeMultiplier is applied.
+	# Default: 2
+	# Range: 1 ~ 20
+	sprayDensity = 2
+	#Wheel speed in blocks per second at which spray reaches full strength.
+	#Slower driving thins the spray out, faster driving thickens it a little.
+	# Default: 10.0
+	# Range: 0.1 ~ 200.0
+	sprayFullSpeed = 10.0
+
+#Mud and soil picked up by a tyre and dropped again on clean ground.
+#Particles only: no blocks are placed on the surface driven over.
+#Driving through water rinses the tread clean.
+[carry]
+	carryEnabled = true
+	#How many blocks of clean ground still show a trail after leaving soft ground.
+	# Default: 6
+	# Range: 0 ~ 64
+	carryDistance = 6
