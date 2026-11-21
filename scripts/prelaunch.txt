@@ -1,1 +1,1 @@
-"$INST_JAVA" -jar packwiz-installer-bootstrap.jar --bootstrap-main-jar packwiz-installer.jar --bootstrap-no-update https://CHANGE-ME.example.com/pack.toml
+"$INST_JAVA" -jar packwiz-installer-bootstrap.jar --bootstrap-main-jar packwiz-installer.jar --bootstrap-no-update https://khjh-dev.github.io/create-mental-trauma/pack.toml
