@@ -5,6 +5,28 @@
 запуске игры клиент докачивает только изменившиеся файлы. Сервер тянет те же файлы из того же
 источника, поэтому «у меня работает, а у него нет» не бывает.
 
+## Две раздачи
+
+Пак разделён на два отдельных репозитория (этот каталог — мастер-исходник, из него они собираются):
+
+| Репозиторий | Для кого | Адрес пака | Модов |
+|---|---|---|---|
+| [create-mental-trauma-client](https://github.com/khjh-dev/create-mental-trauma-client) | игроки (Prism) | `https://khjh-dev.github.io/create-mental-trauma-client/pack.toml` | 280 |
+| [create-mental-trauma-server](https://github.com/khjh-dev/create-mental-trauma-server) | сервер | `https://khjh-dev.github.io/create-mental-trauma-server/pack.toml` | 223 |
+
+Разделение по `side`: в клиентский пак идут `client` + `both`, в серверный — `server` + `both`.
+Конфиги (`config/`, `kubejs/`, `defaultconfigs/`) есть **в обоих**; ресурспаки и шейдеры — только в клиентском.
+
+Пересобрать раздачи после правок мастера:
+
+```powershell
+powershell -File scripts\split-packs.ps1 `
+  -Source "E:\dsh\create-mental-trauma-pack" `
+  -ClientOut "E:\dsh\create-mental-trauma-client" `
+  -ServerOut "E:\dsh\create-mental-trauma-server"
+# затем в каждой папке: git add -A; git commit -m update; git push
+```
+
 ## Что внутри
 
 | | |

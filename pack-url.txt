@@ -1,1 +1,1 @@
-https://khjh-dev.github.io/create-mental-trauma/pack.toml
+https://khjh-dev.github.io/create-mental-trauma-client/pack.toml
